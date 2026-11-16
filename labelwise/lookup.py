@@ -107,26 +107,43 @@ def variants(name):
     return out
 
 
+LEADING_SYNONYMS = 10  # PubChem name search matches any synonym; we trust only the leading ones
+
+
+def pubchem_synonyms(cid):
+    _, j = fetch_json(f"{PUBCHEM}/compound/cid/{cid}/synonyms/JSON")
+    return [s.lower() for s in j["InformationList"]["Information"][0].get("Synonym", [])] if j else []
+
+
 def resolve_compound(name):
-    """Return (identity, note) for one substance name, or (None, why)."""
+    """Return (identity, None) for one substance name, or (None, "code: why") / (None, None).
+
+    GSRS (curated) comes first; its UNII is mapped to a CID through PubChem's own UNII xref.
+    A PubChem-only match counts only when the name is a leading synonym of that compound
+    ("kelp" is a deep synonym of astemizole, so it does not count).
+    """
+    weak = None
     for n in variants(name):
-        cids = pubchem_cids(n)
-        if len(cids) == 1:
-            return identity("pubchem_cid", cids[0]), None
         hits = gsrs_exact(n)
-        if len(hits) == 1:
+        if len(hits) > 1:
+            return None, f"ambiguous_name: GSRS has {len(hits)} substances named '{n}'"
+        cids = pubchem_cids(n)
+        if hits:
             unii = hits[0]["unii"]
             mapped = unii_cids(unii)
-            if cids and len(set(mapped) & set(cids)) == 1:
+            if len(set(mapped) & set(cids)) == 1:
                 return identity("pubchem_cid", (set(mapped) & set(cids)).pop()), None
             if len(mapped) == 1:
                 return identity("pubchem_cid", mapped[0]), None
             return identity("unii", unii), None
-        if len(hits) > 1:
-            return None, f"GSRS has {len(hits)} substances named '{n}'"
-        if len(cids) > 1:
-            return None, f"PubChem has {len(cids)} compounds named '{n}' and GSRS has none"
-    return None, None
+        if len(cids) == 1:
+            syns = pubchem_synonyms(cids[0])
+            if n.lower() in syns[:LEADING_SYNONYMS]:
+                return identity("pubchem_cid", cids[0]), None
+            weak = weak or f"weak_synonym: PubChem matches '{n}' only as minor synonym of CID {cids[0]} ({syns[0] if syns else '?'}), GSRS has no such name"
+        elif len(cids) > 1:
+            weak = weak or f"ambiguous_name: PubChem has {len(cids)} compounds named '{n}' and GSRS has none"
+    return None, weak
 
 
 def singular(part):
@@ -286,12 +303,11 @@ def identify(row):
     names = [f"{row['parent']} {phys}"] if phys and phys not in row["parent"] else []
     names += [n for n in row["_names"] if n != phys]
     for n in dict.fromkeys(names):
-        ident, why = resolve_compound(n)
+        ident, note = resolve_compound(n)
         if ident:
             row.update(identity=ident, status="identified", reason=None)
             return row
-        if why:
-            break
+        why = why or note
     row.update(identity=None, status="review",
-               reason=f"ambiguous_name: {why}" if why else f"no_match: no PubChem or GSRS name '{row['parent']}'")
+               reason=why if why else f"no_match: no PubChem or GSRS name '{row['parent']}'")
     return row
