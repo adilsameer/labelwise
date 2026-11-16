@@ -32,8 +32,8 @@ NAME_VARIANTS = [
     (r"\bthiamin\b", "thiamine"),
     (r"\bvitamin b-(\d+)", r"vitamin b\1"),
     (r"\bvitamin d-(\d)", r"vitamin d\1"),
-    (r"^d-alpha\b", "d-alpha-"),
-    (r"^dl-alpha\b", "dl-alpha-"),
+    (r"^(dl?)-alpha[ -]", r"\1-alpha-"),
+    (r"tocopheryl succinate$", "tocopherol succinate"),
     (r"\bl-5-methylfolate\b", "levomefolic acid"),
     (r"\bl-5-methyltetrahydrofolate\b", "levomefolic acid"),
     (r"\bbisglycinate\b", "glycinate"),
@@ -42,6 +42,10 @@ NAME_VARIANTS = [
     (r"^medium chain triglyceride( oil)?s?$", "medium chain triglycerides"),
     (r"#\s*(\d+)", r"no. \1"),
 ]
+
+# Ingredient trademarks that sit in front of a chemical form ("Albion Zinc Bisglycinate").
+BRAND_WORDS = {"albion", "traacs", "ferrochel", "aquamin", "chelamax", "kelatron", "optizinc",
+               "chromax", "quatrefolic", "metafolin", "sunactive"}
 
 # Plural plant parts -> the singular GSRS uses.
 PART_SINGULAR = {"roots": "root", "leaves": "leaf", "seeds": "seed", "berries": "berry",

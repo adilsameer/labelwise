@@ -5,6 +5,8 @@ start with "_") for the lookup step; they are removed before output.
 """
 import re
 
+from labelwise import rules
+
 MARKS = re.compile(r"\((?:R|TM|r|tm|SM)\)|[®™℠†‡*♦♢]|#(?!\s*\d)")
 TAG = re.compile(r"\b(PlantPart|Genus|Species|Note|Form|Alt\. Name):")
 
@@ -124,19 +126,27 @@ def chemical_form(name, verbatim, head_is_nutrient):
         m = re.search(r"\((?:Form:[^()]*?)?\bas ([^()]+?)(?:\s+from [^()]+)?\)", text, re.I) or \
             re.search(r"\bForm:[^()]*?\bas ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", text)
         if m:
-            return clean(strip_brands(m.group(1))).lower()
+            return form_text(m.group(1))
     if head_is_nutrient:
         m = re.search(r"\bForm:\s*from ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", verbatim)
         if m and SALT_RE.search(m.group(1)):
-            return clean(m.group(1)).lower()
+            return form_text(m.group(1))
     if head_is_nutrient:
         for text in (name, verbatim):
-            m = re.search(r"^[^(]+\(([^()]+)\)", text)
+            m = re.search(r"^[^(]+\(([^()]+)\)", MARKS.sub("", text))
             if m and not PLANT_PART_RE.fullmatch(m.group(1).strip()) \
-                    and not re.match(r"(from|form|alt\.)\b", m.group(1), re.I) \
+                    and not re.match(r"(from|form|alt)\b", m.group(1), re.I) \
                     and not re.match(r"vitamin\b", m.group(1), re.I):
-                return clean(m.group(1)).lower()
+                return form_text(m.group(1))
     return None
+
+
+def form_text(text):
+    """Clean a form: no brand words, no leading amount ("400 mcg folic acid")."""
+    text = clean(strip_brands(text))
+    text = re.sub(r"^\d[\d.,]*\s*(mg|mcg|µg|g|iu)\s+", "", text, flags=re.I)
+    words = [w for w in text.split() if w.lower() not in rules.BRAND_WORDS]
+    return " ".join(words).lower() or None
 
 
 def standardization(verbatim):
