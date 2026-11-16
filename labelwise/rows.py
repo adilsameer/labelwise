@@ -5,14 +5,14 @@ start with "_") for the lookup step; they are removed before output.
 """
 import re
 
-MARKS = re.compile(r"\((?:R|TM|r|tm|SM)\)|[®™℠†‡*#♦]")
+MARKS = re.compile(r"\((?:R|TM|r|tm|SM)\)|[®™℠†‡*♦♢]|#(?!\s*\d)")
 TAG = re.compile(r"\b(PlantPart|Genus|Species|Note|Form|Alt\. Name):")
 
 NUTRITION = re.compile(
     r"(calories( from fat)?|calories/energy|energy|total fat|fat|saturated fat|trans fat"
     r"|(poly|mono)unsaturated fat|cholesterol|total carbohydrates?|carbohydrates?"
     r"|(total |soluble |insoluble )?dietary fiber|(soluble |insoluble )?fiber"
-    r"|total sugars?|sugars?|added sugars|includes .*added sugars|sugar alcohols?|protein)",
+    r"|total sugars?|sugars?|added sugars|includ(?:es|ed) .*added sugars|sugar alcohols?|protein)",
     re.I,
 )
 
@@ -124,7 +124,7 @@ def chemical_form(name, verbatim, head_is_nutrient):
         m = re.search(r"\((?:Form:[^()]*?)?\bas ([^()]+?)(?:\s+from [^()]+)?\)", text, re.I) or \
             re.search(r"\bForm:[^()]*?\bas ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", text)
         if m:
-            return clean(m.group(1)).lower()
+            return clean(strip_brands(m.group(1))).lower()
     if head_is_nutrient:
         m = re.search(r"\bForm:\s*from ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", verbatim)
         if m and SALT_RE.search(m.group(1)):
@@ -167,7 +167,7 @@ def parse_substance(name, verbatim):
     """Parse one substance name into parent/form/source/standardization + lookup hints."""
     base = strip_brands(name)
     head = clean(re.split(r"[(\[]", base)[0])
-    head = re.sub(r"\s\d[\d,.]*(\s+[A-Z]{2,})*", "", head)  # potency: "Lactase 9,000 FCC ALU"
+    head = re.sub(r"\s\d[\d,.]*(\s+[A-Z]{2,})+", "", head)  # potency: "Lactase 9,000 FCC ALU"
     head_is_nutrient = bool(NUTRIENT.fullmatch(head.lower()))
 
     form = chemical_form(name, verbatim, head_is_nutrient)
@@ -207,7 +207,9 @@ def parse_substance(name, verbatim):
     parent = PHYSICAL_FORM_RE.sub(" ", parent) if phys and phys.group(1).lower() != "oil" or not parent else parent
     parent = clean(DESCRIPTORS_RE.sub(" ", parent)).lower()
     parent = re.sub(r"\d+(?:\.\d+)?\s*%", " ", parent)
+    parent = re.sub(r"(?<=\w)\s+(capsules?|softgels?|shells?)$", "", parent.strip())  # "gelatin capsule"
     parent = re.sub(r"\s+", " ", parent).strip(" ,-/")
+    common = parent
     if latin and COMPOUND_HEAD_RE.search(parent or ""):
         sources.append(latin)  # "Lactase (Aspergillus oryzae)": the organism is the source
         latin = None
@@ -236,11 +238,17 @@ def parse_substance(name, verbatim):
         "standardization": standardization(verbatim),
         "_names": names,
         "_multi_form": bool(form and re.search(r",|&| and ", form)),
+        "_nutrient": head_is_nutrient,
+        "_latin": latin,
+        "_common": common or None,
+        "_parts": [p.lower() for p in PLANT_PART_RE.findall(" ".join(source_list))],
+        "_physical": phys.group(1).lower() if phys else None,
     }
 
 
 def parse_microbe(name):
-    words = clean(name).split()
+    words = [w.strip(",;()") for w in clean(name).split()]
+    words = [w for w in words if w]
     genus = words[0].lower()
     rest = words[1:]
     species = []
