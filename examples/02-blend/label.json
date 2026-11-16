@@ -1,0 +1,99 @@
+{
+  "label_id": "dsld:78540",
+  "source": "dsld",
+  "source_url": "https://dsld.od.nih.gov/label/78540",
+  "title": "LOWAT Proprietary Blend",
+  "brand": "Swanson Best Weight-Control Formulas",
+  "serving": "1 Veggie Capsule(s)",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "LOWAT Proprietary Blend 300 mg",
+      "name": "LOWAT Proprietary Blend",
+      "amount": 300,
+      "unit": "mg",
+      "group": null,
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Dolichos biflorus (seed) extract",
+      "name": "Dolichos biflorus (seed) extract",
+      "amount": null,
+      "unit": null,
+      "group": "r1",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Piper betle (leaf) extract",
+      "name": "Piper betle (leaf) extract",
+      "amount": null,
+      "unit": null,
+      "group": "r1",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Hypromellose",
+      "name": "Hypromellose",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "May contain one or more of the following (Magnesium Stearate, Microcrystalline Cellulose, Silica)",
+      "name": "May contain one or more of the following",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    }
+  ],
+  "other_ingredients": "Hypromellose, May contain one or more of the following (Magnesium Stearate, Microcrystalline Cellulose, Silica)",
+  "statements": [
+    {
+      "type": "Seals/Symbols",
+      "text": "V Vegetarian formula"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "text": "Herbal Supplement"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "text": "Do not use if seal is broken."
+    },
+    {
+      "type": "Storage",
+      "text": "Store in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "text": "Keep out of reach of children."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "text": "Suggested Use: As a dietary supplement, take one veggie capsule three times per day 30 minutes before meals with water."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "text": "SWD062 Rev 1 07 20 17"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "To reorder, call toll free 1-800-437-4148 or visit our website at www.swansonvitamins.com"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "text": "LOWAT is a trademark exclusively distributed by InterHealth N.I."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "text": "V Vegetarian formula"
+    }
+  ],
+  "raw_text": "LOWAT Proprietary Blend\n\nSwanson Best Weight-Control Formulas\n\nSupplement Facts\nServing Size: 1 Veggie Capsule(s)\nNet Contents: 90 Veggie Capsule(s)\nLOWAT Proprietary Blend 300 mg\n  Dolichos biflorus (seed) extract\n  Piper betle (leaf) extract\n\nOther Ingredients: Hypromellose, May contain one or more of the following (Magnesium Stearate, Microcrystalline Cellulose, Silica)\n\nV Vegetarian formula\n\nHerbal Supplement\n\nDo not use if seal is broken.\n\nStore in a cool, dry place.\n\nKeep out of reach of children.\n\nSuggested Use: As a dietary supplement, take one veggie capsule three times per day 30 minutes before meals with water.\n\nSWD062 Rev 1 07 20 17\n\nTo reorder, call toll free 1-800-437-4148 or visit our website at www.swansonvitamins.com\n\nLOWAT is a trademark exclusively distributed by InterHealth N.I.\n\nV Vegetarian formula"
+}

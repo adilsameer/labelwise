@@ -1,0 +1,455 @@
+{
+  "label_id": "dsld:46153",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Primadophilus Optima-200(TM) Note: Proprietary Probiotic Blend providing 200 billion CFU 572 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 572,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Lactobacilli HDS Probiotics",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: group name inside the blend; the member rows carry the ids"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Lactobacillus acidophilus La-14 Genus: Lactobacillus Species: acidophilus Note: HDS",
+      "parent": "lactobacillus acidophilus",
+      "form": null,
+      "source": null,
+      "strain": "La-14",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r2",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1314884",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1314884"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Lactobacillus acidophilus NCFM(R) Genus: Lactobacillus Species: acidophilus Note: HDS",
+      "parent": "lactobacillus acidophilus",
+      "form": null,
+      "source": null,
+      "strain": "NCFM",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r2",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "272621",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=272621"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Lactobacillus gasseri Lg-36 Genus: Lactobacillus Species: gasseri Note: HDS",
+      "parent": "lactobacillus gasseri",
+      "form": null,
+      "source": null,
+      "strain": "Lg-36",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r2",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1596",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1596"
+      },
+      "status": "review",
+      "reason": "strain_no_id: no NCBI taxonomy id for strain Lg-36; the id is for the species"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Bifidobacteria HDS Probiotics",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: group name inside the blend; the member rows carry the ids"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Bifidobacterium lactis Bl-04(R) Genus: Bifidobacterium Species: lactis Note: HDS",
+      "parent": "bifidobacterium lactis",
+      "form": null,
+      "source": null,
+      "strain": "Bl-04",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "580050",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=580050"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Bifidobacterium infantis Bi-26 Genus: Bifidobacterium Species: infantis Note: HDS",
+      "parent": "bifidobacterium infantis",
+      "form": null,
+      "source": null,
+      "strain": "Bi-26",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1682",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1682"
+      },
+      "status": "review",
+      "reason": "strain_no_id: no NCBI taxonomy id for strain Bi-26; the id is for the subspecies Bifidobacterium longum subsp. infantis (label name found via GSRS EF3U3H7I76)"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Bifidobacterium lactis Bi-07(R) Genus: Bifidobacterium Species: lactis Note: HDS",
+      "parent": "bifidobacterium lactis",
+      "form": null,
+      "source": null,
+      "strain": "Bi-07",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "742729",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=742729"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10.1",
+      "verbatim": "Gellan Gum",
+      "parent": "gellan gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7593U09I4D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7593U09I4D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10.2",
+      "verbatim": "Hypromellose",
+      "parent": "hypromellose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NXW29V3WO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NXW29V3WO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Microcrystalline Cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Silicon Dioxide",
+      "parent": "silicon dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "GLUTEN FREE",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "DAIRY FREE",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "No artificial colors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "No artificial colors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C31",
+      "claim": "Enteric coated",
+      "quote": "Delayed Release",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no animal/dairy or plant source probiotic cultures",
+      "quote": "No animal/dairy or plant source probiotic cultures"
+    },
+    {
+      "phrase": "guaranteed potency",
+      "quote": "GUARANTEED POTENCY"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/1314884/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_1314884.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/272621/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_272621.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/580050/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_580050.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/742729/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_742729.json"
+    },
+    {
+      "row_id": "r10.1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7593U09I4D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7593U09I4D.json"
+    },
+    {
+      "row_id": "r10.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NXW29V3WO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NXW29V3WO.json"
+    },
+    {
+      "row_id": "r11",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, several silica entries: silicon dioxide (EC 231-545-4) Not Classified in 7724 of 9127 reports; cristobalite (EC 238-455-4) H350, H372. The record does not name the form on this label.",
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "src": "01-raw/2024-10-23/data/label_83.json",
+  "id": 319766,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Green Coffee MD",
+  "brandName": "Approved Science",
+  "brandIpSymbol": "®",
+  "upcSku": "X002L9ZNVP",
+  "productVersionCode": "v1.01",
+  "pdf": "319766_document.pdf",
+  "thumbnail": "319766_thumbnail.jpg",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "% Daily Value (DV) based on a 2000 calorie diet",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 26671,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_5.json",
+        "id": 26671,
+        "name": "Approved Science",
+        "streetAddress": "",
+        "city": "New York",
+        "state": "NY",
+        "country": "",
+        "zipCode": "10003",
+        "phoneNumber": "888-307-4790",
+        "email": "support@approvedscience.com",
+        "webAddress": "www.approvedscience.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement, take two capsules daily, (one in the morning and one in the afternoon), before meals with an 8 oz. glass of water."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Caution: Do not exceed recommended dose.\r\nDo not use if safety seal is damaged or missing."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Pregnant women or nursing mothers, children under 18, and individuals with a known medical condition, should consult with a physician before taking this or any other dietary supplement."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Pregnant women or nursing mothers, children under 18, and individuals with a known medical condition, should consult with a physician before taking this or any other dietary supplement.\r\nKeep out of reach of children."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store at room temperature."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Manufactured in the USA according to Good Manufacturing Practice (cGMP) and conforms to the tested ingredients grade, strength and purity of industry Quality Standards."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Vegan friendly"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Vegan friendly\r\nMade in USA\r\nNo animal testing\r\nGMP\r\nGood Manufacturing Practice\r\nQuality Product"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Made with GMO free ingredients"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Advanced health support\r\nPremium grade\r\nHigh potency\r\nSafe\r\nFast\r\nNatural formula\r\nOptimal strength\r\nGMP Certified"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Chlorogenic acid standardized to 50%"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "100% vegan friendly"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Contains caffeine"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2024-10-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 296250,
+      "description": "",
+      "notes": "standardized to 50%",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 2,
+          "operator": "=",
+          "quantity": 1600,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Green Coffee Bean Extract",
+      "category": "botanical",
+      "ingredientGroup": "Green Coffee",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 296249,
+          "prefix": null,
+          "percent": null,
+          "name": "Chlorogenic Acid",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "chlorogenic acid",
+          "uniiCode": "318ADP12RI"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 284496,
+        "name": "Cellulose",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": "SMD1X3XO9M",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2024-10-24"
+}

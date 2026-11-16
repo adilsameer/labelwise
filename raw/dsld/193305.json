@@ -1,0 +1,232 @@
+{
+  "src": "01-raw/2023-10-24/data/label_64.json",
+  "id": 193305,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Butterbur Extract Standardized to 15% Petasins 75 mg",
+  "brandName": "Swanson Superior Herbs",
+  "brandIpSymbol": "®",
+  "upcSku": "0 87614 14192 3",
+  "productVersionCode": "SWH192 Rev 0 03 13 17",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": null,
+  "hasOuterCarton": false,
+  "percentDvFootnote": "",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 9409,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9409,
+        "name": "Swanson Health Products",
+        "streetAddress": "PO BOX 2803",
+        "city": "Fargo",
+        "state": "ND",
+        "country": "USA",
+        "zipCode": "58108",
+        "phoneNumber": "1-800-437-4148",
+        "email": "",
+        "webAddress": "www.swansonvitamins.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "Capsule(s)",
+      "display": "60 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 2,
+      "maxDailyServings": 2,
+      "unit": "Capsule(s)",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1306",
+    "langualCodeDescription": "Botanical"
+  },
+  "statements": [
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Standardized Herbal Supplement"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Free of Pyrrolizidine Alkaloids"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Do not use if seal is broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested used: As a dietary supplement, take one capsule two times per day with water."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Warning: Do not take this product if you are pregnant or nursing."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "To reorder, call toll free 1-800-437-4148 or visit our website at www.swansonvitamins.com"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "notes": "SWH192 Rev 0 03 13 17"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Guaranteed purity & potency"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2019-02-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 214707,
+      "description": "",
+      "notes": "Butterbur root extract (Form: standardized to 15% Total Petasins (Form: Petasin, Isopetasin, S-petasin)) PlantPart: root Genus: Petasites Species: hybridus ",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 75,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value not established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Butterbur root extract",
+      "category": "botanical",
+      "ingredientGroup": "Butterbur",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 214708,
+          "prefix": "standardized to",
+          "percent": 15,
+          "name": "Total Petasins",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Petasin",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3782,
+        "name": "Rice Flour",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3715,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 47719,
+        "name": "May contain one or both of the following",
+        "category": "other",
+        "ingredientGroup": "Header",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 4048,
+            "prefix": null,
+            "percent": null,
+            "name": "Magnesium Stearate",
+            "category": "mineral",
+            "ingredientGroup": "Magnesium",
+            "uniiCode": null
+          },
+          {
+            "order": 2,
+            "ingredientId": 293311,
+            "prefix": null,
+            "percent": null,
+            "name": "Silica",
+            "category": "mineral",
+            "ingredientGroup": "Silicon",
+            "uniiCode": "ETJ7Z6XBU4"
+          }
+        ]
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2019-02-25"
+}

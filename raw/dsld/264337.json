@@ -1,0 +1,1776 @@
+{
+  "src": "01-raw/2025-08-22/data/label_366.json",
+  "id": 264337,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Roughage Pineapple Coconut",
+  "brandName": "Blue Star Nutraceuticals",
+  "brandIpSymbol": "™",
+  "upcSku": "0 61442 00084 3",
+  "productVersionCode": "Not Present",
+  "pdf": "264337_document.pdf",
+  "thumbnail": "264337_thumbnail.jpg",
+  "servingsPerContainer": "30",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent Daily Values are based on a 2000 calorie diet.",
+  "labelRelationships": [],
+  "contacts": [
+    {
+      "contactId": 9661,
+      "text": "Exclusively Manufactured in a cGMP facility in Canada for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 9661,
+        "name": "Blue Star Nutraceuticals Inc.",
+        "streetAddress": "PO Box 1655",
+        "city": "",
+        "state": "Belleville",
+        "country": "ON",
+        "zipCode": "K8N 5J2 ",
+        "phoneNumber": "1-888-667-8517",
+        "email": "",
+        "webAddress": "www.BlueStarNutraceuticals.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 13,
+      "unit": "Ounce(s)",
+      "display": "13 Ounce(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 369,
+      "unit": "Gram(s)",
+      "display": "369 Gram(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0162",
+    "langualCodeDescription": "Powder"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 12.3,
+      "maxQuantity": 12.3,
+      "minDailyServings": 1,
+      "maxDailyServings": null,
+      "unit": "Gram(s)",
+      "notes": "1 Scoop",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)",
+    "Women (not pregnant or lactating)"
+  ],
+  "productType": {
+    "langualCode": "A1317",
+    "langualCodeDescription": "Botanical with Nutrients"
+  },
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "notes": "5 grams of fiber in every serving"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "High in natural antioxidants\n100% natural flavors"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No artificial colors"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Sweetened with Stevia"
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Warning: Keep out of reach from children."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Do not use if pregnant or nursing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Not intended for use by persons under 18."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Consult a health care provider before starting any diet or exercise program. Do not use if safety seal on this package has been broken."
+    },
+    {
+      "type": "Storage",
+      "notes": "Store in a cool, dry place (60 degrees F to 80 degrees F)."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "cGMP Quality Ingredient Guarantee"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Energize\nHealth\nImmune support\nPerformance"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Blue Star Nutraceuticals\nBetter by Design"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "The green standard\nPineapple coconut natural flavor"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "30 servings"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Fruit & greens formula"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Mix one scoop in 10 oz of cold water or juice."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Allergy Warning: Contains ingredients derived from soy. Made in a facility that also processes milk, egg, wheat, peanut, tree nut, fish, and shellfish ingredients."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2022-06-16",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 40,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 3963,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "<",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 3,
+      "ingredientId": 15838,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 4,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 4,
+          "ingredientId": 15889,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 5,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": 20,
+                  "footnote": null
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Fiber",
+          "category": "fiber",
+          "ingredientGroup": "Fiber (unspecified)",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 5,
+          "ingredientId": 283681,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 1,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sugar",
+          "category": "sugar",
+          "ingredientGroup": "Sugar",
+          "uniiCode": "C151H8M554",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 6,
+      "ingredientId": 96315,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 7,
+          "ingredientId": 4549,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 4630,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Oat Fiber",
+          "category": "fiber",
+          "ingredientGroup": "Oat Fiber",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 8,
+          "ingredientId": 5169,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 1000,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Inulin",
+          "category": "fiber",
+          "ingredientGroup": "Inulin",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 9,
+          "ingredientId": 99440,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 500,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Flax Seed Powder",
+          "category": "botanical",
+          "ingredientGroup": "Flax",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 10,
+          "ingredientId": 5254,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 75,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Apple Pectin",
+          "category": "fiber",
+          "ingredientGroup": "Pectin",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 11,
+          "ingredientId": 304668,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 75,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Agave, Powder",
+          "category": "botanical",
+          "ingredientGroup": "Agave",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 12,
+          "ingredientId": 28495,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 50,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Psyllium",
+          "category": "botanical",
+          "ingredientGroup": "Psyllium (unspecified)",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Fiber Complex",
+      "category": "blend",
+      "ingredientGroup": "Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 13,
+      "ingredientId": 29379,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 14,
+          "ingredientId": 28342,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 150,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Kale powder",
+          "category": "botanical",
+          "ingredientGroup": "Kale",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 15,
+          "ingredientId": 20186,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 125,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Kelp powder",
+          "category": "other",
+          "ingredientGroup": "Kelp",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 16,
+          "ingredientId": 304667,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Aronia, Powder",
+          "category": "botanical",
+          "ingredientGroup": "Chokeberry",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 17,
+          "ingredientId": 51155,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Maqui berry powder",
+          "category": "botanical",
+          "ingredientGroup": "Maqui",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 18,
+          "ingredientId": 51814,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lychee Berry Powder",
+          "category": "botanical",
+          "ingredientGroup": "Lychee",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 19,
+          "ingredientId": 304666,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Baobab, Powder",
+          "category": "botanical",
+          "ingredientGroup": "Baobab",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 20,
+          "ingredientId": 18503,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Tart Cherry powder",
+          "category": "botanical",
+          "ingredientGroup": "Sour Cherry",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 21,
+          "ingredientId": 10779,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Pomegranate powder",
+          "category": "botanical",
+          "ingredientGroup": "Pomegranate",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 22,
+          "ingredientId": 51825,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 55,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Zucchini powder",
+          "category": "botanical",
+          "ingredientGroup": "Zucchini",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 23,
+          "ingredientId": 15681,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 55,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Broccoli powder",
+          "category": "botanical",
+          "ingredientGroup": "Broccoli",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 24,
+          "ingredientId": 14594,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 55,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Spinach powder",
+          "category": "botanical",
+          "ingredientGroup": "Spinach",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 25,
+          "ingredientId": 125275,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 50,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Blackberry powder",
+          "category": "botanical",
+          "ingredientGroup": "Blackberry",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 26,
+          "ingredientId": 15632,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 37.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Blueberry powder",
+          "category": "botanical",
+          "ingredientGroup": "Blueberry",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 27,
+          "ingredientId": 51813,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 1.25,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Coffee Berry Powder",
+          "category": "botanical",
+          "ingredientGroup": "Coffee",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Antioxidant Complex",
+      "category": "blend",
+      "ingredientGroup": "Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 28,
+      "ingredientId": 273497,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 29,
+          "ingredientId": 87827,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 75,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Pineapple powder",
+          "category": "botanical",
+          "ingredientGroup": "Pineapple",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 30,
+          "ingredientId": 51822,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sea Buckthorn Berry Powder",
+          "category": "botanical",
+          "ingredientGroup": "Sea Buckthorn",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 31,
+          "ingredientId": 22926,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Brown Seaweed",
+          "category": "other",
+          "ingredientGroup": "Brown Seaweed (unspecified)",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 32,
+          "ingredientId": 87798,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Amla powder",
+          "category": "botanical",
+          "ingredientGroup": "Indian Gooseberry",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 33,
+          "ingredientId": 4643,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Mangosteen powder",
+          "category": "botanical",
+          "ingredientGroup": "Mangosteen",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 34,
+          "ingredientId": 51819,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 62.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Goji Berry Powder",
+          "category": "botanical",
+          "ingredientGroup": "Goji",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 35,
+          "ingredientId": 67874,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 55,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Parsley powder",
+          "category": "botanical",
+          "ingredientGroup": "Parsley",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 36,
+          "ingredientId": 157697,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 12.5,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Maca powder",
+          "category": "botanical",
+          "ingredientGroup": "Maca",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 37,
+          "ingredientId": 204165,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 11.25,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Camu Camu powder",
+          "category": "botanical",
+          "ingredientGroup": "Camu Camu",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Immune Support Complex",
+      "category": "other",
+      "ingredientGroup": "Header",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 38,
+      "ingredientId": 16539,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 39,
+          "ingredientId": 15914,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 125,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Flax seed Oil powder",
+          "category": "fat",
+          "ingredientGroup": "Flaxseed Oil",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 40,
+          "ingredientId": 34347,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 125,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Coconut Oil powder",
+          "category": "fat",
+          "ingredientGroup": "coconut oil",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 41,
+          "ingredientId": 82235,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 125,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Pumpkin seed Oil powder",
+          "category": "fat",
+          "ingredientGroup": "Pumpkin Seed Oil",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 42,
+          "ingredientId": 18353,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 75,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Prune powder",
+          "category": "botanical",
+          "ingredientGroup": "Plum",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 43,
+          "ingredientId": 66616,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 75,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Papaya powder",
+          "category": "botanical",
+          "ingredientGroup": "Papaya",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Digestive Support Complex",
+      "category": "blend",
+      "ingredientGroup": "Header",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 44,
+      "ingredientId": 304754,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 45,
+          "ingredientId": 5323,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 1000,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Spirulina powder",
+          "category": "bacteria",
+          "ingredientGroup": "Blue-Green Algae",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 46,
+          "ingredientId": 21251,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 250,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Alfalfa powder",
+          "category": "botanical",
+          "ingredientGroup": "Alfalfa",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 47,
+          "ingredientId": 10349,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 55,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Chlorella powder",
+          "category": "other",
+          "ingredientGroup": "Chlorella",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Detox Complex",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 48,
+      "ingredientId": 304753,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 12.3,
+          "operator": "=",
+          "quantity": 0,
+          "unit": "NP",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 49,
+          "ingredientId": 7947,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 1000,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lecithin powder",
+          "category": "fat",
+          "ingredientGroup": "lecithin",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 50,
+          "ingredientId": 14431,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 125,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Sunflower Oil powder",
+          "category": "fat",
+          "ingredientGroup": "Sunflower Oil",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 51,
+          "ingredientId": 11974,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 12.3,
+              "operator": "=",
+              "quantity": 25,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value not established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Cinnamon",
+          "category": "botanical",
+          "ingredientGroup": "Cinnamon",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Cholesterol Support Complex",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 3677,
+        "name": "Citric Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Citric Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3744,
+        "name": "Natural Flavors",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 13630,
+        "name": "Malic Acid",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Malic Acid",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 238399,
+        "name": "Cane",
+        "category": "botanical",
+        "ingredientGroup": "Sugar cane",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 5563,
+        "name": "Stevia",
+        "category": "botanical",
+        "ingredientGroup": "Stevia",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2022-06-16"
+}

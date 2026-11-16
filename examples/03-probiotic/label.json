@@ -1,0 +1,255 @@
+{
+  "label_id": "dsld:46153",
+  "source": "dsld",
+  "source_url": "https://dsld.od.nih.gov/label/46153",
+  "title": "Primadophilus Optima Intensive",
+  "brand": "Nature's Way",
+  "serving": "1 Capsule(s)",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Primadophilus Optima-200(TM) Note: Proprietary Probiotic Blend providing 200 billion CFU 572 mg",
+      "name": "Primadophilus Optima-200(TM)",
+      "amount": 572,
+      "unit": "mg",
+      "group": null,
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Lactobacilli HDS Probiotics",
+      "name": "Lactobacilli HDS Probiotics",
+      "amount": null,
+      "unit": null,
+      "group": "r1",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Lactobacillus acidophilus La-14 Genus: Lactobacillus Species: acidophilus Note: HDS",
+      "name": "Lactobacillus acidophilus La-14",
+      "amount": null,
+      "unit": null,
+      "group": "r2",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Lactobacillus acidophilus NCFM(R) Genus: Lactobacillus Species: acidophilus Note: HDS",
+      "name": "Lactobacillus acidophilus NCFM(R)",
+      "amount": null,
+      "unit": null,
+      "group": "r2",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Lactobacillus gasseri Lg-36 Genus: Lactobacillus Species: gasseri Note: HDS",
+      "name": "Lactobacillus gasseri Lg-36",
+      "amount": null,
+      "unit": null,
+      "group": "r2",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Bifidobacteria HDS Probiotics",
+      "name": "Bifidobacteria HDS Probiotics",
+      "amount": null,
+      "unit": null,
+      "group": "r1",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Bifidobacterium lactis Bl-04(R) Genus: Bifidobacterium Species: lactis Note: HDS",
+      "name": "Bifidobacterium lactis Bl-04(R)",
+      "amount": null,
+      "unit": null,
+      "group": "r6",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Bifidobacterium infantis Bi-26 Genus: Bifidobacterium Species: infantis Note: HDS",
+      "name": "Bifidobacterium infantis Bi-26",
+      "amount": null,
+      "unit": null,
+      "group": "r6",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Bifidobacterium lactis Bi-07(R) Genus: Bifidobacterium Species: lactis Note: HDS",
+      "name": "Bifidobacterium lactis Bi-07(R)",
+      "amount": null,
+      "unit": null,
+      "group": "r6",
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "plant-derived Capsule (Gellan Gum, Hypromellose)",
+      "name": "plant-derived Capsule",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Microcrystalline Cellulose",
+      "name": "Microcrystalline Cellulose",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Magnesium Stearate",
+      "name": "Magnesium Stearate",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Silicon Dioxide",
+      "name": "Silicon Dioxide",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    }
+  ],
+  "other_ingredients": "plant-derived Capsule (Gellan Gum, Hypromellose), Microcrystalline Cellulose, Magnesium Stearate, Silicon Dioxide",
+  "statements": [
+    {
+      "type": "Formula re: Contains",
+      "text": "~200 billion active probiotic cultures"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "~ Intensive support to fortify and balance the intestinal microflora* \n~ Specially formulated to replenish the intestinal microflora during and after episodes of digestive distress and irregularity* \n~ Promotes healthy digestion* \n~ Relieves occasional gas, bloating and constipation* \n~ Supports healthy immune function* \n~ Ideal for use to fortify the intestinal micro\u001fora while traveling, or as part of a cleansing/detox program"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "text": "Delayed Release Vegetarian Capsule"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Made to resist stomach acid and help deliver active probiotics to the intestine where needed most."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "text": "This statement has not been evaluated by the Food & Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "text": "100% HDS Probiotics(TM) (Human Digestive Strains)"
+    },
+    {
+      "type": "Formula re: Contains",
+      "text": "~ Contains unique probiotic cultures originated from human microflora"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "~ Naturally compatible with your intestinal tract to support digestion, regularity and immunity"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "text": "~ No animal/dairy or plant source probiotic cultures"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "6 Unique HDS Probiotics for Total Intestinal Balance*"
+    },
+    {
+      "type": "Formula re: Contains",
+      "text": "~ 3 Lactobacilli HDS Probiotics for the small intestine\n~ 3 Bifidobacteria HDS Probiotics for the large intestine (colon)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "SATISFACTION GUARANTEED."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "text": "Safety sealed for your protection with printed outer shrinkwrap and printed inner freshness seal under bottle cap. Do not use if either seal is broken or missing. Keep bottle tightly closed."
+    },
+    {
+      "type": "Precautions re: Children",
+      "text": "Keep out of reach of children."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Once Daily"
+    },
+    {
+      "type": "Formula re: Contains",
+      "text": "200 Billion ACTIVE PROBIOTICS"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Digestive Support & Immune Health"
+    },
+    {
+      "type": "Formula re: Contains",
+      "text": "~100% HDS Probiotics(TM)"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "~Researched Strains\n~Delayed Release"
+    },
+    {
+      "type": "Seals/Symbols",
+      "text": "GUARANTEED POTENCY"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "text": "Dietary Supplement"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "text": "Recommendation: Take 1 capsule daily. May be taken at any time, with or without food."
+    },
+    {
+      "type": "Storage",
+      "text": "Keep refrigerated to maintain maximum potency."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "text": "2014 Distributed by Nature's Way Products, LLC"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "text": "GLUTEN FREE ~ DAIRY FREE\nNo artificial colors or preservatives"
+    },
+    {
+      "type": "Storage",
+      "text": "200 billion potency is guaranteed until expiration date when bottle is kept tightly closed & refrigerated."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "text": "NCFM(R), Bl-04® and Bi-07® are trademarks of DuPont. In the USA, NCFM(R) is a trademark of the North Carolina Agricultural Foundation, Inc. NCFM(R), Bl-04(R) and Bi-07(R) are used under license."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "LBN10640.01 BLK8892"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "text": "Why take Primadophilus(R) Optima INTENSIVE?"
+    },
+    {
+      "type": "General: Product/Version Code",
+      "text": "LN10640.01 BLK8892"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "For intensive support of digestive distress and irregularity\nPromotes digestive and immune health"
+    }
+  ],
+  "raw_text": "Primadophilus Optima Intensive\n\nNature's Way\n\nSupplement Facts\nServing Size: 1 Capsule(s)\nNet Contents: 30 Capsule(s)\nPrimadophilus Optima-200(TM) Note: Proprietary Probiotic Blend providing 200 billion CFU 572 mg\n  Lactobacilli HDS Probiotics\n    Lactobacillus acidophilus La-14 Genus: Lactobacillus Species: acidophilus Note: HDS\n    Lactobacillus acidophilus NCFM(R) Genus: Lactobacillus Species: acidophilus Note: HDS\n    Lactobacillus gasseri Lg-36 Genus: Lactobacillus Species: gasseri Note: HDS\n  Bifidobacteria HDS Probiotics\n    Bifidobacterium lactis Bl-04(R) Genus: Bifidobacterium Species: lactis Note: HDS\n    Bifidobacterium infantis Bi-26 Genus: Bifidobacterium Species: infantis Note: HDS\n    Bifidobacterium lactis Bi-07(R) Genus: Bifidobacterium Species: lactis Note: HDS\n\nOther Ingredients: plant-derived Capsule (Gellan Gum, Hypromellose), Microcrystalline Cellulose, Magnesium Stearate, Silicon Dioxide\n\n~200 billion active probiotic cultures\n\n~ Intensive support to fortify and balance the intestinal microflora* \n~ Specially formulated to replenish the intestinal microflora during and after episodes of digestive distress and irregularity* \n~ Promotes healthy digestion* \n~ Relieves occasional gas, bloating and constipation* \n~ Supports healthy immune function* \n~ Ideal for use to fortify the intestinal micro\u001fora while traveling, or as part of a cleansing/detox program\n\nDelayed Release Vegetarian Capsule\n\nMade to resist stomach acid and help deliver active probiotics to the intestine where needed most.\n\nThis statement has not been evaluated by the Food & Drug Administration. This product is not intended to diagnose, treat, cure or prevent any disease.\n\n100% HDS Probiotics(TM) (Human Digestive Strains)\n\n~ Contains unique probiotic cultures originated from human microflora\n\n~ Naturally compatible with your intestinal tract to support digestion, regularity and immunity\n\n~ No animal/dairy or plant source probiotic cultures\n\n6 Unique HDS Probiotics for Total Intestinal Balance*\n\n~ 3 Lactobacilli HDS Probiotics for the small intestine\n~ 3 Bifidobacteria HDS Probiotics for the large intestine (colon)\n\nSATISFACTION GUARANTEED.\n\nSafety sealed for your protection with printed outer shrinkwrap and printed inner freshness seal under bottle cap. Do not use if either seal is broken or missing. Keep bottle tightly closed.\n\nKeep out of reach of children.\n\nOnce Daily\n\n200 Billion ACTIVE PROBIOTICS\n\nDigestive Support & Immune Health\n\n~100% HDS Probiotics(TM)\n\n~Researched Strains\n~Delayed Release\n\nGUARANTEED POTENCY\n\nDietary Supplement\n\nRecommendation: Take 1 capsule daily. May be taken at any time, with or without food.\n\nKeep refrigerated to maintain maximum potency.\n\n2014 Distributed by Nature's Way Products, LLC\n\nGLUTEN FREE ~ DAIRY FREE\nNo artificial colors or preservatives\n\n200 billion potency is guaranteed until expiration date when bottle is kept tightly closed & refrigerated.\n\nNCFM(R), Bl-04® and Bi-07® are trademarks of DuPont. In the USA, NCFM(R) is a trademark of the North Carolina Agricultural Foundation, Inc. NCFM(R), Bl-04(R) and Bi-07(R) are used under license.\n\nLBN10640.01 BLK8892\n\nWhy take Primadophilus(R) Optima INTENSIVE?\n\nLN10640.01 BLK8892\n\nFor intensive support of digestive distress and irregularity\nPromotes digestive and immune health"
+}

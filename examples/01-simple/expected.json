@@ -1,0 +1,154 @@
+{
+  "label_id": "dsld:60563",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "NIAGEN Nicotinamide Riboside 100 mg",
+      "parent": "nicotinamide riboside",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "439924",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/439924"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Vegetable Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'vegetable cellulose' can mean cellulose or hypromellose (a capsule shell)"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Microcrystalline Cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Vegetable Stearate",
+      "parent": "stearate",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'vegetable stearate' can mean magnesium stearate or stearic acid"
+    }
+  ],
+  "claims": [],
+  "candidates": [
+    {
+      "phrase": "does not cause flushing",
+      "quote": "Nicotinamide Riboside does not cause flushing."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: Not Classified (2 of 2 company reports).",
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/439924/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/439924.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, several silica entries: silicon dioxide (EC 231-545-4) Not Classified in 7724 of 9127 reports; cristobalite (EC 238-455-4) H350, H372. The record does not name the form on this label.",
+      "date": "2026-10-20",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

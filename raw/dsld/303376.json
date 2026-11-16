@@ -1,0 +1,344 @@
+{
+  "src": "01-raw/2025-07-24/data/label_97.json",
+  "id": 303376,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "D3 5000 IU with Vitamin K2 Apricot Flavor",
+  "brandName": "MH Michael's Health Naturopathic Programs",
+  "brandIpSymbol": "®",
+  "upcSku": "7 55929 10403 1",
+  "productVersionCode": "PRODUCT #10403",
+  "pdf": "303376_document.pdf",
+  "thumbnail": "303376_thumbnail.jpg",
+  "servingsPerContainer": "90",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 220786
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 71043
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 46062
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 60041
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 174477
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 248778
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 15072,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_3.json",
+        "id": 15072,
+        "name": "Michael's Naturopathic Programs",
+        "streetAddress": "6003 Randolph Blvd",
+        "city": "San Antonio",
+        "state": "Texas",
+        "country": "",
+        "zipCode": "78233",
+        "phoneNumber": "800-845-2730",
+        "email": "",
+        "webAddress": "michaelshealth.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 90,
+      "unit": "Vegetarian Chewable Tablet(s)",
+      "display": "90 Vegetarian Chewable Tablet(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0155",
+    "langualCodeDescription": "Tablet or Pill"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Chewable Tablet(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Kosher",
+    "Women (not pregnant or lactating)"
+  ],
+  "productType": {
+    "langualCode": "A1302",
+    "langualCodeDescription": "Vitamin"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: As a dietary supplement, chew one (1) tablet daily. Dosage may be increased as directed by a healthcare practitioner."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Double-sealed for your protection. Do not use if outer seal is broken or missing."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Caution: Keep out of reach of children."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Not to be taken by pregnant or lactating women"
+    },
+    {
+      "type": "Formula re: Kosher",
+      "notes": "Certified Kosher."
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Shield Star K (Kosher) Parve"
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Made in a GMP facility that processes egg, fish, milk, peanut, sesame, shellfish, soy, tree nut and wheat products."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Made in the U.S.A."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Family owned and operated"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Michael's Health Naturopathic Programs\r\nSince 1984"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No added sugar"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Vitamin Supplement"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    }
+  ],
+  "events": [
+    {
+      "date": "2023-12-14",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 309819,
+      "description": "",
+      "notes": "5000 IU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 125,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 625,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Chewable Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin D3",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin D3",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 74503,
+          "prefix": null,
+          "percent": null,
+          "name": "Cholecalciferol",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin D (cholecalciferol)",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "ingredientId": 128191,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 90,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 75,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Chewable Tablet(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin K2",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin K (menaquinone)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 128513,
+          "prefix": null,
+          "percent": null,
+          "name": "Menaquinone 7",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin K (menaquinone)",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 4228,
+        "name": "Xylitol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Xylitol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 3789,
+        "name": "Sorbitol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Sorbitol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 4048,
+        "name": "Magnesium Stearate",
+        "category": "mineral",
+        "ingredientGroup": "Magnesium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 4058,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 3700,
+        "name": "Dicalcium Phosphate",
+        "category": "mineral",
+        "ingredientGroup": "Calcium",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 4152,
+        "name": "Silicon Dioxide",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 46132,
+        "name": "Natural Peach Flavor",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 128494,
+        "name": "natural Apricot flavor",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2023-12-14"
+}

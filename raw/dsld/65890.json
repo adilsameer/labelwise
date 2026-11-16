@@ -1,0 +1,521 @@
+{
+  "src": "01-raw/2025-09-25/data/label_159.json",
+  "id": 65890,
+  "nhanesId": "1-001-1311-00",
+  "bundleName": "",
+  "fullName": "Fiber Capsules",
+  "brandName": "Simply Right",
+  "brandIpSymbol": "none",
+  "upcSku": "",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "66",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Percent (DV) Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 46742
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 4392,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_2.json",
+        "id": 4392,
+        "name": "Sam's West, Inc.",
+        "streetAddress": "",
+        "city": "Bentonville",
+        "state": "AR",
+        "country": "",
+        "zipCode": "72716",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": ""
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 400,
+      "unit": "Capsule(s)",
+      "display": "400 Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 2,
+      "maxQuantity": 6,
+      "minDailyServings": 1,
+      "maxDailyServings": 3,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Health care"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "100% Natural psyllium fiber"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Compared to metamucil multihealth capsules active ingredient"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Fiber Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Fiber laxative for regularity"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Actual size"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Laboratory tested\nQuality assured"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "We would like to hear from you with any comments or suggestions. In the continental US or Canada, you can call us toll-free 1-888-301-0332, Monday through Friday, from 8 am to 5 pm CST. Or you can send us an email at samsclub.com."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Drug Facts\nActive ingredient (in each capsule)\nPsyllium husk approx. 0.52 gm\n"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Purpose\nFiber laxative"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Uses - effective in treating occasional constipation and restoring regularity"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Warnings\nChoking: Taking this product without adequate fluid may cause it to swell and block your throat or esophagus and may cause choking. Do not take this product if you have difficulty in swallowing. If you experience chest pain, vomiting, or difficulty in swallowing or breathing after taking this product, seek immediate medical attention."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Allergy alert:\n- This product may cause allergic reaction in people sensitive to inhaled or ingested psyllium."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Ask a doctor before use if you have\n- abdominal pain, nausea or vomiting - sudden change in bowel habits persisting for 2 weeks"
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "When using this product\n- it may cause an allergic reaction in people sensitive to inhaled or ingested psyllium\n"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "- if you are taking a prescription medicine by mouth, take this product at least 2 hours before or 2 hours after the prescribed medicine"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Stop use and ask a doctor if \n- constipation lasts more than 7 days - rectal bleeding occurs. These may be signs of a serious condition."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of the reach of children. In case of overdose, get medical help or contact a poison control center right away."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions - take this product (child or adult dose) with a full glass of water (8 oz.) or other fluid. Taking this product without enough liquid may cause choking. See choking warning. - swallow capsules one at a time - daily maximum 3 doses - dosage will vary according to diet, exercise, previous laxative use or severity or constipation - product generally produces effect in 12-72 hours - as your body adjusts to increased fiber intake, you may experience changes in bowel habits or minor bloating\nadults and children 12 years & older 5 capsules, 1 to 3 times a day\nchildren 6 to 11 years consider using a powder form of this product\nchildren under 6 years ask a doctor"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Other information - do not use if printed inner seal is torn or missing"
+    },
+    {
+      "type": "Storage",
+      "notes": "- store at room temperature - keep tightly closed to protect contents from humidity"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "- each capsule contains potassium 5 mg"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "- capsules are sealed using a band around the middle"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Inactive ingredients Blue 1, caramel color, gelatin, polysorbate 80, shellac, sodium luaryl sulfate, titanium dioxide."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Fiber supplement information\nUses This product provides a convenient way to increase your daily fiber intake. Diets low in saturated fat and cholesterol that include 7 grams of soluble fiber per day from psyllium husk, as in the product, may reduce the risk of heart disease by lowering cholesterol."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "One serving of this product provides 2.4 grams of this soluble fiber."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Consult a doctor if you are considering use of this product as part of a cholesterol-lowering program."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Warnings\nRead the entire label, including drug facts warnings section."
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions Adults 12 yrs. & older: 2-6 capsules for increasing daily fiber intake; 6 capsules for cholesterol-lowering use. Take this product with 8 oz. of liquid (swallow 1 capsule at a time) up to 3 times daily. Notice: Take this product with at least 8 oz. (a full glass) of liquid. Taking this product without enough liquid may cause choking. See drug facts warnings section. Do not take this product if you have difficulty swallowing."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "This product is not manufactured or distributed by Procter & Gamble, the distributor of Metamucil Capsules."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0264",
+      "langualCodeDescription": "Qualified Health"
+    }
+  ],
+  "events": [
+    {
+      "date": "2021-12-29",
+      "type": "Off Market"
+    },
+    {
+      "date": "2016-10-22",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 283702,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6,
+          "operator": "=",
+          "quantity": 3,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 16532,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 6,
+              "operator": "=",
+              "quantity": 3,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": 11,
+                  "footnote": null
+                }
+              ],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Dietary Fiber",
+          "category": "fiber",
+          "ingredientGroup": "Fiber (unspecified)",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 4,
+          "ingredientId": 18317,
+          "description": null,
+          "notes": null,
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 6,
+              "operator": "=",
+              "quantity": 2,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value (DV) Not Established"
+                }
+              ],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Soluble Fiber",
+          "category": "fiber",
+          "ingredientGroup": "Fiber (unspecified)",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 5,
+      "ingredientId": 21962,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6,
+          "operator": "<",
+          "quantity": 1,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Protein",
+      "category": "protein",
+      "ingredientGroup": "Protein (unspecified)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 6,
+      "ingredientId": 292411,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6,
+          "operator": "=",
+          "quantity": 0.4,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 2,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": "E1UOL152H7",
+      "alternateNames": [
+        "Fe"
+      ],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 292477,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 6,
+          "operator": "=",
+          "quantity": 30,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "<",
+              "percent": 1,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Potassium",
+      "category": "mineral",
+      "ingredientGroup": "Potassium",
+      "uniiCode": "RWP5GA015D",
+      "alternateNames": [
+        "K"
+      ],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 55918,
+        "name": "Psyllium",
+        "category": "fiber",
+        "ingredientGroup": "Psyllium (not specified)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 27352,
+        "name": "Gelatin",
+        "category": "protein",
+        "ingredientGroup": "Gelatin",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 10410,
+        "name": "Sodium Lauryl Sulfate",
+        "category": "other",
+        "ingredientGroup": "Sodium Lauryl Sulfate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 9402,
+        "name": "Polysorbate 80",
+        "category": "other",
+        "ingredientGroup": "Polysorbate",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 4183,
+        "name": "Titanium Dioxide",
+        "category": "other",
+        "ingredientGroup": "Titanium Dioxide",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 89873,
+        "name": "Shellac",
+        "category": "other",
+        "ingredientGroup": "Shellac",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 3669,
+        "name": "Caramel color",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 11488,
+        "name": "Blue 1",
+        "category": "other",
+        "ingredientGroup": "Color",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2016-10-22"
+}

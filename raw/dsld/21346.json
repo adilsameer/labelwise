@@ -1,0 +1,315 @@
+{
+  "src": "01-raw/2022-10-25/data/label_420.json",
+  "id": 21346,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Loving Energy",
+  "brandName": "Bioray",
+  "brandIpSymbol": "none",
+  "upcSku": "6 89076 81559 8",
+  "productVersionCode": "Not Present",
+  "pdf": "",
+  "thumbnail": "",
+  "servingsPerContainer": "74",
+  "hasOuterCarton": false,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Package size difference, same product",
+      "labelId": 53008
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 178567
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 53008
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 178567
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 275487
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 53009
+    },
+    {
+      "type": "Package size difference, same product",
+      "labelId": 275487
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 4497,
+      "text": "Manufactured for",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-02-23/data/contact_2.json",
+        "id": 4497,
+        "name": "BioRay Inc.",
+        "streetAddress": "",
+        "city": "Laguna Hills",
+        "state": "CA",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "1-888-635-9582",
+        "email": "",
+        "webAddress": ""
+      }
+    },
+    {
+      "contactId": 4498,
+      "text": null,
+      "types": [
+        "Other"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-02-23/data/contact_2.json",
+        "id": 4498,
+        "name": "",
+        "streetAddress": "",
+        "city": "",
+        "state": "",
+        "country": "",
+        "zipCode": "",
+        "phoneNumber": "",
+        "email": "",
+        "webAddress": "www.bioraynaturaldetox.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 2,
+      "unit": "fl. Oz.",
+      "display": "2 fl. Oz."
+    },
+    {
+      "order": 2,
+      "quantity": 59,
+      "unit": "mL",
+      "display": "59 mL"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0165",
+    "langualCodeDescription": "Liquid"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 26,
+      "maxQuantity": 78,
+      "minDailyServings": 3,
+      "maxDailyServings": 5,
+      "unit": "Drop(s)",
+      "notes": "1-3 droppers",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Adult (18 - 50 Years)"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Loving Energy(TM) replenishes energy and lost essence. Traditionally used to support the immune system and promote healthy adrenal function.*"
+    },
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Intake Instructions: Adults - 1 to 3 droppers in hot water 3 to 5 x per day or as desired. Regular use produces a more powerful effect."
+    },
+    {
+      "type": "Formulation re: Organic",
+      "notes": "Made with organic ingredients."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "If pregnant or nursing, consult a health care professional."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "*These statements have not been evaluated by the FDA and are not intended to treat, diagnose, cure, or prevent any disease."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "051112 04/17"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "The Feel Good Tonic"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "DAILY DIETARY SUPPLEMENT"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Energy {lightning}\nReplenish {plus sign}"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2015-10-08",
+      "type": "Off Market"
+    },
+    {
+      "date": "2013-05-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 76066,
+      "description": null,
+      "notes": null,
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 26,
+          "operator": "=",
+          "quantity": 360,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "(DV) Daily Value Not Established"
+            }
+          ],
+          "servingSizeUnit": "Drop(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Proprietary Blend",
+      "category": "blend",
+      "ingredientGroup": "Proprietary Blend (Combination)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 75580,
+          "prefix": null,
+          "percent": null,
+          "name": "Eleuthero",
+          "category": "botanical",
+          "ingredientGroup": "Eleuthero",
+          "uniiCode": null
+        },
+        {
+          "order": 2,
+          "ingredientId": 4029,
+          "prefix": null,
+          "percent": null,
+          "name": "Licorice",
+          "category": "botanical",
+          "ingredientGroup": "Licorice ",
+          "uniiCode": null
+        },
+        {
+          "order": 3,
+          "ingredientId": 76067,
+          "prefix": null,
+          "percent": null,
+          "name": "Polygonatum Root Extract",
+          "category": "botanical",
+          "ingredientGroup": "Polygonatum (unspecified)",
+          "uniiCode": null
+        },
+        {
+          "order": 4,
+          "ingredientId": 10808,
+          "prefix": null,
+          "percent": null,
+          "name": "Reishi Mushroom",
+          "category": "other",
+          "ingredientGroup": "Reishi mushroom",
+          "uniiCode": null
+        },
+        {
+          "order": 5,
+          "ingredientId": 19532,
+          "prefix": null,
+          "percent": null,
+          "name": "Schizandra",
+          "category": "botanical",
+          "ingredientGroup": "Schisandra",
+          "uniiCode": null
+        },
+        {
+          "order": 6,
+          "ingredientId": 76049,
+          "prefix": null,
+          "percent": null,
+          "name": "Solomon Seal",
+          "category": "botanical",
+          "ingredientGroup": "Solomon's Seal",
+          "uniiCode": null
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 6231,
+        "name": "deionized Water",
+        "category": "other",
+        "ingredientGroup": "Water",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 76053,
+        "name": "gluten free Grain Alcohol",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Alcohol",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 1,
+  "entryDate": "2013-05-24"
+}

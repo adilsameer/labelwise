@@ -1,0 +1,119 @@
+{
+  "label_id": "dsld:60563",
+  "source": "dsld",
+  "source_url": "https://dsld.od.nih.gov/label/60563",
+  "title": "NAD+ Cell Regenerator",
+  "brand": "Life Extension",
+  "serving": "1 Vegetarian Capsule(s)",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "NIAGEN Nicotinamide Riboside 100 mg",
+      "name": "NIAGEN Nicotinamide Riboside",
+      "amount": 100,
+      "unit": "mg",
+      "group": null,
+      "section": "supplement_facts"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Vegetable Cellulose",
+      "name": "Vegetable Cellulose",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Microcrystalline Cellulose",
+      "name": "Microcrystalline Cellulose",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Silica",
+      "name": "Silica",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Vegetable Stearate",
+      "name": "Vegetable Stearate",
+      "amount": null,
+      "unit": null,
+      "group": null,
+      "section": "other_ingredients"
+    }
+  ],
+  "other_ingredients": "Vegetable Cellulose, Microcrystalline Cellulose, Silica, Vegetable Stearate",
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "text": "DIRECTIONS: Take one (1) capsule daily with or without food, or as recommended by a healthcare practitioner."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Nicotinamide Riboside does not cause flushing."
+    },
+    {
+      "type": "Storage",
+      "text": "Store tightly closed in a cool, dry place."
+    },
+    {
+      "type": "Precautions re: Children",
+      "text": "WARNINGS: ~ KEEP OUT OF REACH OF CHILDREN."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "text": "~ DO NOT EXCEED RECOMMENDED DOSE.\n~ Do not purchase if outer seal is broken or damaged."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "text": "~ When using nutritional supplements, please consult with your physician if you are undergoing treatment for a medical condition or if you are pregnant or lactating."
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "text": "*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Formula re: Contains",
+      "text": "Nicotinamide Riboside 100 mg"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Advanced Defense Against Cellular Aging*"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "text": "Dietary Supplement"
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "text": "NIAGEN is a trademark of ChromaDex, Inc., Patents see: www.ChromaDexPatents.com."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "To report a serious adverse event or obtain product information, contact 1-866-280-2852."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Scan for product info"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "text": "Read the entire label and follow the directions carefully prior to use."
+    },
+    {
+      "type": "General: Product/Version Code",
+      "text": "Q01904A"
+    }
+  ],
+  "raw_text": "NAD+ Cell Regenerator\n\nLife Extension\n\nSupplement Facts\nServing Size: 1 Vegetarian Capsule(s)\nNet Contents: 30 Vegetarian Capsule(s)\nNIAGEN Nicotinamide Riboside 100 mg\n\nOther Ingredients: Vegetable Cellulose, Microcrystalline Cellulose, Silica, Vegetable Stearate\n\nDIRECTIONS: Take one (1) capsule daily with or without food, or as recommended by a healthcare practitioner.\n\nNicotinamide Riboside does not cause flushing.\n\nStore tightly closed in a cool, dry place.\n\nWARNINGS: ~ KEEP OUT OF REACH OF CHILDREN.\n\n~ DO NOT EXCEED RECOMMENDED DOSE.\n~ Do not purchase if outer seal is broken or damaged.\n\n~ When using nutritional supplements, please consult with your physician if you are undergoing treatment for a medical condition or if you are pregnant or lactating.\n\n*These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.\n\nNicotinamide Riboside 100 mg\n\nAdvanced Defense Against Cellular Aging*\n\nDietary Supplement\n\nNIAGEN is a trademark of ChromaDex, Inc., Patents see: www.ChromaDexPatents.com.\n\nTo report a serious adverse event or obtain product information, contact 1-866-280-2852.\n\nScan for product info\n\nRead the entire label and follow the directions carefully prior to use.\n\nQ01904A"
+}

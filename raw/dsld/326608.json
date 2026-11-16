@@ -1,0 +1,473 @@
+{
+  "src": "01-raw/2025-09-25/data/label_457.json",
+  "id": 326608,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "Women's Daily Probiotic 10 Billion CFU",
+  "brandName": "New Chapter",
+  "brandIpSymbol": "®",
+  "upcSku": "",
+  "productVersionCode": "0113-A20",
+  "pdf": "326608_document.pdf",
+  "thumbnail": "326608_thumbnail.jpg",
+  "servingsPerContainer": "60",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Not Present",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 211807
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 211804
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 1717,
+      "text": "Distributed by",
+      "types": [
+        "Distributor"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 1717,
+        "name": "New Chapter, Inc.",
+        "streetAddress": "90 Technology Drive",
+        "city": "Brattleboro",
+        "state": "VT",
+        "country": "",
+        "zipCode": "05301",
+        "phoneNumber": "888-874-4461",
+        "email": "",
+        "webAddress": "www.newchapter.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 60,
+      "unit": "100% Vegan Capsule(s)",
+      "display": "60 100% Vegan Capsule(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0159",
+    "langualCodeDescription": "Capsule"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 1,
+      "maxQuantity": 1,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Capsule(s)",
+      "notes": "",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "Kosher",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Suggested use: One capsule daily for ages 12 and up. Can be taken anytime, even on an empty stomach."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Gluten free; 100% vegan; no artificial flavors or colors."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "Gluten free; 100% vegan; no artificial flavors or colors."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "La-14 and HN001 are registered or licensed trademarks of DuPont."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Please refer to newchapter.com for more information about this product and its benefits.\r\n"
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Caution: As with any dietary or herbal supplement, you should advise your healthcare professional of the use of this product if you have a serious medical condition or are taking medication. If you are nursing, pregnant, or considering pregnancy consult your healthcare professional prior to using this product."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Read label ingredients carefully before use and avoid use if known sensitivity to any of the ingredients. Do not exceed suggested use."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Keep out of reach of children."
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "The New Chapter Money back-guarantee\r\nWe proudly stand behind every product we make. However, if you are not satisfied, please visit www.newchapter.com/guarantee for refund details."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Copyright 2020 New Chapter, Inc.\r\nNew Chapter\r\nEst. 1982"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "10 billion CFU clinically studied strains"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Vaginal & Urinary Tract health, Digestive & Immune support"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "Non GMO Project Verified nongmoproject.org\r\nOU (Kosher)\r\nCertified B Corporation"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Non GMO Project Verified nongmoproject.org"
+    },
+    {
+      "type": "Formula re: Kosher",
+      "notes": "OU (Kosher)"
+    },
+    {
+      "type": "FDA Statement of Identity",
+      "notes": "Probiotic Supplement"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "For questions or comments call 888-874-4461"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Precautions re: Allergies",
+      "notes": "Discontinue use and contact a healthcare professional if you experience an allergic reaction or side effect."
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Please recycle this bottle after use."
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-04-24",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 288938,
+      "description": "",
+      "notes": "total cutures, 10 billion CFU",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 44,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 2,
+          "ingredientId": 201248,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus acidophilus La-14",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus acidophilus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 3,
+          "ingredientId": 332553,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lactobacillus rhamnosus HN001",
+          "category": "bacteria",
+          "ingredientGroup": "Lactobacillus rhamnosus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Probiotic Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 234548,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 5,
+          "ingredientId": 107080,
+          "description": "",
+          "notes": "organic",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Chaste Tree berry extract",
+          "category": "botanical",
+          "ingredientGroup": "Vitex Agnus-Castus",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 299185,
+          "description": "",
+          "notes": "organic",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Maca Root Extract",
+          "category": "botanical",
+          "ingredientGroup": "Maca",
+          "uniiCode": "HP7119212T",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 7,
+          "ingredientId": 354051,
+          "description": "",
+          "notes": "organic",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 1,
+              "operator": "=",
+              "quantity": 0,
+              "unit": "NP",
+              "dailyValueTargetGroup": [],
+              "servingSizeUnit": "Capsule(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Lavender Aerial Parts Extract",
+          "category": "botanical",
+          "ingredientGroup": "Lavender",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Women's Balance Blend",
+      "category": "blend",
+      "ingredientGroup": "Blend (Herb/Botanical)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 8,
+      "ingredientId": 300037,
+      "description": "",
+      "notes": "organic jerusalem artichoke",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 1,
+          "operator": "=",
+          "quantity": 100,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Capsule(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Inulin",
+      "category": "fiber",
+      "ingredientGroup": "Inulin",
+      "uniiCode": "JOS53KRJ01",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 300036,
+          "prefix": null,
+          "percent": null,
+          "name": "Jerusalem Artichoke",
+          "category": "botanical",
+          "ingredientGroup": "Jerusalem Artichoke",
+          "uniiCode": "R6PI58X44M"
+        }
+      ]
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 291435,
+        "name": "Hypromellose",
+        "category": "other",
+        "ingredientGroup": "Hypromellose",
+        "uniiCode": "3NXW29V3WO",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 286938,
+        "name": "Microcrystalline Cellulose",
+        "category": "other",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": "OP1R32D61U",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 71308,
+        "name": "Rice Extract",
+        "category": "botanical",
+        "ingredientGroup": "Rice",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 281660,
+        "name": "Sunflower Oil",
+        "category": "fat",
+        "ingredientGroup": "Sunflower Oil",
+        "uniiCode": "3W1JG795YI",
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2025-04-24"
+}

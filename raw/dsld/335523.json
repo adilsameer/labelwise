@@ -1,0 +1,1782 @@
+{
+  "src": "01-raw/2025-09-25/data/label_319.json",
+  "id": 335523,
+  "nhanesId": "",
+  "bundleName": "",
+  "fullName": "OptiCleanse Plus Creamy Chocolate No Added Sugar, No Stevia",
+  "brandName": "XYMOGEN",
+  "brandIpSymbol": "®",
+  "upcSku": "7 22537 51152 0",
+  "productVersionCode": "200095603 REV. 110124",
+  "pdf": "335523_document.pdf",
+  "thumbnail": "335523_thumbnail.jpg",
+  "servingsPerContainer": "10",
+  "hasOuterCarton": null,
+  "percentDvFootnote": "Percent Daily Values are based on a 2,000 calorie diet.",
+  "labelRelationships": [
+    {
+      "type": "Image difference, same product",
+      "labelId": 303614
+    },
+    {
+      "type": "Image difference, same product",
+      "labelId": 294871
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 303615
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 294871
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 294872
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 303614
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 171915
+    },
+    {
+      "type": "Flavor difference",
+      "labelId": 335524
+    }
+  ],
+  "contacts": [
+    {
+      "contactId": 2492,
+      "text": null,
+      "types": [
+        "Manufacturer"
+      ],
+      "contactDetails": {
+        "src": "01-raw/2025-09-25/data/contact_1.json",
+        "id": 2492,
+        "name": "XYMOGEN Exclusive Professional Formulas",
+        "streetAddress": "6900 Kingspointe Pkwy.",
+        "city": "Orlando",
+        "state": "FL",
+        "country": "",
+        "zipCode": "32819",
+        "phoneNumber": "800-647-6100",
+        "email": "",
+        "webAddress": "www.xymogen.com"
+      }
+    }
+  ],
+  "netContents": [
+    {
+      "order": 1,
+      "quantity": 10,
+      "unit": "Single Serving Packet(s)",
+      "display": "10 Single Serving Packet(s)"
+    },
+    {
+      "order": 2,
+      "quantity": 20.46,
+      "unit": "Ounce(s)",
+      "display": "20.46 Ounce(s)"
+    },
+    {
+      "order": 3,
+      "quantity": 580,
+      "unit": "Gram(s)",
+      "display": "580 Gram(s)"
+    }
+  ],
+  "physicalState": {
+    "langualCode": "E0162",
+    "langualCodeDescription": "Powder"
+  },
+  "servingSizes": [
+    {
+      "order": 1,
+      "minQuantity": 58,
+      "maxQuantity": 58,
+      "minDailyServings": 1,
+      "maxDailyServings": 1,
+      "unit": "Gram(s)",
+      "notes": "1 packet",
+      "inSFB": true
+    }
+  ],
+  "targetGroups": [
+    "Vegan",
+    "Vegetarian",
+    "Adult (18 - 50 Years)",
+    "No Allergies",
+    "Gluten Free",
+    "Dairy Free"
+  ],
+  "productType": {
+    "langualCode": "A1325",
+    "langualCodeDescription": "Other Combinations"
+  },
+  "statements": [
+    {
+      "type": "Suggested/Recommended/Usage/Directions",
+      "notes": "Directions: Blend, shake, or briskly stir the contents of one packet (58 g) into 10-12 oz chilled water and consume once daily, or as directed by your healthcare professional. Adjust amount of water to desired sweetness and thickness."
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Consult your healthcare professional prior to use."
+    },
+    {
+      "type": "Precautions re: Pregnant or Nursing or Prescription Medications",
+      "notes": "Individuals taking medication should discuss potential interactions with their healthcare professional."
+    },
+    {
+      "type": "Storage",
+      "notes": "Storage: Store in a cool, dry place out of reach of children."
+    },
+    {
+      "type": "Precautions re: Children",
+      "notes": "Storage: Store in a cool, dry place out of reach of children."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "Formulated to exclude: Wheat, gluten, yeast, soy protein, animal and dairy products, fish, shellfish, peanuts, tree nuts, egg, sesame, ingredients derived from genetically modified organisms (GMOs), artificial colors, and artificial sweeteners."
+    },
+    {
+      "type": "Brand IP Statement(s) re: (c), (TM), (SM)",
+      "notes": "Quatrefolic\r\nS1. Quatrefolic is a registered trademark of Gnosis S.p.A. produced under U.S. Patent 7,947,662.\r\nAlbion Minerals\r\nS2. Albion, DimaCal, TRAACS, and the Albion Gold Medallion are registered trademarks of Albion Laboratories, Inc.\r\nS3. Preventium is a registered trademark of Applied Food Sciences, LLC. (U.S. Patents 4,845,123, 5,364,644, 5,561,160).\r\nAminogen\r\nS4. Aminogen is a registered trademark of Innophos Nutrition, Inc. Aminogen is protected under U.S. Patent 5,387,422.\r\nCopyright 2024 XYMOGEN"
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Quatrefolic\r\nAlbion Minerals\r\nAminogen"
+    },
+    {
+      "type": "FDA Disclaimer Statement",
+      "notes": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "OptiCleanse Plus is a comprehensive nutritional formula that provides high-quality macro- and micronutrients associated with biological detoxification pathways. The formulation features 24 grams of VegaPro, a proprietary vegan pea/rice protein; Aminogen enzyme blend to facilitate protein absorption; activated B vitamins like 5-MTHF and Albion's patented mineral amino acid chelates for optimal nutrient bioavailability; and milled golden flaxseed that provides a source of omega-3 fatty acids and lignans, which may support estrogen modulation in postmenopausal women. When paired with a modified elimination diet, this formula nourishes the body's detoxification systems and fuels sustained energy production. This monk fruit-sweetened formula boasts a superior taste without added sucrose, fructose, or stevia and is suitable for vegans."
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "This monk fruit-sweetened formula boasts a superior taste without added sucrose, fructose, or stevia and is suitable for vegans."
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "This monk fruit-sweetened formula boasts a superior taste without added sucrose, fructose, or stevia and is suitable for vegans."
+    },
+    {
+      "type": "Formula re: Contains",
+      "notes": "Per serving (1 packet):\r\nStabilized flaxseed 9 g\r\nBranched-Chain Amino Acids (Leucine, Isoleucine, Valine) 4860 mg\r\nPreventium 250 mg"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "10 - 2.05 oz (58 g) single-serving packets\r\nScan this code to learn more!"
+    },
+    {
+      "type": "Precautions re: All Other",
+      "notes": "Dietary Supplement"
+    },
+    {
+      "type": "Formulation re: Other",
+      "notes": "Professional Formulas"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "No added sugar, no stevia"
+    },
+    {
+      "type": "Seals/Symbols",
+      "notes": "VegaPro\r\n100% Vegan\r\n100% Gluten-free\r\nGMP Compliant third-party verified"
+    },
+    {
+      "type": "Formulation re: Does NOT Contain",
+      "notes": "VegaPro\r\n100% Vegan\r\n100% Gluten-free"
+    },
+    {
+      "type": "Formulation re: Vegetarian/Vegan",
+      "notes": "VegaPro\r\n100% Vegan\r\n100% Gluten-free"
+    },
+    {
+      "type": "General Statements: All Other Content",
+      "notes": "Typical Amino Acid Profile per serving:\r\nAlanine 1,170 mg\r\nArginine 2,360 mg\r\nAspartic Acid 3,120 mg\r\nCysteine 280 mg\r\nGlutamic Acid 4,570 mg\r\nGlycine 1,620 mg\r\nHistidine 680 mg\r\nIsoleucine 1,220 mg\r\nLeucine 2,280 mg\r\nLysine 1,940 mg\r\nMethionine 300 mg\r\nPhelylalanine 1,500 mg\r\nProline 1,220 mg\r\nSerine 1,440 mg\r\nThreonine 1,060 mg\r\nTaurine 500 mg\r\nTryptophan 270 mg\r\nTyrosine 1,040 mg\r\nValine 1,360 mg"
+    }
+  ],
+  "claims": [
+    {
+      "langualCode": "P0065",
+      "langualCodeDescription": "Nutrient "
+    },
+    {
+      "langualCode": "P0115",
+      "langualCodeDescription": "All Other"
+    },
+    {
+      "langualCode": "P0265",
+      "langualCodeDescription": "Structure/Function"
+    }
+  ],
+  "events": [
+    {
+      "date": "2025-09-25",
+      "type": "Date entered into DSLD"
+    }
+  ],
+  "userGroups": [
+    {
+      "dailyValueTargetGroupName": "Adults and children 4 or more years of age",
+      "langualCode": "P0250",
+      "langualCodeDescription": "Adults and Children 4 years and above"
+    }
+  ],
+  "ingredientRows": [
+    {
+      "order": 1,
+      "ingredientId": 284519,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 250,
+          "unit": "Calorie(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calories",
+      "category": "other",
+      "ingredientGroup": "Calories",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 2,
+      "ingredientId": 289354,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 13,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 3,
+          "ingredientId": 285556,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 58,
+              "operator": "=",
+              "quantity": 3,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": 15,
+                  "footnote": null
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Saturated Fat",
+          "category": "fat",
+          "ingredientGroup": "Saturated fat",
+          "uniiCode": "1",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Fat",
+      "category": "fat",
+      "ingredientGroup": "Fat (unspecified)",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 4,
+      "ingredientId": 283702,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 16,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 6,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 5,
+          "ingredientId": 299424,
+          "description": "",
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 58,
+              "operator": "=",
+              "quantity": 6,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": "=",
+                  "percent": 21,
+                  "footnote": null
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Dietary Fiber",
+          "category": "fiber",
+          "ingredientGroup": "Fiber (unspecified)",
+          "uniiCode": "0",
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 6,
+          "ingredientId": 283759,
+          "description": null,
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 58,
+              "operator": "=",
+              "quantity": 1,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value (DV) Not Established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "Total Sugars",
+          "category": "sugar",
+          "ingredientGroup": "Sugar",
+          "uniiCode": "1",
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "Total Carbohydrates",
+      "category": "sugar",
+      "ingredientGroup": "Carbohydrate",
+      "uniiCode": "0",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 7,
+      "ingredientId": 316956,
+      "description": null,
+      "notes": "and ingredients with naturally occurring protein",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 24,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Protein",
+      "category": "blend",
+      "ingredientGroup": "Blend",
+      "uniiCode": "1",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 298178,
+          "prefix": null,
+          "percent": null,
+          "name": "Pea Protein Isolate",
+          "category": "protein",
+          "ingredientGroup": "Pea protein",
+          "uniiCode": "7Q50F46595"
+        },
+        {
+          "order": 2,
+          "ingredientId": 316955,
+          "prefix": null,
+          "percent": null,
+          "name": "Rice Protein Concentrate",
+          "category": "protein",
+          "ingredientGroup": "Rice Protein",
+          "uniiCode": "0"
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "ingredientId": 316067,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 1500,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 167,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin A",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin A",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 308261,
+          "prefix": null,
+          "percent": null,
+          "name": "Beta-Carotene, Natural",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin A",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "ingredientId": 278603,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 220,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 244,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin C",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin C",
+      "uniiCode": "PQ6CK8PD0R",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 278604,
+          "prefix": null,
+          "percent": null,
+          "name": "Ascorbic Acid",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin C",
+          "uniiCode": "PQ6CK8PD0R"
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "ingredientId": 30735,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 70,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 467,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin E",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin E (alpha-tocopheryl succinate)",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280573,
+          "prefix": null,
+          "percent": null,
+          "name": "D-Alpha-Tocopheryl Succinate",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin E",
+          "uniiCode": "LU4B53JYVE"
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "ingredientId": 281548,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 417,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Thiamine",
+      "category": "vitamin",
+      "ingredientGroup": "Thiamin",
+      "uniiCode": "X66NSO3N35",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 279229,
+          "prefix": null,
+          "percent": null,
+          "name": "Thiamine Hydrochloride",
+          "category": "vitamin",
+          "ingredientGroup": "Thiamin",
+          "uniiCode": "M572600E5P"
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "ingredientId": 303948,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 2.2,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 169,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Riboflavin",
+      "category": "vitamin",
+      "ingredientGroup": "Riboflavin",
+      "uniiCode": "TLM2976OFR",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 303949,
+          "prefix": null,
+          "percent": null,
+          "name": "Riboflavin 5-Phosphate Sodium",
+          "category": "vitamin",
+          "ingredientGroup": "Riboflavin",
+          "uniiCode": "20RD1DZH99"
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "ingredientId": 280746,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 10,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 63,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Niacin",
+      "category": "vitamin",
+      "ingredientGroup": "Niacin",
+      "uniiCode": "2679MF687A",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280445,
+          "prefix": null,
+          "percent": null,
+          "name": "Niacinamide",
+          "category": "vitamin",
+          "ingredientGroup": "Niacin",
+          "uniiCode": "25X51I8RD4"
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "ingredientId": 296067,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 5,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 294,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B6",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B6",
+      "uniiCode": "KV2JZ1BI6Z",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280470,
+          "prefix": null,
+          "percent": null,
+          "name": "Pyridoxal 5-Phosphate",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B6",
+          "uniiCode": "F06SGE49M6"
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "ingredientId": 296368,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 340,
+          "unit": "mcg DFE",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 85,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Folate",
+      "category": "vitamin",
+      "ingredientGroup": "Folate",
+      "uniiCode": "935E97BOY8",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 296367,
+          "prefix": null,
+          "percent": null,
+          "name": "Quatrefolic",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "5-methyltetrahydrofolate glucosamine",
+          "uniiCode": "Q65PL71Q1A"
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "ingredientId": 281388,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 22,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 917,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Vitamin B12",
+      "category": "vitamin",
+      "ingredientGroup": "Vitamin B12",
+      "uniiCode": "8406EY2OQA",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 280220,
+          "prefix": null,
+          "percent": null,
+          "name": "Methylcobalamin",
+          "category": "vitamin",
+          "ingredientGroup": "Vitamin B12",
+          "uniiCode": "BR1SN1JS2W"
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "ingredientId": 280218,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 320,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 1067,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Biotin",
+      "category": "vitamin",
+      "ingredientGroup": "Biotin",
+      "uniiCode": "6SO6U10H04",
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 18,
+      "ingredientId": 280871,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 6,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 120,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Pantothenic Acid",
+      "category": "vitamin",
+      "ingredientGroup": "Pantothenic Acid (Vitamin B5)",
+      "uniiCode": "19F5HK2737",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 293281,
+          "prefix": null,
+          "percent": null,
+          "name": "D-Calcium Pantothenate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "568ET80C3D"
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "ingredientId": 359537,
+      "description": "",
+      "notes": "and ingredients with naturally occurring calcium",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 200,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 15,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Calcium",
+      "category": "mineral",
+      "ingredientGroup": "Calcium",
+      "uniiCode": null,
+      "alternateNames": [
+        "Ca"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 342974,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Dicalcium Malate",
+          "category": "mineral",
+          "ingredientGroup": "Calcium",
+          "uniiCode": "0"
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "ingredientId": 292411,
+      "description": "",
+      "notes": "naturally occurring",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 8,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 44,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iron",
+      "category": "mineral",
+      "ingredientGroup": "Iron",
+      "uniiCode": "E1UOL152H7",
+      "alternateNames": [
+        "Fe"
+      ],
+      "forms": []
+    },
+    {
+      "order": 21,
+      "ingredientId": 296443,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 120,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 10,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Phosphorus",
+      "category": "mineral",
+      "ingredientGroup": "Phosphorus",
+      "uniiCode": "27YLU75U4W",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 287041,
+          "prefix": null,
+          "percent": null,
+          "name": "Dipotassium Phosphate",
+          "category": "mineral",
+          "ingredientGroup": "Potassium",
+          "uniiCode": "CI71S98N1Z"
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "ingredientId": 294802,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 55,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 37,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Iodine",
+      "category": "mineral",
+      "ingredientGroup": "Iodine",
+      "uniiCode": "9679TC07X4",
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 294760,
+          "prefix": null,
+          "percent": null,
+          "name": "Potassium Iodide",
+          "category": "mineral",
+          "ingredientGroup": "Potassium",
+          "uniiCode": "1C4QK22F9J"
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "ingredientId": 325045,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 140,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 33,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Magnesium",
+      "category": "mineral",
+      "ingredientGroup": "Magnesium",
+      "uniiCode": null,
+      "alternateNames": [
+        "Mg"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 323908,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Dimagnesium Malate",
+          "category": "mineral",
+          "ingredientGroup": "Magnesium",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "ingredientId": 334404,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 12,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 109,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Zinc",
+      "category": "mineral",
+      "ingredientGroup": "Zinc",
+      "uniiCode": null,
+      "alternateNames": [
+        "Zn"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 334405,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Zinc Bisglycinate Chelate",
+          "category": "mineral",
+          "ingredientGroup": "Zinc",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "ingredientId": 339641,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 55,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 100,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Selenium",
+      "category": "mineral",
+      "ingredientGroup": "Selenium",
+      "uniiCode": null,
+      "alternateNames": [
+        "Se"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 263738,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Selenium Glycinate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Selenium",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 26,
+      "ingredientId": 348157,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 1.8,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 78,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Manganese",
+      "category": "mineral",
+      "ingredientGroup": "Manganese",
+      "uniiCode": "42Z2K6ZL8P",
+      "alternateNames": [
+        "Mn"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 348158,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Manganese Bisglycinate Chelate",
+          "category": "mineral",
+          "ingredientGroup": "Manganese",
+          "uniiCode": "0"
+        }
+      ]
+    },
+    {
+      "order": 27,
+      "ingredientId": 325049,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 55,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 157,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Chromium",
+      "category": "mineral",
+      "ingredientGroup": "Chromium",
+      "uniiCode": null,
+      "alternateNames": [
+        "Cr"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 325048,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Chromium Nicotinate Glycinate Chelate",
+          "category": "non-nutrient/non-botanical",
+          "ingredientGroup": "Chromium",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 28,
+      "ingredientId": 334423,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 150,
+          "unit": "mcg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 333,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Molybdenum",
+      "category": "mineral",
+      "ingredientGroup": "Molybdenum",
+      "uniiCode": "81AH48963U",
+      "alternateNames": [
+        "Mo"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 334422,
+          "prefix": null,
+          "percent": null,
+          "name": "Albion Molybdenum Glycinate",
+          "category": "mineral",
+          "ingredientGroup": "Molybdenum",
+          "uniiCode": "0"
+        }
+      ]
+    },
+    {
+      "order": 29,
+      "ingredientId": 292597,
+      "description": "",
+      "notes": "naturally occurring",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 540,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 23,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Sodium",
+      "category": "mineral",
+      "ingredientGroup": "Sodium",
+      "uniiCode": "9NEZ333N27",
+      "alternateNames": [
+        "Na"
+      ],
+      "forms": []
+    },
+    {
+      "order": 30,
+      "ingredientId": 296628,
+      "description": null,
+      "notes": "and ingredients with naturally occurring potassium",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 860,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": "=",
+              "percent": 18,
+              "footnote": null
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Potassium",
+      "category": "mineral",
+      "ingredientGroup": "Potassium",
+      "uniiCode": "RWP5GA015D",
+      "alternateNames": [
+        "K"
+      ],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 287041,
+          "prefix": null,
+          "percent": null,
+          "name": "Dipotassium Phosphate",
+          "category": "mineral",
+          "ingredientGroup": "Potassium",
+          "uniiCode": "CI71S98N1Z"
+        },
+        {
+          "order": 2,
+          "ingredientId": 296526,
+          "prefix": null,
+          "percent": null,
+          "name": "Tripotassium Citrate",
+          "category": "mineral",
+          "ingredientGroup": "Potassium",
+          "uniiCode": "86R1NVR0HW"
+        }
+      ]
+    },
+    {
+      "order": 31,
+      "ingredientId": 135604,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 9,
+          "unit": "Gram(s)",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [
+        {
+          "order": 32,
+          "ingredientId": 268754,
+          "description": null,
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 58,
+              "operator": "=",
+              "quantity": 2.07,
+              "unit": "Gram(s)",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value (DV) Not Established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "typical Alpha-Linolenic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "Alpha-Linolenic Acid",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        },
+        {
+          "order": 33,
+          "ingredientId": 268755,
+          "description": null,
+          "notes": "",
+          "quantity": [
+            {
+              "servingSizeOrder": 1,
+              "servingSizeQuantity": 58,
+              "operator": "=",
+              "quantity": 630,
+              "unit": "mg",
+              "dailyValueTargetGroup": [
+                {
+                  "name": "Adults and children 4 or more years of age",
+                  "operator": null,
+                  "percent": null,
+                  "footnote": "Daily Value (DV) Not Established"
+                }
+              ],
+              "servingSizeUnit": "Gram(s)"
+            }
+          ],
+          "nestedRows": [],
+          "name": "typical Linoleic Acid",
+          "category": "fatty acid",
+          "ingredientGroup": "Linoleic Acid",
+          "uniiCode": null,
+          "alternateNames": [],
+          "forms": []
+        }
+      ],
+      "name": "stabilized Flaxseed",
+      "category": "botanical",
+      "ingredientGroup": "Flax",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 34,
+      "ingredientId": 102825,
+      "description": "",
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 250,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "Preventium",
+      "category": "mineral",
+      "ingredientGroup": "Potassium",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": [
+        {
+          "order": 1,
+          "ingredientId": 33862,
+          "prefix": null,
+          "percent": null,
+          "name": "Potassium D-Glucarate",
+          "category": "mineral",
+          "ingredientGroup": "Potassium D-Glucarate",
+          "uniiCode": null
+        }
+      ]
+    },
+    {
+      "order": 35,
+      "ingredientId": 38212,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 55,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "N-Acetyl-L-Cysteine",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "N-Acetyl Cysteine",
+      "uniiCode": null,
+      "alternateNames": [],
+      "forms": []
+    },
+    {
+      "order": 36,
+      "ingredientId": 305557,
+      "description": null,
+      "notes": "",
+      "quantity": [
+        {
+          "servingSizeOrder": 1,
+          "servingSizeQuantity": 58,
+          "operator": "=",
+          "quantity": 29,
+          "unit": "mg",
+          "dailyValueTargetGroup": [
+            {
+              "name": "Adults and children 4 or more years of age",
+              "operator": null,
+              "percent": null,
+              "footnote": "Daily Value (DV) Not Established"
+            }
+          ],
+          "servingSizeUnit": "Gram(s)"
+        }
+      ],
+      "nestedRows": [],
+      "name": "L-Glutathione",
+      "category": "non-nutrient/non-botanical",
+      "ingredientGroup": "Gluthathione",
+      "uniiCode": "GAN16C9B8O",
+      "alternateNames": [],
+      "forms": []
+    }
+  ],
+  "otheringredients": {
+    "text": null,
+    "ingredients": [
+      {
+        "order": 1,
+        "ingredientId": 281660,
+        "name": "Sunflower Oil",
+        "category": "fat",
+        "ingredientGroup": "Sunflower Oil",
+        "uniiCode": "3W1JG795YI",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 2,
+        "ingredientId": 295222,
+        "name": "Cocoa, Powder",
+        "category": "botanical",
+        "ingredientGroup": "cocoa",
+        "uniiCode": "D9108TZ9KG",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 3,
+        "ingredientId": 284500,
+        "name": "Natural Flavors",
+        "category": "other",
+        "ingredientGroup": "Flavor",
+        "uniiCode": "1",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 4,
+        "ingredientId": 284793,
+        "name": "Medium Chain Triglyceride Oil",
+        "category": "fat",
+        "ingredientGroup": "Medium chain triglycerides (MCT)",
+        "uniiCode": "0",
+        "alternateNames": [
+          "MCT Oil"
+        ],
+        "forms": []
+      },
+      {
+        "order": 5,
+        "ingredientId": 299438,
+        "name": "Cellulose Gum",
+        "category": "fiber",
+        "ingredientGroup": "Cellulose",
+        "uniiCode": "K679OBS311",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 6,
+        "ingredientId": 283063,
+        "name": "Xanthan Gum",
+        "category": "complex carbohydrate",
+        "ingredientGroup": "Xanthan Gum",
+        "uniiCode": "TTV12P4NEE",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 7,
+        "ingredientId": 287684,
+        "name": "Taurine",
+        "category": "non-nutrient/non-botanical",
+        "ingredientGroup": "Taurine",
+        "uniiCode": "1EQV5MLY3D",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 8,
+        "ingredientId": 286072,
+        "name": "Glycine",
+        "category": "amino acid",
+        "ingredientGroup": "Glycine",
+        "uniiCode": "TE7660XO1C",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 9,
+        "ingredientId": 326485,
+        "name": "Aminogen",
+        "category": "enzyme",
+        "ingredientGroup": "Proteolytic Enzymes (Proteases)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": [
+          {
+            "order": 1,
+            "ingredientId": 40489,
+            "prefix": null,
+            "percent": null,
+            "name": "Fungal Proteases",
+            "category": "enzyme",
+            "ingredientGroup": "Proteolytic Enzymes (Proteases)",
+            "uniiCode": null
+          }
+        ]
+      },
+      {
+        "order": 10,
+        "ingredientId": 301359,
+        "name": "Monk Fruit Extract",
+        "category": "botanical",
+        "ingredientGroup": "Lo Han Guo",
+        "uniiCode": "NOU2FB51TW",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 11,
+        "ingredientId": 286075,
+        "name": "L-Glutamine",
+        "category": "amino acid",
+        "ingredientGroup": "Glutamine",
+        "uniiCode": "0RH81L854J",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 12,
+        "ingredientId": 283054,
+        "name": "Guar Gum",
+        "category": "fiber",
+        "ingredientGroup": "Guar",
+        "uniiCode": "E89I1637KE",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 13,
+        "ingredientId": 293311,
+        "name": "Silica",
+        "category": "mineral",
+        "ingredientGroup": "Silicon",
+        "uniiCode": "ETJ7Z6XBU4",
+        "alternateNames": [],
+        "forms": []
+      },
+      {
+        "order": 14,
+        "ingredientId": 5554,
+        "name": "mixed Tocopherols",
+        "category": "vitamin",
+        "ingredientGroup": "Vitamin E (mixed tocopherols)",
+        "uniiCode": null,
+        "alternateNames": [],
+        "forms": []
+      }
+    ]
+  },
+  "offMarket": 0,
+  "entryDate": "2025-09-25"
+}
