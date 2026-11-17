@@ -1,0 +1,79 @@
+{
+  "label_id": "retailer:22492",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "Hypromellose (cellulose capsule)",
+      "note": "Other ingredient row missing (GSRS hypromellose 3NXW29V3WO, as in the examples)."
+    },
+    {
+      "text": "stearic acid (vegetable source)",
+      "note": "Other ingredient row missing (stearic acid, source vegetable; PubChem CID 5281)."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C02",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C03",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C04",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C27",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [
+    {
+      "claim_id": "C08",
+      "quote": "Not manufactured with yeast, wheat, gluten, soy, corn, milk, egg, fish, shellfish or tree nut ingredients.",
+      "note": "States no gluten ingredients without a gluten-free claim, which is exactly C08; the output left it only in candidates."
+    }
+  ],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

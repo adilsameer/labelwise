@@ -1,0 +1,112 @@
+{
+  "label_id": "retailer:62350",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.1",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parse: Verbatim and parent dropped the genus and the strain: it should be 'Lactobacillus rhamnosus (GR-1)', parent 'lactobacillus rhamnosus', strain 'GR-1'. Identity: Reason \"no name 'rhamnosus'\" comes from the bad split; it should be strain_no_id (NCBI has no GR-1 taxon) with nearest species id 47715 Lacticaseibacillus rhamnosus."
+    },
+    {
+      "row_id": "r1.2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parse: Parent should be 'inulin' (the named substance, form powder); 'prebiotic fiber' is a descriptor. Identity: GSRS has Inulin (UNII JOS53KRJ01), so 'not_one_substance' is false; at most form_no_id for the powder with that id."
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "Hypromellose capsules",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "microcrystalline cellulose",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "magnesium stearate",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "silicon dioxide (silica)",
+      "note": "Other ingredients row missing from output."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "mark": "wrong",
+      "note": "'Made Without: ... gluten' is a recipe/ingredient statement (claims.md treats 'not made with wheat' as recipe text), so it is C08 No gluten ingredients, not C07 Gluten free."
+    },
+    {
+      "claim_id": "C10",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C12",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C34",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [
+    {
+      "claim_id": "C08",
+      "quote": "Made Without: GMOs, gluten, dairy, peanuts, tree nuts, animal products/ by products",
+      "note": "The gluten part of the 'Made Without' line is C08 (no gluten ingredients), not C07."
+    }
+  ],
+  "candidates": [],
+  "evidence": [
+    {
+      "row_id": "r1.3",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.5",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

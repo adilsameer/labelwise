@@ -1,0 +1,124 @@
+{
+  "label_id": "retailer:30326",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "856YO1Z64F is TURMERIC (Curcuma longa root) and carries the GSRS name CURCUMA LONGA ROOT EXTRACT."
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "Vegetable cellulose",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "vegetable magnesium stearate",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "silica",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "microcrystalline cellulose",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "phyto₂x® blend",
+      "note": "Blend header in other ingredients missing from output."
+    },
+    {
+      "text": "l-ascorbic acid",
+      "note": "Member of phyto₂x® blend missing from output."
+    },
+    {
+      "text": "natural beta-carotene",
+      "note": "Member of phyto₂x® blend missing from output."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "mark": "ok",
+      "note": "Quote 'Vegans' is minimal; 'Suitable for Vegans' would be better."
+    },
+    {
+      "claim_id": "C03",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C07",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C09",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C10",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C11",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C15",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C17",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C18",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [
+    {
+      "claim_id": "C24",
+      "quote": "Non-GMO Certified by NSF",
+      "note": "States that NSF certifies the product (for non-GMO); arguably C24 and at least a candidate."
+    }
+  ],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "label_id": "retailer:64033",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 1.7",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.7,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Carbohydrate <1 g",
+      "parent": "total carbohydrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Sugars 0 g",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Sugar Alcohol <0.5 g",
+      "parent": "sugar alcohol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Calcium 32 mg",
+      "parent": "calcium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 32,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Proprietary Probiotic Blend (6B CFU#) 34 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 34,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "not_disclosed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the label does not list the members"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Lactobacillus rhamnosus, (LGG®)",
+      "parent": "lactobacillus rhamnosus",
+      "form": null,
+      "source": null,
+      "strain": "LGG",
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "47715",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47715"
+      },
+      "status": "review",
+      "reason": "strain_no_id: no NCBI taxonomy id for strain LGG; the id is for the species Lacticaseibacillus rhamnosus"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Bifidobacterium animalis ssp. lactis, (BB-12®)",
+      "parent": "bifidobacterium animalis subsp. lactis",
+      "form": null,
+      "source": null,
+      "strain": "BB-12",
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "552531",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=552531"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Sugar Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C32",
+      "claim": "Chewable",
+      "quote": "Chewable",
+      "where": "title"
+    },
+    {
+      "claim_id": "C33",
+      "claim": "For children",
+      "quote": "Kids",
+      "where": "title"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/552531/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_552531.json"
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "label_id": "dsld:239579",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "5280531 is Retinol Palmitate."
+    },
+    {
+      "row_id": "r7",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "54670067 is L-Ascorbic Acid."
+    },
+    {
+      "row_id": "r8",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "5280795 is Vitamin D3."
+    },
+    {
+      "row_id": "r9",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "86472 is (2R,4'R,8'R)-alpha-tocopheryl acetate = d-alpha."
+    },
+    {
+      "row_id": "r10",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "Nutrition-panel sodium; 9NEZ333N27 is Sodium; review is fine."
+    },
+    {
+      "row_id": "r11",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r12",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "'EPA/DHA' names two substances and should be split into r12.1 EPA and r12.2 DHA; source should be 'fish' (oil concentrate is the form), not 'purified fish oil concentrate'."
+    },
+    {
+      "row_id": "r13",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "5280934 is alpha-linolenic acid."
+    },
+    {
+      "row_id": "r14",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "9G5L16BK6N is CORN SYRUP with GSRS name GLUCOSE SYRUP [FCC]."
+    },
+    {
+      "row_id": "r15",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Sugar is an other ingredient, not a nutrition-facts line, so the nutrition_panel reason is false; PubChem name 'sugar' gives sucrose CID 5988."
+    },
+    {
+      "row_id": "r16",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r17",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "2G86QN327L is GELATIN, UNSPECIFIED."
+    },
+    {
+      "row_id": "r18.1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "No GSRS/PubChem name for canola (or rapeseed) lecithin; no_match is true."
+    },
+    {
+      "row_id": "r18.2",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "CID 22230 is citric acid monohydrate; the label says Citric Acid, which is CID 311 (PubChem name lookup returns 311)."
+    },
+    {
+      "row_id": "r18.3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18.4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "444972 is Fumaric Acid."
+    },
+    {
+      "row_id": "r18.5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "GSRS has LACTIC ACID, DL- and LACTIC ACID, UNSPECIFIED FORM; reason is true (PubChem CID 612 would also fit)."
+    },
+    {
+      "row_id": "r18.6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    }
+  ],
+  "missed_rows": [],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "mark": "ok",
+      "note": "'No gluten' states the product contains no gluten."
+    },
+    {
+      "claim_id": "C10",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C18",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C28",
+      "mark": "ok",
+      "note": "Full text is 'Made in the USA with US & International ingredients'; still made in USA."
+    },
+    {
+      "claim_id": "C32",
+      "mark": "ok",
+      "note": "Quote 'Chew' is minimal; 'Chew thoroughly before swallowing' would be the better quote."
+    },
+    {
+      "claim_id": "C38",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C40",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [
+    {
+      "claim_id": "C17",
+      "quote": "No synthetic FD&C dyes",
+      "note": "States no synthetic (artificial) dyes, which is C17."
+    }
+  ],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r6",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r8",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r9",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r14",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r16",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r17",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18.2",
+      "mark": "wrong",
+      "note": "Copy and summary match CID 22230, but that is citric acid monohydrate, not the label's citric acid (CID 311), so the hazards are for the wrong substance."
+    },
+    {
+      "row_id": "r18.4",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

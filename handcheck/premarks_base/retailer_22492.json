@@ -1,0 +1,89 @@
+{
+  "label_id": "retailer:22492",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Cascara Sagrada (Rhamnus purshiana) (Bark) 450 mg",
+      "parent": "rhamnus purshiana",
+      "form": null,
+      "source": "bark",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 450,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "4VBP01X99F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(4VBP01X99F)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "Vegetarian",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C04",
+      "claim": "Halal",
+      "quote": "Halal",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO Project Verified",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "not manufactured with yeast, wheat, gluten, soy, corn, milk, egg, fish, shellfish or tree nut ingredients",
+      "quote": "Not manufactured with yeast, wheat, gluten, soy, corn, milk, egg, fish, shellfish or tree nut ingredients."
+    },
+    {
+      "phrase": "produced in a gmp facility that processes other ingredients containing these allergens",
+      "quote": "Produced in a GMP facility that processes other ingredients containing these allergens."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/4VBP01X99F/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_4VBP01X99F.json"
+    }
+  ]
+}

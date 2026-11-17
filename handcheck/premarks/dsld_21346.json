@@ -1,0 +1,96 @@
+{
+  "label_id": "dsld:21346",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "ZQH6VH092Z is ELEUTHERO (Eleutherococcus senticosus root/rhizome) in GSRS."
+    },
+    {
+      "row_id": "r1.2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "61ZBX54883 is LICORICE, UNSPECIFIED (Glycyrrhiza spp. root mixture)."
+    },
+    {
+      "row_id": "r1.3",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Label and DSLD give only the genus ('Polygonatum (unspecified)'), so W93B56AH6R (Polygonatum cyrtonema root) is one guessed species; the reason should be ambiguous_name (species not given), not form_no_id."
+    },
+    {
+      "row_id": "r1.4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "TKD8LH0X2Z is REISHI (Ganoderma lucidum fruiting body)."
+    },
+    {
+      "row_id": "r1.5",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Reason is false: GSRS has a SCHIZANDRA concept that points to SCHISANDRA CHINENSIS FRUIT ABS794681C (the program itself uses ABS794681C for 'schizandra' in retailer:16751)."
+    },
+    {
+      "row_id": "r1.6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "Review is right; 'Solomon's seal' covers several Polygonatum species in GSRS, so ambiguous_name would be a better code than no_match."
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "962 is Water."
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "702 is Ethanol (grain alcohol)."
+    }
+  ],
+  "missed_rows": [],
+  "claims": [
+    {
+      "claim_id": "C23",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [],
+  "candidates": [],
+  "evidence": [
+    {
+      "row_id": "r1.1",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.2",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.4",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

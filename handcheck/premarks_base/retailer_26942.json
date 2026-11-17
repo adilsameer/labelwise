@@ -1,0 +1,661 @@
+{
+  "label_id": "retailer:26942",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Thiamin (Vitamin B-1) (from Thiamin HCl) 10 mg",
+      "parent": "thiamin",
+      "form": null,
+      "source": "thiamin hcl",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6042"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of thiamin; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Riboflavin (Vitamin B-2) 10 mg",
+      "parent": "riboflavin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "493570",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/493570"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of riboflavin; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Niacin (Vitamin B-3) (as Niacinamide) 20 mg",
+      "parent": "niacin",
+      "form": "niacinamide",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 20,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "936",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/936"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Vitamin B-6 (from Pyridoxine HCl) 10 mg",
+      "parent": "vitamin b-6",
+      "form": null,
+      "source": "pyridoxine hcl",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "1054",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1054"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin b-6; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Folate 680 mcg DFE (400 mcg folic acid)",
+      "parent": "folate",
+      "form": "folic acid",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 680,
+        "unit": "mcg DFE",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398658",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398658"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Vitamin B-12 (as Methylcobalamin) 1 mg (1,000 mcg)",
+      "parent": "vitamin b-12",
+      "form": "methylcobalamin",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "73415798",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/73415798"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Pantothenic Acid (from Calcium Pantothenate) 20 mg",
+      "parent": "pantothenic acid",
+      "form": null,
+      "source": "calcium pantothenate",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 20,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6613",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6613"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of pantothenic acid; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Iodine (from Potassium Iodide) 150 mcg",
+      "parent": "iodine",
+      "form": null,
+      "source": "potassium iodide",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 150,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "807",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/807"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iodine; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Magnesium (from Magnesium Malate) 15 mg",
+      "parent": "magnesium",
+      "form": null,
+      "source": "magnesium malate",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 15,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462224",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462224"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of magnesium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Chromium (from Chromium Nicotinate Glycinate) (Albion™) 200 mcg",
+      "parent": "chromium",
+      "form": null,
+      "source": "chromium nicotinate glycinate",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 200,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23976",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23976"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of chromium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Natural Caffeine (from Green Coffee Beans) (Coffea robusta)** 100 mg",
+      "parent": "caffeine",
+      "form": null,
+      "source": "green coffee beans, coffea robusta",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "2519",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2519"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Guarana Extract** [Guarana Extract (Seed), Maltodextrin] 80 mg",
+      "parent": "guarana",
+      "form": "extract",
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 80,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C21GE7524R",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C21GE7524R)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Green Tea Extract (Leaf)** 50 mg",
+      "parent": "green tea",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "W2ZU1RY8B0",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(W2ZU1RY8B0)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Yerba Mate Extract**[Yerba Mate Extract (Leaf), Maltodextrin] 50 mg",
+      "parent": "yerba mate",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "1Q953B4O4F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(1Q953B4O4F)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Rhodiola Extract (Rhodiola rosea) (Root) 50 mg",
+      "parent": "rhodiola rosea",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS gives 'sedum roseum root' (3S5ITS5ULN) from sedum roseum, and NCBI maps 'rhodiola' to Rhodiola (202994); confirm which plant the label means"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Asian Ginseng (Panax ginseng) (root) 50 mg",
+      "parent": "panax ginseng",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "CUQ3A77YXI",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(CUQ3A77YXI)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Taurine (Free-Form) 250 mg",
+      "parent": "taurine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "1123",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1123"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "L-Tyrosine (Free-Form) 250 mg",
+      "parent": "l-tyrosine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6057",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6057"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "L-Carnitine (Carnipure®) 250 mg",
+      "parent": "l-carnitine )",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "10917",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10917"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "L-Citrulline (Free-Form) 100 mg",
+      "parent": "l-citrulline",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "9750",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9750"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "CoQ10 (Coenzyme Q10) (Ubiquinone) 30 mg",
+      "parent": "coq10",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281915",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281915"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "not manufactured with wheat, gluten, soy, milk, egg, fish, shellfish, tree nut or sesame ingredients",
+      "quote": "Not manufactured with wheat, gluten, soy, milk, egg, fish, shellfish, tree nut or sesame ingredients."
+    },
+    {
+      "phrase": "produced in a gmp facility that processes other ingredients containing these allergens",
+      "quote": "Produced in a GMP facility that processes other ingredients containing these allergens."
+    }
+  ],
+  "for_a_person": [
+    {
+      "kind": "unclear",
+      "note": "'Hala' may be a misspelling of 'Halal'; check the label",
+      "quote": "Hala"
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (28.6%), H319 (99.6%), H335 (28.4%); 3 of 1154 reports Not Classified. Hazardous Substances Data Bank (HSDB): H315, H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/936/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/936.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 188 of 203 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/135398658/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/135398658.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/73415798/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/73415798.json"
+    },
+    {
+      "row_id": "r11",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H302. ECHA C&L via PubChem: H302 (98.9%); 13 of 2217 reports Not Classified. NITE-CMC: H301, H332, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H302.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2519/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/2519.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C21GE7524R/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C21GE7524R.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/W2ZU1RY8B0/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_W2ZU1RY8B0.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/1Q953B4O4F/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_1Q953B4O4F.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/CUQ3A77YXI/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_CUQ3A77YXI.json"
+    },
+    {
+      "row_id": "r17",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (81.5%), H319 (81.5%), H335 (81.4%); 307 of 1656 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/1123/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/1123.json"
+    },
+    {
+      "row_id": "r18",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (14.9%), H319 (14.9%), H335 (14.6%); 226 of 268 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6057/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6057.json"
+    },
+    {
+      "row_id": "r19",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (89.5%), H319 (89.5%); 159 of 1511 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10917/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/10917.json"
+    },
+    {
+      "row_id": "r20",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (85.5%), H319 (85.5%); 10 of 69 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/9750/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/9750.json"
+    },
+    {
+      "row_id": "r21",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 85 of 85 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281915/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281915.json"
+    }
+  ]
+}

@@ -3,3 +3,5 @@ __pycache__/
 .DS_Store
 .playwright-mcp/
 handcheck/marks.json.bak
+audit_ids.tsv
+handcheck/review.html

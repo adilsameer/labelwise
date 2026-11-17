@@ -1,0 +1,22 @@
+{
+  "label_id": "retailer:13748",
+  "rows": [
+    {"row_id": "r1", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r2", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r3", "parse": "ok", "identity": "ok", "note": "9NEZ333N27 is Sodium in GSRS."},
+    {"row_id": "r4", "parse": "wrong", "identity": "ok", "note": "Parent 'bioactive neocell collagen' keeps the brand and drops 'peptides': parent should be collagen (form peptides/hydrolyzed), source bovine; review is still right because GSRS has only MW-specific hydrolysed bovine collagen (e.g. 5WE8P977RQ, 3500 MW) and the label gives no MW."}
+  ],
+  "missed_rows": [],
+  "claims": [
+    {"claim_id": "C05", "mark": "ok", "note": ""},
+    {"claim_id": "C07", "mark": "ok", "note": ""},
+    {"claim_id": "C09", "mark": "ok", "note": ""},
+    {"claim_id": "C11", "mark": "ok", "note": ""}
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {"n": 1, "mark": "ok", "note": ""},
+    {"n": 2, "mark": "ok", "note": ""}
+  ],
+  "evidence": []
+}

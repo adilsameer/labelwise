@@ -1,0 +1,123 @@
+{
+  "label_id": "retailer:21018",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.1",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "GSRS KU94FIY6JB is CARICA PAPAYA FRUIT and lists 'CARICA PAPAYA FRUIT POWDER' as a name, so the row should be identified; 'no UNII for the fruit powder' is false."
+    },
+    {
+      "row_id": "r1.2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r1.3",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Papain is the enzyme and A236A06Y32 is exactly Papain; '(fruit)' is the source, not a form, so the row should be identified and the form_no_id reason is false."
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "Sucrose",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "sorbitol",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "dextrose",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "cellulose",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "natural pineapple flavor",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "stearic acid",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "silicon dioxide",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "maltodextrin (non-GMO)",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "Artificial color (FD&C yellow # 6)",
+      "note": "Other ingredient row missing from the output."
+    },
+    {
+      "text": "magnesium stearate",
+      "note": "Other ingredient row missing from the output."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C18",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C19",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C32",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r1.2",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

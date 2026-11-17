@@ -1,0 +1,292 @@
+{
+  "label_id": "dsld:213195",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r8",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r9",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "The label gives '< 1 Gram(s)'; amount value and unit are both null, so at least the unit (Gram(s)) is lost."
+    },
+    {
+      "row_id": "r10",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r11",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r12",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r14",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r15",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r16",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r17",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18.1",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "CID 13506 'Amaranth' is the azo dye (trisodium naphthylazo sulphonate, FD&C Red 2), not the amaranth grain seed in the sprouted seed complex; source should be 'seed' and the row should be review (species not given; e.g. GSRS AMARANTHUS CRUENTUS SEED 0C5WAA83X5 is one candidate)."
+    },
+    {
+      "row_id": "r18.2",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parent should be 'chia' with source 'seed' (black is a variety); GSRS has CHIA SEED / SALVIA HISPANICA SEED NU0OLX06F8, so no_match is only an artefact of the unnormalised name."
+    },
+    {
+      "row_id": "r18.3",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "UOI4FT57BZ is BROCCOLI HEAD (Brassica oleracea var. italica head), but this broccoli is in a sprouted seed complex; GSRS has 'Broccoli seed' TRV7Y4GE8Q, so identified with the head id is wrong (source 'seed' also missing)."
+    },
+    {
+      "row_id": "r18.4",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parent should be 'flax' with source 'seed' (golden is a variety); GSRS has FLAX SEED 4110YT348C, so no_match comes from the unnormalised name."
+    },
+    {
+      "row_id": "r18.5",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "Source 'seed' from 'Sprouted seed Complex' is missing."
+    },
+    {
+      "row_id": "r19",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r20",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r21",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "Parent should be barley (Hordeum vulgare) with source grass/leaf and form juice concentrate, not the whole string 'barley grass juice conc'."
+    },
+    {
+      "row_id": "r22",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r23",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r24.1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r24.2",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Review is right, but the reason detail 'GSRS has no such name' is false: GSRS STEVIA REBAUDIANA LEAF 6TC6NN0876 carries the name 'STEVIA [MI]' (the natural nearest id)."
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "organic Sprouted seed Complex (Amaranth, Black Chia, Broccoli, Golden Flax, Quinoa)",
+      "note": "The named blend itself (DSLD category 'blend') has no blend_header row; it was split into members r18.1-r18.5 with role excipient and group null, losing the blend structure."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C07",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C09",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C10",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C11",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C12",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C13",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C14",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C17",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C18",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C19",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C23",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 3,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 5,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r12",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18.1",
+      "mark": "ok",
+      "note": "Copy and summary are faithful to CID 13506, but that CID is the azo dye, so this hazard record (H315/H319/H335) is attached to the wrong substance because of the r18.1 identity error."
+    },
+    {
+      "row_id": "r18.3",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

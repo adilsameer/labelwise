@@ -1,0 +1,443 @@
+{
+  "label_id": "retailer:21622",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 30",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Fat 0 g",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Saturated Fat 0 g",
+      "parent": "saturated fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Trans Fat 0 g",
+      "parent": "trans fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Cholesterol 0 mg",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Sodium 180 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 180,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9NEZ333N27",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9NEZ333N27)"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Total Carbohydrates 7 g",
+      "parent": "total carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 7,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Dietary Fiber 1 g",
+      "parent": "dietary fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Total Sugars 4 g",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Includes 0 g Added Sugars",
+      "parent": "includes 0 g added sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Protein 1 g",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Vitamin D 0 mcg",
+      "parent": "vitamin d",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9VU1KI44GP",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9VU1KI44GP)"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin d; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Calcium 10 mg",
+      "parent": "calcium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Iron 0.6 mg",
+      "parent": "iron",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.6,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23925",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23925"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iron; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Potassium 220 mg",
+      "parent": "potassium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 220,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "RWP5GA015D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(RWP5GA015D)"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of potassium; the id is for the nutrient name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO Project Verified",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "Organic",
+      "where": "title"
+    },
+    {
+      "claim_id": "C29",
+      "claim": "Whole food",
+      "quote": "whole food",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no additives",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients"
+    },
+    {
+      "phrase": "no animal products",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients"
+    },
+    {
+      "phrase": "no artificial ingredients",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients"
+    },
+    {
+      "phrase": "no fillers",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients"
+    },
+    {
+      "phrase": "no refined sugar",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients"
+    },
+    {
+      "phrase": "no sugar alcohols",
+      "quote": "Does not contain: gluten, preservatives, refined sugar, sugar alcohols, animal products, fillers or additives, artificial ingredients"
+    },
+    {
+      "phrase": "no fish",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients"
+    },
+    {
+      "phrase": "no sesame ingredients",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "Contains no added milk, egg, soy, peanut, tree nut, fish, shellfish, wheat, gluten, yeast or sesame ingredients"
+    },
+    {
+      "phrase": "manufactured in a facility that processes other products that contain milk, egg or fish",
+      "quote": "This product is manufactured in a facility that processes other products that contain milk, egg or fish."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

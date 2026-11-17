@@ -1,0 +1,211 @@
+{
+  "label_id": "retailer:62350",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Proprietary Women's Health Probiotic Blend50 Billion CFU/Serving**Lactobacillus rhamnosus (GR-1), Lactobacillus reuteri (RC-14), Lactobacillus acidophilus, Lactobacillus fermetum, Lactobacillus casei 250 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "rhamnosus (GR-1)",
+      "parent": "rhamnosus",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'rhamnosus'"
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "Lactobacillus reuteri (RC-14)",
+      "parent": "lactobacillus reuteri",
+      "form": null,
+      "source": null,
+      "strain": "RC-14",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1598",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1598"
+      },
+      "status": "review",
+      "reason": "strain_no_id: no NCBI taxonomy id for strain RC-14; the id is for the species Limosilactobacillus reuteri (label name found via GSRS 9913I24QEE)"
+    },
+    {
+      "row_id": "r1.3",
+      "verbatim": "Lactobacillus acidophilus",
+      "parent": "lactobacillus acidophilus",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1579",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1579"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.4",
+      "verbatim": "Lactobacillus fermetum",
+      "parent": "lactobacillus fermetum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: NCBI has no single taxon for 'lactobacillus fermetum'"
+    },
+    {
+      "row_id": "r1.5",
+      "verbatim": "Lactobacillus casei",
+      "parent": "lactobacillus casei",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1582",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1582"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Prebiotic Fiber (Inulin Powder) 250 mg",
+      "parent": "prebiotic fiber",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'prebiotic fiber' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Made Without: GMOs, gluten, dairy, peanuts, tree nuts, animal products/ by products",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Made Without: GMOs, gluten, dairy, peanuts, tree nuts, animal products/ by products",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "Made Without: GMOs, gluten, dairy, peanuts, tree nuts, animal products/ by products",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Made Without: GMOs, gluten, dairy, peanuts, tree nuts, animal products/ by products",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C34",
+      "claim": "For women",
+      "quote": "Women's",
+      "where": "title"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1.3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/1579/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_1579.json"
+    },
+    {
+      "row_id": "r1.5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/1582/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_1582.json"
+    }
+  ]
+}

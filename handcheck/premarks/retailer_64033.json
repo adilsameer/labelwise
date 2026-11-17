@@ -1,0 +1,121 @@
+{
+  "label_id": "retailer:64033",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "Parse: blend_contents should be 'listed': the label lists LGG and BB-12 under the Proprietary Probiotic Blend (rows r7, r8)."
+    },
+    {
+      "row_id": "r7",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parse: Row is a member of the blend r6: role should be blend_member, group 'r6', amount scope 'member'. Identity: NCBI has the strain taxon Lacticaseibacillus rhamnosus GG (taxid 568703), so 'strain_no_id: no NCBI taxonomy id for strain LGG' is false; the row should be identified with 568703."
+    },
+    {
+      "row_id": "r8",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "Parse: Row is a member of the blend r6: role should be blend_member, group 'r6', amount scope 'member'."
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "Xylitol",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "tricalcium phosphate",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "maltodextrin",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "natural flavors",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "citric acid",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "magnesium stearate",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "silica",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "guar gum",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "beet juice powder",
+      "note": "Other ingredients row missing from output."
+    },
+    {
+      "text": "stevia",
+      "note": "Other ingredients row missing from output."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C15",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C32",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C33",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [],
+  "candidates": [],
+  "evidence": [
+    {
+      "row_id": "r8",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

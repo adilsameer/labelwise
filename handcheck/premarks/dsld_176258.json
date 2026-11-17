@@ -1,0 +1,42 @@
+{
+  "label_id": "dsld:176258",
+  "rows": [
+    {"row_id": "r1", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r2", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r3", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r4", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r5", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r6", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r7", "parse": "ok", "identity": "ok", "note": "02VJ3CEY9G is CODONOPSIS PILOSULA ROOT in GSRS; nearest id is right for form_no_id."},
+    {"row_id": "r8", "parse": "ok", "identity": "ok", "note": "Review is right; the label's 'membranous' is a misspelling of membranaceus, and GSRS has Astragalus mongholicus root 922OP8YUPF (syn. A. membranaceus root) that could be given as the nearest id."},
+    {"row_id": "r9", "parse": "ok", "identity": "ok", "note": "3S5ITS5ULN is SEDUM ROSEUM ROOT (= Rhodiola rosea root); nearest id is right."},
+    {"row_id": "r10", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r11", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r12", "parse": "wrong", "identity": "wrong", "note": "Palm kernel oil is not palm oil (parent 'palm oil' + source 'kernel' is wrong), and GSRS has its own UNII PALM KERNEL OIL B0S90M0233, so form_no_id is false and 5QUO05548Z (palm fruit oil) is a different oil."},
+    {"row_id": "r13", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r14", "parse": "ok", "identity": "ok", "note": "D9108TZ9KG is COCOA with name COCOA POWDER in GSRS."},
+    {"row_id": "r15", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r16", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r17", "parse": "ok", "identity": "ok", "note": ""},
+    {"row_id": "r18", "parse": "ok", "identity": "ok", "note": ""}
+  ],
+  "missed_rows": [],
+  "claims": [
+    {"claim_id": "C07", "mark": "ok", "note": ""},
+    {"claim_id": "C17", "mark": "ok", "note": ""},
+    {"claim_id": "C18", "mark": "ok", "note": ""},
+    {"claim_id": "C28", "mark": "ok", "note": "Full text is 'Made in the USA from globally sourced materials'; still a made-in-USA claim, but a grader could see it as a qualified claim."},
+    {"claim_id": "C32", "mark": "ok", "note": ""}
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {"n": 1, "mark": "ok", "note": ""},
+    {"n": 2, "mark": "ok", "note": ""}
+  ],
+  "evidence": [
+    {"row_id": "r13", "mark": "ok", "note": ""},
+    {"row_id": "r14", "mark": "ok", "note": ""},
+    {"row_id": "r16", "mark": "ok", "note": ""},
+    {"row_id": "r18", "mark": "ok", "note": ""}
+  ]
+}

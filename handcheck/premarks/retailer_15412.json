@@ -1,0 +1,23 @@
+{
+  "label_id": "retailer:15412",
+  "rows": [
+    {"row_id": "r1", "parse": "ok", "identity": "ok", "note": "CID 90480033 is nicotinamide riboside chloride (CAS 23111-00-4)."}
+  ],
+  "missed_rows": [
+    {"text": "Microcrystalline cellulose", "note": "Other ingredients row missing from output."},
+    {"text": "vegetable cellulose (capsule)", "note": "Other ingredients row missing from output."},
+    {"text": "silica", "note": "Other ingredients row missing from output."},
+    {"text": "vegetable stearate", "note": "Other ingredients row missing from output."}
+  ],
+  "claims": [
+    {"claim_id": "C07", "mark": "ok", "note": ""},
+    {"claim_id": "C20", "mark": "ok", "note": ""}
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {"n": 1, "mark": "ok", "note": "Same treatment as the graders' example 01."}
+  ],
+  "evidence": [
+    {"row_id": "r1", "mark": "ok", "note": ""}
+  ]
+}

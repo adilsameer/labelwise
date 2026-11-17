@@ -1,0 +1,117 @@
+{
+  "label_id": "retailer:30326",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Standardized Turmeric Extract (root)(curcuminoids 372 mg [93%]) 400 mg",
+      "parent": "turmeric",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": "curcuminoids 372 mg [93%]",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "856YO1Z64F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(856YO1Z64F)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegans",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher Parve",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Wheat & Dairy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Wheat & Dairy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no artificial sweetener",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color"
+    },
+    {
+      "phrase": "no sodium",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "Free of: Gluten, wheat, dairy, soy, yeast, sugar, sodium, artificial flavor, sweetener and color"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/856YO1Z64F/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_856YO1Z64F.json"
+    }
+  ]
+}

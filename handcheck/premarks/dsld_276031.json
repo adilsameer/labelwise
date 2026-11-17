@@ -1,0 +1,141 @@
+{
+  "label_id": "dsld:276031",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Identity: 'Chamomile' is unspecified (German vs Roman; DSLD says 'Chamomile (unspecified)'), so the reason should be ambiguous_name; also GSRS lists 'CHAMOMILLA RECUTITA (MATRICARIA) FLOWER POWDER' under FGL3685T2X, so 'no UNII for the flower powder' is false."
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r8",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r9",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r10",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r11",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r12",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    }
+  ],
+  "missed_rows": [],
+  "claims": [
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C27",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C40",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "wrong",
+      "note": "'Manufactured in a cGMP facility' is claim C27 (Made under GMP), already on the list and claimed, so it is not a candidate."
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r10",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r11",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r12",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

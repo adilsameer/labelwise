@@ -1,0 +1,91 @@
+{
+  "label_id": "dsld:212804",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Folate (Folic Acid) is one nutrient declared as folic acid (DSLD form 'Folic Acid'), not a named mixture: parent should be folate, form folic acid, and the certain id is folic acid CID 135398658, so the 'blend_header: named mixture' reason is false."
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Folic acid is itself a specific compound and CID 135398658 is exactly Folic Acid, so the row should be identified; 'form_not_given' is a false reason."
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r8",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    }
+  ],
+  "missed_rows": [],
+  "claims": [
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [
+    {
+      "claim_id": "C36",
+      "quote": "Allergen statement: Contains milk.",
+      "note": "Allergen statement says 'Contains milk' (and Lactose (Milk) is an ingredient); C36 is missing."
+    }
+  ],
+  "candidates": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

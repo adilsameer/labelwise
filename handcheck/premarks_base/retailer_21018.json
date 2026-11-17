@@ -1,0 +1,155 @@
+{
+  "label_id": "retailer:21018",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Papaya Enzyme BlendPapaya Powder (fruit), Bromelain (from pineapple), Papain (from papaya) (fruit) 22 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 22,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "Papaya Powder (fruit)",
+      "parent": "papaya",
+      "form": "powder",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "KU94FIY6JB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(KU94FIY6JB)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the fruit powder; the id is for 'papaya'"
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "Bromelain (from pineapple)",
+      "parent": "bromelain",
+      "form": null,
+      "source": "pineapple",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "U182GP2CF3",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(U182GP2CF3)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.3",
+      "verbatim": "Papain (from papaya) (fruit",
+      "parent": "papain",
+      "form": null,
+      "source": "papaya, fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "A236A06Y32",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(A236A06Y32)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the fruit; the id is for 'papain'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "No added salt, yeast, preservatives or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "No added salt, yeast, preservatives or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C32",
+      "claim": "Chewable",
+      "quote": "Chewable",
+      "where": "title"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "laboratory tested",
+      "quote": "​ Laboratory Tested"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "No added salt, yeast, preservatives or artificial flavors"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "No added salt, yeast, preservatives or artificial flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/U182GP2CF3/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_U182GP2CF3.json"
+    }
+  ]
+}

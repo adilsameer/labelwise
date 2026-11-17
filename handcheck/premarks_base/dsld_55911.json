@@ -1,0 +1,325 @@
+{
+  "label_id": "dsld:55911",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin C (Ascorbic Acid) 50 mg",
+      "parent": "vitamin c",
+      "form": "ascorbic acid",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Folic Acid 400 mcg",
+      "parent": "folic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398658",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398658"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of folic acid; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Vitamin B12 (Form: as Methylcobalamin) 3000 mcg",
+      "parent": "vitamin b12",
+      "form": "methylcobalamin",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3000,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "73415798",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/73415798"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Fructose",
+      "parent": "fructose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5984",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5984"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Mannitol",
+      "parent": "mannitol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6251",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6251"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Stearic Acid",
+      "parent": "stearic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "natural Cherry flavor",
+      "parent": "cherry flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'cherry flavor' names a class or mixture"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Raspberry flavor",
+      "parent": "raspberry flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'raspberry flavor' names a class or mixture"
+    }
+  ],
+  "claims": [],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Ascorbic acid (EC: 200-066-2): 572 of 588 reports Not Classified; E-300 (EC: 477-330-0): Not Classified. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54670067.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/73415798/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/73415798.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5984/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5984.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: D-mannitol (EC: 200-711-8): 1450 of 1451 reports Not Classified; Mannitol (EC: 201-770-2): 31 of 31 reports Not Classified. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6251/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6251.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Stearic acid (EC: 200-313-4): H315 (25.1%); 1405 of 2057 reports Not Classified; octadecanoic acid (EC: 680-589-4): H301 (100%), H400 (100%). The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

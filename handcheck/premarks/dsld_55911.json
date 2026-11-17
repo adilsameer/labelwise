@@ -1,0 +1,112 @@
+{
+  "label_id": "dsld:55911",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Identity: Folic acid is itself a specific form (pteroylglutamic acid, CID 135398658, which the output already found); 'form_not_given' is a false reason and the row should be identified."
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Identity: CID 5984 is the open-chain keto form (synonyms incl. DL-fructose, CAS 30237-26-4); PubChem's 'fructose' name lookup gives CID 2723872 (D-fructose, CAS 57-48-7), which also has a GHS record."
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r8",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r9",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r10",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r11",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    }
+  ],
+  "missed_rows": [],
+  "claims": [],
+  "missed_claims": [],
+  "candidates": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r8",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r9",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

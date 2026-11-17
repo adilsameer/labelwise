@@ -1,0 +1,232 @@
+{
+  "label_id": "dsld:241928",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r4",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Identity: Cholesterol is one substance with a certain id (PubChem CID 5997); the reason 'nutrition facts line, not one substance' is false."
+    },
+    {
+      "row_id": "r8",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r9",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r10",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parse: Parent is mis-split as 'oil concentrate' with form 'oil'; it should be parent 'fish oil', form 'concentrate', source 'fish'. Identity: Reason 'no GSRS name oil concentrate' comes from the bad parse; GSRS has FISH OIL (UNII XGF7L72M0F), so the right call is form_no_id (concentrate) with that nearest id."
+    },
+    {
+      "row_id": "r11",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r12",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r14",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r15",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Parse: Parent is 'oil' with form 'oil'; it should be parent 'fish oil' (source fish, form null). Identity: GSRS has the exact name FISH OIL (UNII XGF7L72M0F); the reason \"no GSRS name 'oil'\" is an artifact of the bad parse."
+    },
+    {
+      "row_id": "r16",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r17",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r19",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Identity: GSRS lists 'MIXED TOCOPHEROLS' as a name of TOCOPHEROL (UNII R0ZB2556P8), so a certain id exists and 'not_one_substance' is a false reason (gelatin, also a mixture, was identified)."
+    }
+  ],
+  "missed_rows": [],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C07",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C11",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C17",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C18",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C19",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C26",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C27",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C28",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C38",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C40",
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "missed_claims": [],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "mark": "wrong",
+      "note": "'3rd party tested for quality & purity' is claim C26 (Third-party tested), which is on the list and already claimed, so it is not a candidate."
+    },
+    {
+      "n": 3,
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r12",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r16",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r17",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

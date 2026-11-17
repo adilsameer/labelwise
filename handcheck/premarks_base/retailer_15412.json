@@ -1,0 +1,61 @@
+{
+  "label_id": "retailer:15412",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Niagen® Nicotinamide Riboside Chloride 300 mg",
+      "parent": "nicotinamide riboside chloride",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 300,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "90480033",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/90480033"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "does not cause flushing",
+      "quote": "Nicotinamide Riboside Chloride does not cause flushing."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 3 of 3 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/90480033/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/90480033.json"
+    }
+  ]
+}

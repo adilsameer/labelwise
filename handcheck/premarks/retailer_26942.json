@@ -1,0 +1,257 @@
+{
+  "label_id": "retailer:26942",
+  "rows": [
+    {
+      "row_id": "r1",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Thiamin HCl is the form, not the source; it has a certain id (thiamine hydrochloride CID 6202), so form_not_given is false (6042 is thiamine chloride)."
+    },
+    {
+      "row_id": "r2",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Riboflavin is one compound with a certain id (CID 493570, the id given), so it should be identified; form_not_given is not a real reason."
+    },
+    {
+      "row_id": "r3",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "936 is Nicotinamide."
+    },
+    {
+      "row_id": "r4",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Pyridoxine HCl is the form, not the source; it has a certain id (pyridoxine hydrochloride CID 6019), so form_not_given is false."
+    },
+    {
+      "row_id": "r5",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "135398658 is Folic Acid."
+    },
+    {
+      "row_id": "r6",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r7",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Calcium pantothenate is the form, not the source; it has a certain id (CID 443753), so form_not_given is false."
+    },
+    {
+      "row_id": "r8",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Potassium iodide is the form, not the source; it has a certain id (CID 4875), so form_not_given is false (807 is elemental I2)."
+    },
+    {
+      "row_id": "r9",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Magnesium malate is the form, not the source; it has a certain id (CID 164748), so form_not_given is false."
+    },
+    {
+      "row_id": "r10",
+      "parse": "wrong",
+      "identity": "wrong",
+      "note": "Chromium nicotinate glycinate is the form, not the source; review is right but the reason should be form_no_id (no PubChem name), not form_not_given."
+    },
+    {
+      "row_id": "r11",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "2519 is Caffeine."
+    },
+    {
+      "row_id": "r12",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "The row also names maltodextrin ([Guarana Extract (Seed), Maltodextrin]), which is dropped; it should be split or shown as a mixture. C21GE7524R carries the GSRS name GUARANA EXTRACT."
+    },
+    {
+      "row_id": "r13",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "W2ZU1RY8B0 GREEN TEA LEAF carries the GSRS name GREEN TEA LEAF EXTRACT."
+    },
+    {
+      "row_id": "r14",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "The row also names maltodextrin ([Yerba Mate Extract (Leaf), Maltodextrin]), which is dropped. 1Q953B4O4F carries the GSRS name YERBA MATE EXTRACT."
+    },
+    {
+      "row_id": "r15",
+      "parse": "ok",
+      "identity": "wrong",
+      "note": "Not ambiguous: Sedum roseum is a synonym of Rhodiola rosea and 3S5ITS5ULN carries the GSRS name RHODIOLA ROSEA ROOT EXTRACT (NCBI Rhodiola rosea is 203015, not genus 202994); it should be identified as 3S5ITS5ULN."
+    },
+    {
+      "row_id": "r16",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "CUQ3A77YXI is Panax ginseng root (ASIAN GINSENG ROOT)."
+    },
+    {
+      "row_id": "r17",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18",
+      "parse": "ok",
+      "identity": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r19",
+      "parse": "wrong",
+      "identity": "ok",
+      "note": "Parent has a stray bracket ('l-carnitine )'); it should be 'l-carnitine'. CID 10917 (-)-carnitine is right."
+    },
+    {
+      "row_id": "r20",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "9750 is L-citrulline."
+    },
+    {
+      "row_id": "r21",
+      "parse": "ok",
+      "identity": "ok",
+      "note": "5281915 is Coenzyme Q10."
+    }
+  ],
+  "missed_rows": [
+    {
+      "text": "Hypromellose (cellulose capsule)",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "stearic acid (vegetable source)",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "silicon dioxide",
+      "note": "Other ingredient row missing from output."
+    },
+    {
+      "text": "microcrystalline cellulose",
+      "note": "Other ingredient row missing from output."
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C03",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "claim_id": "C27",
+      "mark": "ok",
+      "note": "Quote 'GMP' (from 'GMP Quality Assured' / 'GMP facility') is minimal but supports it."
+    }
+  ],
+  "missed_claims": [
+    {
+      "claim_id": "C28",
+      "quote": "Made and quality tested in the USA",
+      "note": "Says the product is made in the USA."
+    },
+    {
+      "claim_id": "C08",
+      "quote": "Not manufactured with wheat, gluten, soy, milk, egg, fish, shellfish, tree nut or sesame ingredients.",
+      "note": "Says no gluten ingredients without saying gluten free (C08); the rest of the sentence can stay a candidate."
+    }
+  ],
+  "candidates": [
+    {
+      "n": 1,
+      "mark": "ok",
+      "note": "The gluten part of this sentence is C08 (see missed claims); the rest is a valid candidate."
+    },
+    {
+      "n": 2,
+      "mark": "ok",
+      "note": ""
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r3",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r5",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r6",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r11",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r12",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r13",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r14",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r16",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r17",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r18",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r19",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r20",
+      "mark": "ok",
+      "note": ""
+    },
+    {
+      "row_id": "r21",
+      "mark": "ok",
+      "note": ""
+    }
+  ]
+}

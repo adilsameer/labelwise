@@ -1,0 +1,656 @@
+{
+  "label_id": "dsld:239579",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 20 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 20,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Fat 0.5 Gram(s)",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.5,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Carbohydrates 4 Gram(s)",
+      "parent": "total carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Total Sugars 3 Gram(s)",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Added Sugars 3 Gram(s)",
+      "parent": "added sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Vitamin A (Form: as Retinyl Palmitate) 150 mcg RAE",
+      "parent": "vitamin a",
+      "form": "retinyl palmitate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 150,
+        "unit": "mcg RAE",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280531",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280531"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Vitamin C (Ascorbic Acid) 6 mg",
+      "parent": "vitamin c",
+      "form": "ascorbic acid",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 6,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Vitamin D (Form: as Cholecalciferol) Note: 200 IU 5 mcg",
+      "parent": "vitamin d",
+      "form": "cholecalciferol",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280795",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280795"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Vitamin E (Form: as D-Alpha Tocopheryl Acetate) 2 mg",
+      "parent": "vitamin e",
+      "form": "d-alpha tocopheryl acetate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "86472",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/86472"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Sodium 5 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9NEZ333N27",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9NEZ333N27)"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Total Omega-3 Fatty Acids 100 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "EPA/DHA (Form: from purified Fish Oil concentrate) 50 mg",
+      "parent": "epa/dha",
+      "form": null,
+      "source": "purified fish oil concentrate",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r11",
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'epa/dha' names a class or mixture"
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Alpha-Linolenic Acid (Flaxseed Oil) ALA (Form: from Flaxseed Oil) Note: Plant Based 50 mg",
+      "parent": "alpha-linolenic acid",
+      "form": null,
+      "source": "flaxseed oil",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r11",
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280934",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280934"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Glucose Syrup",
+      "parent": "glucose syrup",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9G5L16BK6N",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9G5L16BK6N)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Sugar",
+      "parent": "sugar",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r18.1",
+      "verbatim": "Canola Lecithin",
+      "parent": "canola lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'canola lecithin'"
+    },
+    {
+      "row_id": "r18.2",
+      "verbatim": "Citric Acid",
+      "parent": "citric acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "22230",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/22230"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r18.3",
+      "verbatim": "Colors",
+      "parent": "colors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'colors' names a class or mixture"
+    },
+    {
+      "row_id": "r18.4",
+      "verbatim": "Fumaric Acid",
+      "parent": "fumaric acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "444972",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/444972"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r18.5",
+      "verbatim": "Lactic Acid",
+      "parent": "lactic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS has 2 substances named 'lactic acid'"
+    },
+    {
+      "row_id": "r18.6",
+      "verbatim": "Natural Flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "No gluten",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "No dairy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "No artificial flavors or sweeteners",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in the USA",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C32",
+      "claim": "Chewable",
+      "quote": "Chew",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C38",
+      "claim": "Contains fish",
+      "quote": "Contains: Fish (anchovy and/or sardine with mackerel and/or herring)",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "Gelatin",
+      "where": "other_ingredients"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no artificial sweeteners",
+      "quote": "No artificial flavors or sweeteners"
+    },
+    {
+      "phrase": "processed in a facility with products that contain egg, fish, shellfish, soy and tree nuts",
+      "quote": "Processed in a facility with products that contain egg, fish, shellfish, soy and tree nuts."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (19%), H360 (79.5%), H361 (12%), H413 (66.3%); 54 of 643 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280531/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280531.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Ascorbic acid (EC: 200-066-2): 572 of 588 reports Not Classified; E-300 (EC: 477-330-0): Not Classified. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54670067.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H300, H310, H330, H372. ECHA C&L via PubChem: H300 (14.3%), H301 (85.8%), H310 (12.7%), H311 (87.3%), H330 (100%), H372. NITE-CMC, 2 entries: (3S,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol - FY2024 (Revised classification): H330; colecalciferol; Vitamin D3 - FY2008 (New/original classication): H300, H310, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280795/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280795.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 3 entries: 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate (EC: 231-710-0): 1849 of 1939 reports Not Classified; α-tocopheryl acetate (EC: 200-405-4): H413 (63.7%); 102 of 281 reports Not Classified; 3,4-Dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate (EC: 692-041-1): H413 (100%). The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/86472/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/86472.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H317 (10.4%); 2010 of 2305 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280934/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280934.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/9G5L16BK6N/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_9G5L16BK6N.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r17",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r18.2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 3 entries: citric acid monohydrate (EC: 611-842-9): H315 (14.2%), H319 (93.2%), H335 (45.3%); 18 of 1100 reports Not Classified; Citric Acid Monohydrate (EC: 904-113-4): H319 (100%); CITRIC ACID MONOHYDRATE (EC: 691-328-9): H315 (100%), H319 (100%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H319, H335. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/22230/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/22230.json"
+    },
+    {
+      "row_id": "r18.4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H319. ECHA C&L via PubChem: H319 (99.6%); 13 of 3331 reports Not Classified. NITE-CMC, 3 entries: Fumaric acid - FY2022 (Revised classification): H402; Fumaric acid - FY2009 (Revised classification): H319; fumaric acid - FY2008 (New/original classication): H319. Hazardous Chemical Information System (HCIS), Safe Work Australia: H319. The record covers several substances and does not name the form on this label.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/444972/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/444972.json"
+    }
+  ]
+}
