@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"SID\": 175267888,\n        \"CID\": [\n          135398658\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/935E97BOY8/cids/JSON"
+}

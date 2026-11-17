@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 11807,\n        \"Title\": \"2-Amino-2-methyl-1-propanol\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/11807/property/Title/JSON"
+}

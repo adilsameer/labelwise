@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 6419706,\n        \"Synonym\": [\n          \"Gluconate ion\",\n          \"gluconate\",\n          \"Gluconate anion\",\n          \"D-Gluconic acid, ION(1-)\",\n          \"608-59-3\",\n          \"W552L9Y4VZ\",\n          \"RefChem:1085852\",\n          \"CHEBI:24265\",\n          \"D-gluconate\",\n          \"Gluconate [RXNORM]\",\n          \"(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoate\",\n          \"UNII-W552L9Y4VZ\",\n          \"Dextronate\",\n          \"Glycogenate\",\n          \"Glyconate\",\n          \"Maltonate\",\n          \"D-gluconate ion\",\n          \"GLUCONATE [VANDF]\",\n          \"CHEBI:18391\",\n          \"DTXSID60896805\",\n          \"RGHNJXZEOKUKBD-SQOUGZDYSA-M\",\n          \"NCGC00164076-03\",\n          \"PD161360\",\n          \"AB00376880_03\",\n          \"Q27103046\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6419706/synonyms/JSON"
+}

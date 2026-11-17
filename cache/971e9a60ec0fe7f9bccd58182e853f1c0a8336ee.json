@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 62238,\n        \"Title\": \"Cetearyl alcohol\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/62238/property/Title/JSON"
+}

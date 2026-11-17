@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"Fault\": {\n    \"Code\": \"PUGVIEW.NotFound\",\n    \"Message\": \"No data found\"\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 404,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/62238/JSON?heading=GHS+Classification"
+}

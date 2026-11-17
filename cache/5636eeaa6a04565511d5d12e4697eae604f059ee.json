@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"379279\"],\"379279\":{\"uid\":\"379279\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"eudicots\",\"scientificname\":\"Prunus africana\",\"commonname\":\"\",\"taxid\":379279,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2015/08/05 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=379279&retmode=json"
+}

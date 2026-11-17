@@ -1,0 +1,6 @@
+{
+ "body": "[{\"created\":1786431733752,\"createdBy\":\"ADMIN\",\"lastEdited\":1786431733752,\"lastEditedBy\":\"ADMIN\",\"deprecated\":false,\"uuid\":\"d3582745-206c-4d15-bf30-73833ea0ad1c\",\"name\":\"Broccoli seed\",\"stdName\":\"BROCCOLI SEED\",\"type\":\"cn\",\"domains\":[],\"languages\":[\"en\"],\"nameJurisdiction\":[],\"nameOrgs\":[],\"preferred\":false,\"displayName\":true,\"references\":[\"0b878a0c-d1d9-4dd5-a9dd-19b302190cca\"],\"access\":[]}]",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://gsrs.ncats.nih.gov/api/v1/substances(TRV7Y4GE8Q)/names"
+}

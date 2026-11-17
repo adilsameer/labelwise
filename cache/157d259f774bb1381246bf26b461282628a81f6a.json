@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 9911040,\n        \"Synonym\": [\n          \"Calcium laurate\",\n          \"4696-56-4\",\n          \"Calcium dodecanoate\",\n          \"Dodecanoic acid, calcium salt\",\n          \"Lauric acid, calcium salt\",\n          \"0YIV695L8O\",\n          \"Dodecanoic acid, calcium salt (2:1)\",\n          \"STAVINOR 330\",\n          \"DTXSID30890592\",\n          \"RefChem:122850\",\n          \"DTXCID701029840\",\n          \"225-166-3\",\n          \"Calcium dilaurate\",\n          \"calcium;dodecanoate\",\n          \"UNII-0YIV695L8O\",\n          \"Calcium didodecanoate\",\n          \"EINECS 225-166-3\",\n          \"CALCIUMLAURATE\",\n          \"SCHEMBL123916\",\n          \"EAA69656\",\n          \"DB-051412\",\n          \"NS00081235\",\n          \"Q27237356\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/9911040/synonyms/JSON"
+}

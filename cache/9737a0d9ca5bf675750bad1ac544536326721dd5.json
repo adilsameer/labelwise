@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1498384\"],\"1498384\":{\"uid\":\"1498384\",\"status\":\"active\",\"rank\":\"genus\",\"division\":\"spiders\",\"scientificname\":\"Unicorn\",\"commonname\":\"\",\"taxid\":1498384,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2014/06/11 00:00\",\"genbankdivision\":\"Invertebrates\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1498384&retmode=json"
+}

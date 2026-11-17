@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 1123,\n        \"MolecularFormula\": \"C2H7NO3S\",\n        \"Title\": \"Taurine\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/1123/property/Title,MolecularFormula/JSON"
+}

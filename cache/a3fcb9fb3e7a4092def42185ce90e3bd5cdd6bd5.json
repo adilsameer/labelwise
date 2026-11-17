@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"47715\"],\"47715\":{\"uid\":\"47715\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"firmicutes\",\"scientificname\":\"Lacticaseibacillus rhamnosus\",\"commonname\":\"\",\"taxid\":47715,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2020/09/28 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=47715&retmode=json"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 444972,\n        \"MolecularFormula\": \"C4H4O4\",\n        \"Title\": \"Fumaric Acid\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/444972/property/Title,MolecularFormula/JSON"
+}

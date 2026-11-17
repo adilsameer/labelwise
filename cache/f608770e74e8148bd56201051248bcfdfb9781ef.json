@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 6042,\n        \"MolecularFormula\": \"C12H17ClN4OS\",\n        \"Title\": \"3-((4-Amino-2-methylpyrimidin-5-yl)methyl)-5-(2-hydroxyethyl)-4-methylthiazol-3-ium chloride\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6042/property/Title,MolecularFormula/JSON"
+}

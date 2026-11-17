@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 135565261,\n        \"Synonym\": [\n          \"Levomefolate glucosamine\",\n          \"1181972-37-1\",\n          \"UNII-Q65PL71Q1A\",\n          \"5MTHF-glucosamine\",\n          \"Q65PL71Q1A\",\n          \"QUATREFOLIC\",\n          \"DTXSID101019760\",\n          \"(6S)-5-METHYLTETRAHYDROFOLATE GLUCOSAMINE\",\n          \"(6S)-5-METHYLTETRAHYDROFOLATE GLUCOSAMINE [WHO-DD]\",\n          \"RefChem:153217\",\n          \"DTXCID401477660\",\n          \"Glucosamine L-5-methyltetrahydrofolate\",\n          \"Glucose impurity 15\",\n          \"SCHEMBL29557400\",\n          \"(2R,3R,4S,5R)-2-Amino-3,4,5,6-tetrahydroxyhexanal hemi((4-((((S)-2-amino-5-methyl-4-oxo-3,4,5,6,7,8-hexahydropteridin-6-yl)methyl)amino)benzoyl)-L-glutamate)\",\n          \"Q27287046\",\n          \"(2R,3R,4S,5R)-3,4,5,6-tetrahydroxy-1-oxohexan-2-aminium (S)-2-(4-((((S)-2-amino-5-methyl-4-oxo-1,4,5,6,7,8-hexahydropteridin-6-yl)methyl)amino)benzamido)-4-carboxybutanoate\",\n          \"N-[4-({[(6S)-2-Amino-4-hydroxy-5-methyl-5,6,7,8-tetrahydropteridin-6-yl]methyl}amino)benzoyl]-L-glutamic acid--2-amino-2-deoxy-D-glucose (1/2)\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/135565261/synonyms/JSON"
+}

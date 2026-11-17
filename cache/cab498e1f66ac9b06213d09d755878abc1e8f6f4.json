@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 15608515,\n        \"Synonym\": [\n          \"3-Deoxy-Lyxo-Heptulosaric Acid\",\n          \"D-Dha\",\n          \"CHEBI:190722\",\n          \"3-Deoxy-D-Lyxo-Heptopyran-2-ularic Acid\",\n          \"3-Deoxy-D-lyxo-hept-2-ulopyranosaric acid\",\n          \"3-Deoxy-D-Lyxo-Hept-2-ulo-Pyranosaric Acid\",\n          \"C21044\",\n          \"3-deoxy-D-lyxo-heptulosaric acid\",\n          \"SNFG:Dha\",\n          \"Dha (SNFG)\",\n          \"RefChem:53243\",\n          \"GlyTouCan:G84200LK\",\n          \"G84200LK\",\n          \"(4R,5R,6S)-2,4,5-trihydroxytetrahydropyran-2,6-dicarboxylic acid\",\n          \"Dha\",\n          \"SCHEMBL22748784\",\n          \"(4R,5R,6S)-2,4,5-trihydroxyoxane-2,6-dicarboxylic acid\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/15608515/synonyms/JSON"
+}

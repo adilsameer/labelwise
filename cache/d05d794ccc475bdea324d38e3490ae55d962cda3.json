@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"50507\"],\"50507\":{\"uid\":\"50507\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"flowering plants\",\"scientificname\":\"Schisandra chinensis\",\"commonname\":\"Chinese magnolia-vine\",\"taxid\":50507,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/08/18 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=50507&retmode=json"
+}

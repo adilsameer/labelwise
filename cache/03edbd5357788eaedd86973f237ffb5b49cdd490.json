@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 753,\n        \"MolecularFormula\": \"C3H8O3\",\n        \"IUPACName\": \"propane-1,2,3-triol\",\n        \"Title\": \"Glycerol\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/753/property/Title,MolecularFormula,IUPACName/JSON"
+}

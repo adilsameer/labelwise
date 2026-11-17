@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"147376\"],\"147376\":{\"uid\":\"147376\",\"status\":\"active\",\"rank\":\"tribe\",\"division\":\"monocots\",\"scientificname\":\"Bambuseae\",\"commonname\":\"bamboo\",\"taxid\":147376,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2021/04/01 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=147376&retmode=json"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 164748,\n        \"Synonym\": [\n          \"Magnesium malate\",\n          \"869-06-7\",\n          \"LA9X9UJA2Z\",\n          \"Malic acid magnesium salt (1:1)\",\n          \"UNII-LA9X9UJA2Z\",\n          \"DTXSID70893860\",\n          \"MAGNESIUM MALATE [WHO-DD]\",\n          \"EINECS 212-784-3\",\n          \"BUTANEDIOIC ACID, 2-HYDROXY-, MAGNESIUM SALT (1:1)\",\n          \"RefChem:155226\",\n          \"(+-)-MAGNESIUM MALATE\",\n          \"DTXCID201323899\",\n          \"MAGNESIUM MALATE, (+-)-\",\n          \"212-784-3\",\n          \"magnesium;2-hydroxybutanedioate\",\n          \"magnesium 2-hydroxybutanedioate\",\n          \"C4H4MgO5\",\n          \"SCHEMBL163388\",\n          \"(+/-)-MAGNESIUM MALATE\",\n          \"MAGNESIUM MALATE, (+/-)-\",\n          \"DB15555\",\n          \"FM181546\",\n          \"NS00079910\",\n          \"Q5927277\",\n          \"24561-63-5\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/164748/synonyms/JSON"
+}

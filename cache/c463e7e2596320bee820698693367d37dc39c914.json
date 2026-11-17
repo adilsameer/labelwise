@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"49743\"],\"49743\":{\"uid\":\"49743\",\"status\":\"active\",\"rank\":\"genus\",\"division\":\"eudicots\",\"scientificname\":\"Taraxacum\",\"commonname\":\"\",\"taxid\":49743,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2002/05/08 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=49743&retmode=json"
+}

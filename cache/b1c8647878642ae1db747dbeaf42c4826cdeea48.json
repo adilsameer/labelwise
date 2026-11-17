@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"3486\"],\"3486\":{\"uid\":\"3486\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"eudicots\",\"scientificname\":\"Humulus lupulus\",\"commonname\":\"European hop\",\"taxid\":3486,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2017/06/14 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=3486&retmode=json"
+}

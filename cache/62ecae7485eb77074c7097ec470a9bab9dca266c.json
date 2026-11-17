@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"IdentifierList\": {\n    \"CID\": [\n      70678541,\n      6436143,\n      6474320,\n      24892716,\n      24971461,\n      91820207,\n      146025952,\n      25199905,\n      139033579,\n      146157058,\n      157787771\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/adenosylcobalamin/cids/JSON"
+}

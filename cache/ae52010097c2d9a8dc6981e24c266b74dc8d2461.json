@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 60148431,\n        \"Synonym\": [\n          \"RIBOFLAVIN 5-PHOSPHATE SODIUM\",\n          \"RefChem:1180851\",\n          \"Pharmakon1600-01505763\",\n          \"NSC759230\",\n          \"SR-05000002711\",\n          \"SR-05000002711-1\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/60148431/synonyms/JSON"
+}

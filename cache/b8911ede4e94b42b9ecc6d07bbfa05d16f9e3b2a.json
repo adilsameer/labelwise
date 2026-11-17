@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1685\"],\"1685\":{\"uid\":\"1685\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"high G+C Gram-positive bacteria\",\"scientificname\":\"Bifidobacterium breve\",\"commonname\":\"\",\"taxid\":1685,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2015/07/22 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1685&retmode=json"
+}

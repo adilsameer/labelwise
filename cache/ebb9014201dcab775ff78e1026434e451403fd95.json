@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"IdentifierList\": {\n    \"CID\": [\n      312\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/chloride/cids/JSON"
+}

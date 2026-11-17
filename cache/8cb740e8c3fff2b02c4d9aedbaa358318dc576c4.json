@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"85293\"],\"85293\":{\"uid\":\"85293\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"eudicots\",\"scientificname\":\"Viburnum opulus\",\"commonname\":\"European cranberrybush\",\"taxid\":85293,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/08/20 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=85293&retmode=json"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1590\"],\"1590\":{\"uid\":\"1590\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"firmicutes\",\"scientificname\":\"Lactiplantibacillus plantarum\",\"commonname\":\"\",\"taxid\":1590,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2026/02/25 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1590&retmode=json"
+}

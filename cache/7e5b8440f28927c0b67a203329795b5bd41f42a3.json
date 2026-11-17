@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"36774\"],\"36774\":{\"uid\":\"36774\",\"status\":\"active\",\"rank\":\"varietas\",\"division\":\"eudicots\",\"scientificname\":\"Brassica oleracea var. italica\",\"commonname\":\"broccoli\",\"taxid\":36774,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/07/24 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=36774&retmode=json"
+}

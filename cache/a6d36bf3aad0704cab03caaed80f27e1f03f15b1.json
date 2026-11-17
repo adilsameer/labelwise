@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 56841018,\n        \"Synonym\": [\n          \"Zinc aspartate\",\n          \"36393-20-1\",\n          \"4OC7QTI23H\",\n          \"Zincate(2-), bis(L-aspartato(2-)-N,O(sup 1))-, dihydrogen, (T-4)-\",\n          \"Dihydrogen bis(L-aspartato(2-)-N,O1)zincate(2-)\",\n          \"Dihydrogen bis[L-aspartato(2-)-N,O1]zincate(2-)\",\n          \"DTXSID30957730\",\n          \"RefChem:195994\",\n          \"DTXCID601767148\",\n          \"253-012-5\",\n          \"Oksirich\",\n          \"Zincas Forte\",\n          \"zinc hydroaspartate\",\n          \"Bis(aspartato)zinc\",\n          \"Unizink 50\",\n          \"UNII-4OC7QTI23H\",\n          \"EINECS 253-012-5\",\n          \"(T-4)-Bis[L-aspartato(2-)-kappaN,kappaO1]zincate(2-) dihydrogen\",\n          \"ZINC ASPARTATE COMPLEX\",\n          \"SCHEMBL376347\",\n          \"Bis(L-aspartato(2-)-N,O(sup 1))zincate(2-) dihydrogen (T-4)\",\n          \"H54237\",\n          \"Q27260289\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/56841018/synonyms/JSON"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 171706620,\n        \"Synonym\": [\n          \"Hemicellulase\",\n          \"9025-56-3\",\n          \"Gemmicellulase\",\n          \"Xylavomarin\",\n          \"Gammanase\",\n          \"Pentopan\",\n          \"Pulpzyme\",\n          \"Bioamylase V\",\n          \"Macerozyme A\",\n          \"Sumizyme X\",\n          \"Cartazyme MP\",\n          \"Pulpzyme HA\",\n          \"Pulpzyme A/S\",\n          \"Veron HE\",\n          \"Veron ST\",\n          \"Albazyme 10\",\n          \"Albazyme 10A\",\n          \"Novozyme 348\",\n          \"Validase DP 374\",\n          \"Amano 90\",\n          \"Hemicellulase REG II\",\n          \"Fermizyme HS 2000\",\n          \"Fermizyme HSP 6000\",\n          \"ALBAZYME-10A\",\n          \"RefChem:783508\",\n          \"S2MZZ5DR1O\",\n          \"HEMICELLULASE [WHO-DD]\",\n          \"DTXSID7049639\",\n          \"ENDO-1,4-BETA-XYLANASE A\",\n          \"EINECS 232-799-9\",\n          \"Hemicellulase, from Aspergillus niger\",\n          \"HEMICELLULASE (ASPERGILLUS NIGER)\",\n          \"232-799-9\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/171706620/synonyms/JSON"
+}

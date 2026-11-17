@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 15801292,\n        \"Synonym\": [\n          \"310408-06-1\",\n          \"UNII-9LBV3F07AZ\",\n          \"SCHEMBL6427996\",\n          \"Q27272703\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/15801292/synonyms/JSON"
+}

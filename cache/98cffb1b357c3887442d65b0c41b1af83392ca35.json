@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"3555\"],\"3555\":{\"uid\":\"3555\",\"status\":\"active\",\"rank\":\"subspecies\",\"division\":\"eudicots\",\"scientificname\":\"Beta vulgaris subsp. vulgaris\",\"commonname\":\"sugar beet\",\"taxid\":3555,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/07/24 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=3555&retmode=json"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"185542\"],\"185542\":{\"uid\":\"185542\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"eudicots\",\"scientificname\":\"Ilex paraguariensis\",\"commonname\":\"yerba mate\",\"taxid\":185542,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/08/12 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=185542&retmode=json"
+}

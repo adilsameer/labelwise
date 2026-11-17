@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 23621259,\n        \"Synonym\": [\n          \"SODIUM CETEARYL SULFATE\",\n          \"SODIUM CETEARYL SULPHATE\",\n          \"Sodium hexadecyl sulfate (1:1) mixt. with sodium octadecyl sulfate (1:1)\",\n          \"RefChem:183835\",\n          \"DTXCID40130416\",\n          \"59186-41-3\",\n          \"7ZBS06BH4B\",\n          \"DTXSID90207925\",\n          \"Sodium Cetostearyl Sulfate\",\n          \"Sulfuric acid, monooctadecyl ester, sodium salt, mixt. with sodium hexadecyl sulfate\",\n          \"T4EWW0Y4EJ\",\n          \"sodium,heptadecyl sulfate\",\n          \"C34H70Na2O8S2\",\n          \"Cetylsulfuric Acid Sodium Salt\",\n          \"Hexadecylsulfuric Acid Sodium Salt\",\n          \"disodium;hexadecyl sulfate;octadecyl sulfate\",\n          \"SCHEMBL27654295\",\n          \"H0080\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/23621259/synonyms/JSON"
+}

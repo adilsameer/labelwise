@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 6912,\n        \"MolecularFormula\": \"C5H12O5\",\n        \"Title\": \"(2S,4R)-Pentane-1,2,3,4,5-Pentol\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6912/property/Title,MolecularFormula/JSON"
+}

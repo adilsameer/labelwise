@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1578\"],\"1578\":{\"uid\":\"1578\",\"status\":\"active\",\"rank\":\"genus\",\"division\":\"firmicutes\",\"scientificname\":\"Lactobacillus\",\"commonname\":\"\",\"taxid\":1578,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2021/03/12 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1578&retmode=json"
+}

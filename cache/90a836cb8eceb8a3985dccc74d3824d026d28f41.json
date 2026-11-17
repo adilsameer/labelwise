@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 67590811,\n        \"Synonym\": [\n          \"thiamin-hcl\",\n          \"thiamin HCl\",\n          \"thiaminhydrochloride\",\n          \"thiamin, hydrochloride\",\n          \"SCHEMBL8457018\",\n          \"KQDVAKBJCMTTQE-UHFFFAOYSA-N\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/67590811/synonyms/JSON"
+}

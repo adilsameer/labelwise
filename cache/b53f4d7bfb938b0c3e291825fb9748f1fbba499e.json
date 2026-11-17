@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 6134,\n        \"MolecularFormula\": \"C12H22O11\",\n        \"Title\": \"beta-Lactose\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6134/property/Title,MolecularFormula/JSON"
+}

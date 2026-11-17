@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"55262\"],\"translationset\":[],\"translationstack\":[{\"term\":\"frangula purshiana[All Names]\",\"field\":\"All Names\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"frangula purshiana[All Names]\"}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=FRANGULA+PURSHIANA&retmode=json"
+}

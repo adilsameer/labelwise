@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"326968\"],\"326968\":{\"uid\":\"326968\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"eudicots\",\"scientificname\":\"Ziziphus jujuba\",\"commonname\":\"common jujube\",\"taxid\":326968,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2020/08/18 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=326968&retmode=json"
+}

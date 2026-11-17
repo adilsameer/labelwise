@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 10125785,\n        \"Synonym\": [\n          \"90131-68-3\",\n          \"Caltrop\",\n          \"Goathead\",\n          \"Gokshura\",\n          \"Puncture vine\",\n          \"Bulgarian tribulus\",\n          \"EINECS 290-381-1\",\n          \"RefChem:190904\",\n          \"290-381-1\",\n          \"CreatineGluconate\",\n          \"Tribulus terrestris\",\n          \"Tribulus\",\n          \"306274-45-3\",\n          \"2-[Carbamimidoyl(methyl)amino]acetic acid;2,3,4,5,6-pentahydroxyhexanoic acid\",\n          \"SCHEMBL27808221\",\n          \"XT170144\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/10125785/synonyms/JSON"
+}

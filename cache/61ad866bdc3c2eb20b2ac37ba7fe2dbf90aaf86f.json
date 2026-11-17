@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 22230,\n        \"MolecularFormula\": \"C6H10O8\",\n        \"Title\": \"2-Hydroxy-1,2,3-propanetricarboxylic acid hydrate (1:1)\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/22230/property/Title,MolecularFormula/JSON"
+}

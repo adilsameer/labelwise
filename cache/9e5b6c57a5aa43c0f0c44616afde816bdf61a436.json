@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"91752\"],\"91752\":{\"uid\":\"91752\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"basidiomycete fungi\",\"scientificname\":\"Hericium erinaceus\",\"commonname\":\"lion's mane mushroom\",\"taxid\":91752,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2026/09/21 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=91752&retmode=json"
+}

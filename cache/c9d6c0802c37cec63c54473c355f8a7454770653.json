@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 181572,\n        \"Synonym\": [\n          \"tritriacontanoic acid\",\n          \"Psyllic acid\",\n          \"38232-03-0\",\n          \"Ceromelissic acid\",\n          \"5LSY5B2356\",\n          \"DTXSID90959174\",\n          \"RefChem:1100554\",\n          \"DTXCID201387061\",\n          \"8063-16-9\",\n          \"PSYLLIUM\",\n          \"FA 33:0\",\n          \"tritriacontanoicacid\",\n          \"PYSSLOSTEARIC ACID\",\n          \"Ceromelissic acid; C33:0\",\n          \"UNII-5LSY5B2356\",\n          \"SCHEMBL7647614\",\n          \"SCHEMBL9615681\",\n          \"CHEBI:165446\",\n          \"HQRWEDFDJHDPJC-UHFFFAOYSA-N\",\n          \"LMFA01010033\",\n          \"YP58645\",\n          \"FA(33:0)\",\n          \"C33:0\",\n          \"Q2823315\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/181572/synonyms/JSON"
+}

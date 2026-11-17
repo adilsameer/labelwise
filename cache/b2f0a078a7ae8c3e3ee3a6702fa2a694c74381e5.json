@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 6057,\n        \"MolecularFormula\": \"C9H11NO3\",\n        \"Title\": \"L-Tyrosine\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6057/property/Title,MolecularFormula/JSON"
+}

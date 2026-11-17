@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"3091605\",\"13217\",\"580050\"],\"3091605\":{\"uid\":\"3091605\",\"status\":\"active\",\"rank\":\"subspecies\",\"division\":\"eudicots\",\"scientificname\":\"Vigna unguiculata subsp. cylindrica\",\"commonname\":\"catjang cowpea\",\"taxid\":3091605,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/08/20 00:00\",\"genbankdivision\":\"Plants and Fungi\"},\"13217\":{\"uid\":\"13217\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"flowering plants\",\"scientificname\":\"Piper betle\",\"commonname\":\"\",\"taxid\":13217,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2015/07/27 00:00\",\"genbankdivision\":\"Plants and Fungi\"},\"580050\":{\"uid\":\"580050\",\"status\":\"active\",\"rank\":\"strain\",\"division\":\"high G+C Gram-positive bacteria\",\"scientificname\":\"Bifidobacterium animalis subsp. lactis Bl-04\",\"commonname\":\"\",\"taxid\":580050,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2018/11/23 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=3091605%2C13217%2C580050&retmode=json"
+}

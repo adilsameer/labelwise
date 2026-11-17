@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 101557521,\n        \"Synonym\": [\n          \"Spirulina Powder\",\n          \"phycocyanobilin\",\n          \"20298-86-6\",\n          \"orb2308732\",\n          \"F72169\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/101557521/synonyms/JSON"
+}

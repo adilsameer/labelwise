@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 56841975,\n        \"Synonym\": [\n          \"Magnesium aspartate\",\n          \"Magnesium aspartate tetrahydrate\",\n          \"R17X820ROL\",\n          \"Aspartic acid, magnesium salt\",\n          \"(+)-MAGNESIUM ASPARTATE TETRAHYDRATE\",\n          \"Magnesate(2-), bis(L-aspartato(2-)-kappaN,kappaO1)-, dihydrogen, (T-4)-\",\n          \"Magnesate(2-), bis(L-aspartato(2-)-N,O1)-, dihydrogen, (beta-4)-\",\n          \"Mag-a (mag 10mmol)\",\n          \"RefChem:800484\",\n          \"Magnesiocard (mag 5mmol)\",\n          \"Magnaspartate(mag 10mmol)\",\n          \"Magnaspartate (mag 10mmol)\",\n          \"Magnesiocard (mag 2.5mmol)\",\n          \"218-191-6\",\n          \"971-123-3\",\n          \"Magnesium hydroaspartate\",\n          \"UNII-R17X820ROL\",\n          \"MAGNESIUM (S)-3-AMINO-3-CARBOXYPROPANOATE TETRAHYDRATE\",\n          \"E79377\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/56841975/synonyms/JSON"
+}

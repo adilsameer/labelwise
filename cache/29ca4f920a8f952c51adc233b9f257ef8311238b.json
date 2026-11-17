@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"112831\"],\"112831\":{\"uid\":\"112831\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"monocots\",\"scientificname\":\"Chamaelirium luteum\",\"commonname\":\"\",\"taxid\":112831,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2005/01/19 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=112831&retmode=json"
+}

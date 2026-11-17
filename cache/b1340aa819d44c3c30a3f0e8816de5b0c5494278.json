@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 135398658,\n        \"MolecularFormula\": \"C19H19N7O6\",\n        \"Title\": \"Folic Acid\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/135398658/property/Title,MolecularFormula/JSON"
+}

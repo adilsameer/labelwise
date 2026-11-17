@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"742729\"],\"742729\":{\"uid\":\"742729\",\"status\":\"active\",\"rank\":\"strain\",\"division\":\"high G+C Gram-positive bacteria\",\"scientificname\":\"Bifidobacterium animalis subsp. lactis Bi-07\",\"commonname\":\"\",\"taxid\":742729,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2018/11/23 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=742729&retmode=json"
+}

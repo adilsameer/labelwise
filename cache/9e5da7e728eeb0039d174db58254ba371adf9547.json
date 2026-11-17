@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 446284,\n        \"MolecularFormula\": \"C20H30O2\",\n        \"IUPACName\": \"(5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoic acid\",\n        \"Title\": \"Icosapent\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/446284/property/Title,MolecularFormula,IUPACName/JSON"
+}

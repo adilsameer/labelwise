@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 76963096,\n        \"Synonym\": [\n          \"CITICOLINE [MI]\",\n          \"CITICOLINE [INN]\",\n          \"CITICOLINE [JAN]\",\n          \"CITICOLINE [VANDF]\",\n          \"CITICOLINE [MART.]\",\n          \"CITICOLINE [USP-RS]\",\n          \"CITICOLINE [WHO-DD]\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/76963096/synonyms/JSON"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1314884\"],\"1314884\":{\"uid\":\"1314884\",\"status\":\"active\",\"rank\":\"strain\",\"division\":\"firmicutes\",\"scientificname\":\"Lactobacillus acidophilus La-14\",\"commonname\":\"\",\"taxid\":1314884,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2013/04/08 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1314884&retmode=json"
+}

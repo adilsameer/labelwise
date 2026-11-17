@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 54679076,\n        \"Synonym\": [\n          \"ascorbate\",\n          \"L-ascorbate(1-)\",\n          \"299-36-5\",\n          \"CHEBI:38290\",\n          \"RefChem:6521\",\n          \"CHEBI:22651\",\n          \"(2R)-2-((1S)-1,2-dihydroxyethyl)-4-hydroxy-5-oxo-2,5-dihydrofuran-3-olate\",\n          \"L-Ascorbate\",\n          \"Ascorbate anion\",\n          \"L-Ascorbic acid, ion(1-)\",\n          \"CIWBSHSKHKDKBQ-JLAZNSOCSA-M\",\n          \"DTXSID201318636\",\n          \"Q27104442\",\n          \"Q27104856\",\n          \"(2R)-2-[(1S)-1,2-dihydroxyethyl]-3-hydroxy-5-oxo-2H-furan-4-olate\",\n          \"(2R)-2-[(1S)-1,2-dihydroxyethyl]-4-hydroxy-5-oxo-2H-furan-3-olate\",\n          \"(5R)-5-[(1S)-1,2-Dihydroxyethyl]-4-hydroxy-2-oxo-2,5-dihydrofuran-3-olate\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/54679076/synonyms/JSON"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"3664\"],\"3664\":{\"uid\":\"3664\",\"status\":\"active\",\"rank\":\"subspecies\",\"division\":\"eudicots\",\"scientificname\":\"Cucurbita pepo subsp. pepo\",\"commonname\":\"vegetable marrow\",\"taxid\":3664,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2025/03/18 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=3664&retmode=json"
+}

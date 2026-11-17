@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 62238,\n        \"Synonym\": [\n          \"Cetearyl alcohol\",\n          \"8005-44-5\",\n          \"hexadecan-1-ol;octadecan-1-ol\",\n          \"Cetyl/stearyl alcohol\",\n          \"Cetostearyl alcohol [NF]\",\n          \"LANETTE AOK\",\n          \"SCHEMBL1091511\",\n          \"SCHEMBL27383464\",\n          \"C34H72O2\",\n          \"AT48058\",\n          \"FC32724\",\n          \"HY-W422419\",\n          \"Alcohols, C16-18;Cetyl-stearyl alcohol\",\n          \"DA-70676\",\n          \"CS-0569293\",\n          \"Hexadecan-1-ol compound with octadecan-1-ol (1:1)\",\n          \"CETEARYL ALCOHOL (MIXTURE OF C16-C18 ALCOHOLS)\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/62238/synonyms/JSON"
+}

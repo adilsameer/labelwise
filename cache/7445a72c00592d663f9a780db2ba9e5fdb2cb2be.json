@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No CID found\",\n    \"Details\": [\n      \"No CID found that matches the given name\"\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 404,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/glycine%20soja%20oil/cids/JSON"
+}

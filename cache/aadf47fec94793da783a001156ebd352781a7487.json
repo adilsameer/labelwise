@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 6202,\n        \"MolecularFormula\": \"C12H18Cl2N4OS\",\n        \"Title\": \"Thiamine Hydrochloride\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6202/property/Title,MolecularFormula/JSON"
+}

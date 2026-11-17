@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"272621\"],\"272621\":{\"uid\":\"272621\",\"status\":\"active\",\"rank\":\"strain\",\"division\":\"firmicutes\",\"scientificname\":\"Lactobacillus acidophilus NCFM\",\"commonname\":\"\",\"taxid\":272621,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2018/11/23 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=272621&retmode=json"
+}

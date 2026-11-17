@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esearch\",\"version\":\"0.3\"},\"esearchresult\":{\"count\":\"1\",\"retmax\":\"1\",\"retstart\":\"0\",\"idlist\":[\"202994\"],\"translationset\":[],\"translationstack\":[{\"term\":\"rhodiola[All Names]\",\"field\":\"All Names\",\"count\":\"1\",\"explode\":\"N\"},\"GROUP\"],\"querytranslation\":\"rhodiola[All Names]\"}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=taxonomy&term=rhodiola&retmode=json"
+}

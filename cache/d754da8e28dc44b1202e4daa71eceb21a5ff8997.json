@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 5282847,\n        \"Synonym\": [\n          \"all cis-5,8,11,14,17-Eicosapentaenoic Acid\",\n          \"icosapentaenoic acids\",\n          \"eicosapentaenoic acids\",\n          \"Acid, Eicosapentanoic\",\n          \"RefChem:5788\",\n          \"omega 3 Eicosapentaenoic Acid\",\n          \"omega-3-Eicosapentaenoic Acid\",\n          \"CHEBI:36006\",\n          \"DTXSID901018009\",\n          \"C20:5\",\n          \"20:5\",\n          \"25378-27-2\",\n          \"Eicosapentaenoic Acid\",\n          \"Eicosapentanoic Acid\",\n          \"Icosapentaenoic Acid\",\n          \"(5E,8E,11E,14E,17E)-icosa-5,8,11,14,17-pentaenoic acid\",\n          \"EPA;Timnodonic acid\",\n          \"Eicosapentaenoic\",\n          \"SCHEMBL120666\",\n          \"CHEMBL4802124\",\n          \"CHEBI:92823\",\n          \"AKOS015893005\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5282847/synonyms/JSON"
+}

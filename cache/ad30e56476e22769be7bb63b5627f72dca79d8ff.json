@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"27804\"],\"27804\":{\"uid\":\"27804\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"jellyfishes\",\"scientificname\":\"Cyanea capillata\",\"commonname\":\"lion's mane\",\"taxid\":27804,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2020/04/23 00:00\",\"genbankdivision\":\"Invertebrates\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=27804&retmode=json"
+}

@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 5281915,\n        \"MolecularFormula\": \"C59H90O4\",\n        \"Title\": \"Coenzyme Q10\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5281915/property/Title,MolecularFormula/JSON"
+}

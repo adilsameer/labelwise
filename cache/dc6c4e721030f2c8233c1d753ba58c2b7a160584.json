@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 73415830,\n        \"Synonym\": [\n          \"MAGNESATE(2-), BIS(L-ASPARTATO(2-)-.KAPPA.N,.KAPPA.O1)-, DIHYDROGEN, (T-4)-\",\n          \"MAGNESIUM ASPARTATE [II]\",\n          \"MAGNESIUM ASPARTATE [VANDF]\",\n          \"MAGNESIUM ASPARTATE [MART.]\",\n          \"MAGNESIUM ASPARTATE TETRAHYDRATE [WHO-DD]\",\n          \"ASPARTIC ACID, MAGNESIUM SALT (2:1), TETRAHYDRATE\",\n          \"ASPARTIC ACID, L-, MAGNESIUM SALT (2:1), TETRAHYDRATE\",\n          \"ASPARTIC ACID, MAGNESIUM SALT (2:1), TETRAHYDRATE, L-\",\n          \"MAGNESATE(2-), BIS(L-ASPARTATO(2-)-N,O1)-, DIHYDROGEN, (.BETA.-4)-\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/73415830/synonyms/JSON"
+}

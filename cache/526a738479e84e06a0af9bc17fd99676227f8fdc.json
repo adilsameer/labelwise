@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1598\"],\"1598\":{\"uid\":\"1598\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"firmicutes\",\"scientificname\":\"Limosilactobacillus reuteri\",\"commonname\":\"\",\"taxid\":1598,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2026/03/16 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1598&retmode=json"
+}

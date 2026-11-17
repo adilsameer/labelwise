@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 6431005,\n        \"Synonym\": [\n          \"cis-Linoleic acid\",\n          \"RefChem:200195\",\n          \"LEIXEEFBKOMCEQ-AFJQJTPPSA-N\",\n          \"FA 17:2\",\n          \"(9Z,12Z)-heptadeca-9,12-dienoic acid\",\n          \"orb2943070\",\n          \"SCHEMBL6112653\",\n          \"cis,cis-9,12-heptadecadienoic acid\",\n          \"TN8986\",\n          \"FA(17:2(9Z,12Z))\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/6431005/synonyms/JSON"
+}

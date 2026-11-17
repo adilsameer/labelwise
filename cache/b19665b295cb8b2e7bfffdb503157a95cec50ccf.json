@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 5280934,\n        \"MolecularFormula\": \"C18H30O2\",\n        \"Title\": \"Linolenic Acid\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5280934/property/Title,MolecularFormula/JSON"
+}

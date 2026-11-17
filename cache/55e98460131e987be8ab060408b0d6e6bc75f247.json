@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 118701720,\n        \"MolecularFormula\": \"C63H88CoN14O14P\",\n        \"Title\": \"Erythrotin\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/118701720/property/Title,MolecularFormula/JSON"
+}

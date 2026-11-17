@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"136217\"],\"136217\":{\"uid\":\"136217\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"monocots\",\"scientificname\":\"Curcuma longa\",\"commonname\":\"turmeric\",\"taxid\":136217,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2020/07/23 00:00\",\"genbankdivision\":\"Plants and Fungi\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=136217&retmode=json"
+}

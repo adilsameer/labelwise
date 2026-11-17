@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"PropertyTable\": {\n    \"Properties\": [\n      {\n        \"CID\": 90480033,\n        \"Title\": \"Pyridinium, 3-(aminocarbonyl)-1-beta-D-ribofuranosyl-, chloride (1:1)\"\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/90480033/property/Title/JSON"
+}

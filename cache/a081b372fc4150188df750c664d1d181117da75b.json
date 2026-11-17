@@ -1,0 +1,6 @@
+{
+ "body": "{\n  \"InformationList\": {\n    \"Information\": [\n      {\n        \"CID\": 92133538,\n        \"Synonym\": [\n          \"1214382-77-0\",\n          \"(2-Bromo-4-(trifluoromethyl)phenyl)methanamine hydrochloride\",\n          \"[2-bromo-4-(trifluoromethyl)phenyl]methanamine hydrochloride\",\n          \"RefChem:395461\",\n          \"893-208-3\",\n          \"[2-bromo-4-(trifluoromethyl)phenyl]methanamine;hydrochloride\",\n          \"2-Bromo-4-(trifluoromethyl)benzylamine hydrochloride\",\n          \"MFCD13185406\",\n          \"Benzenemethanamine, 2-bromo-4-(trifluoromethyl)-, hydrochloride (1:1)\",\n          \"e hydrochloride\",\n          \"1-[2-bromo-4-(trifluoromethyl)phenyl]methanamine hydrochloride\",\n          \"G75334\",\n          \"1-[2-bromo-4-(trifluoromethyl)phenyl]methanamin\",\n          \"EN300-8674064\",\n          \"F553767\",\n          \"(2-Bromo-4-(trifluoromethyl)phenyl)methanamine HCl\",\n          \"Z3244840035\",\n          \"(2-Bromo-4-(trifluoromethyl)phenyl)methanaminehydrochloride\",\n          \"(2-Bromo-4-(trifluoromethyl)phenyl)methanamine hydrochloride - [B88797]\"\n        ]\n      }\n    ]\n  }\n}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/92133538/synonyms/JSON"
+}

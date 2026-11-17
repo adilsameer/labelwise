@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"216816\"],\"216816\":{\"uid\":\"216816\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"high G+C Gram-positive bacteria\",\"scientificname\":\"Bifidobacterium longum\",\"commonname\":\"\",\"taxid\":216816,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2023/10/20 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=216816&retmode=json"
+}

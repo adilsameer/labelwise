@@ -1,0 +1,6 @@
+{
+ "body": "{\"header\":{\"type\":\"esummary\",\"version\":\"0.3\"},\"result\":{\"uids\":[\"1582\"],\"1582\":{\"uid\":\"1582\",\"status\":\"active\",\"rank\":\"species\",\"division\":\"firmicutes\",\"scientificname\":\"Lacticaseibacillus casei\",\"commonname\":\"\",\"taxid\":1582,\"akataxid\":\"\",\"genus\":\"\",\"species\":\"\",\"subsp\":\"\",\"modificationdate\":\"2024/05/07 00:00\",\"genbankdivision\":\"Bacteria\"}}}\n",
+ "date": "2026-11-17",
+ "status": 200,
+ "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=taxonomy&id=1582&retmode=json"
+}
