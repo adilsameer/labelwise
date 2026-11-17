@@ -12,7 +12,7 @@ TAG = re.compile(r"\b(PlantPart|Genus|Species|Note|Form|Alt\. Name):")
 
 NUTRITION = re.compile(
     r"(calories( from fat)?|calories/energy|energy|total fat|fat|saturated fat|trans fat"
-    r"|(poly|mono)unsaturated fat|cholesterol|total carbohydrates?|carbohydrates?"
+    r"|(poly|mono)unsaturated fat|total carbohydrates?|carbohydrates?|nutrition facts.*"
     r"|(total |soluble |insoluble )?dietary fiber|(soluble |insoluble )?fiber"
     r"|total sugars?|sugars?|added sugars|includ(?:es|ed) .*added sugars|sugar alcohols?|protein)",
     re.I,
@@ -24,6 +24,9 @@ MICROBE_GENERA = {
     "saccharomyces", "pediococcus", "leuconostoc", "enterococcus", "akkermansia",
     "clostridium", "weizmannia", "heyndrickxia",
 }
+
+# Nutrient names that are already one compound: no form is needed to identify them.
+SPECIFIC_NUTRIENT = re.compile(r"folic acid|riboflavin|biotin|vitamin d[23]|vitamin d-[23]|vitamin k[12]|niacinamide|nicotinic acid")
 
 # Vitamins and minerals: a bracket after these names is a chemical form.
 NUTRIENT = re.compile(
@@ -52,7 +55,7 @@ EXCIPIENT_WRAPPER_RE = re.compile(
     r"|less than|or less of|contains", re.I)
 BLEND_WORD_RE = re.compile(r"blend|complex|formula|matrix", re.I)
 INLINE_BLEND_RE = re.compile(r"^([^()]*?(?:blend|complex|formula))[\s:(]*(.+)$", re.I)
-LEADING_COUNT_RE = re.compile(r"^\d[\d.,]*\s*(billion|million)?\s*cfu\S*\s*", re.I)
+LEADING_COUNT_RE = re.compile(r"^\d[\d.,]*\s*(?i:billion|million)?\s*(?i:cfu(?:\s*/\s*serving)?)[^A-Z]*")
 STRAIN_RE = re.compile(r"\b([A-Z]{1,4}[a-z]{0,2}-?\d{1,6}[A-Za-z]?|[A-Z]{3,6}|\d{3,6})\b")
 NOT_STRAIN = {"HDS", "CFU", "DSM", "ATCC"}
 AMOUNT_RE = re.compile(r"\s+(\d[\d,]*(?:\.\d+)?)\s*(mg|mcg|µg|g|iu)\.?$", re.I)
@@ -92,6 +95,10 @@ def bracket_list(text):
     head, inner = m.group(1), m.group(2).rstrip(")]")
     items = split_top_level(inner)
     return (head, items) if len(items) > 1 else None
+
+
+def nutrient_head(name):
+    return bool(NUTRIENT.fullmatch(clean(re.split(r"[(\[]", name)[0]).lower()))
 
 
 def is_nutrition(name):
@@ -203,7 +210,7 @@ def parse_substance(name, verbatim):
             sources.append(clean(m.group(1)).lower())
             break
     m = SOURCE_PREFIX_RE.match(head)
-    if m:
+    if m and PHYSICAL_FORM_RE.sub("", head[m.end():]).strip():  # "Fish Oil" keeps "fish": "oil" alone is no substance
         sources.insert(0, m.group(1).lower())
         head = head[m.end():]
     # plant parts written outside brackets: "oryza sativa (rice) bran extract"
@@ -251,7 +258,7 @@ def parse_substance(name, verbatim):
         "standardization": standardization(verbatim),
         "_names": names,
         "_multi_form": bool(form and re.search(r",|&| and ", form)),
-        "_nutrient": head_is_nutrient,
+        "_nutrient": head_is_nutrient and not SPECIFIC_NUTRIENT.fullmatch(head.lower()),
         "_latin": latin,
         "_common": common or None,
         "_parts": [p.lower() for p in PLANT_PART_RE.findall(" ".join(source_list))],
@@ -293,6 +300,10 @@ def is_microbe(name):
 
 # ---------------------------------------------------------------- rows
 
+FUNCTION_WORD_RE = re.compile(r"^(?:colou?r|colou?ring|anti-?caking agent|emulsifier|thickener|stabili[sz]er|glazing agent"
+                              r"|sweetener|preservative|antioxidant|acidity regulator|humectant)\s*[(\[]([^()\[\]]+)[)\]]$", re.I)
+
+
 def make_row(row_id, verbatim, name, role, group, amount, unit, blend_contents=None):
     row = {
         "row_id": row_id,
@@ -313,13 +324,16 @@ def make_row(row_id, verbatim, name, role, group, amount, unit, blend_contents=N
         "_names": [],
         "_multi_form": False,
     }
+    fn = FUNCTION_WORD_RE.match(clean(name)) or FUNCTION_WORD_RE.match(clean(strip_amount(verbatim)))
+    if fn:  # "Color (Titanium Dioxide)": the bracket names the substance
+        name = verbatim = fn.group(1)
     if role == "blend_header":
         row["_kind"] = "blend"
         row["reason"] = ("blend_header: group name inside the blend; the member rows carry the ids" if group
                          else "blend_header: named mixture; the member rows carry the ids")
         if blend_contents == "not_disclosed":
             row["reason"] = "blend_header: named mixture; the label does not list the members"
-    elif is_nutrition(name):
+    elif is_nutrition(name) and role != "excipient":
         row["_kind"] = "nutrition"
         row["parent"] = clean(name).lower()
         row["reason"] = "nutrition_panel: a nutrition facts line, not one substance"
@@ -347,7 +361,9 @@ def build_rows(label):
         name, verbatim = r["name"], r["verbatim"]
         group = r["group"]
         # Children of a nutrition line (Total Fat -> Saturated Fat) are not blend members.
-        if group and group in by_id and is_nutrition(by_id[group]["name"]):
+        # Children of a nutrition line (Total Fat -> Saturated Fat) or of a nutrient
+        # ("Folate (Folic Acid)" -> "Folic Acid") are not blend members.
+        if group and group in by_id and (is_nutrition(by_id[group]["name"]) or nutrient_head(by_id[group]["name"])):
             group = None
 
         if r["section"] == "other_ingredients":
@@ -378,7 +394,7 @@ def build_rows(label):
                     members = parts
                     break
 
-        if r["row_id"] in has_members and not nutrition:
+        if r["row_id"] in has_members and not nutrition and not nutrient_head(name):
             role, contents = "blend_header", "listed"
         elif members:
             role, contents = "blend_header", "listed"
