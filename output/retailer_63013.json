@@ -1,0 +1,361 @@
+{
+  "label_id": "retailer:63013",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 10",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Fat 1 g",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Fish Oil Concentrate",
+      "parent": "fish oil concentrate",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "XGF7L72M0F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(XGF7L72M0F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the concentrate; the id is for 'fish oil'"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Total Omega-3 Fatty Acids 800 mg",
+      "parent": "total omega-3 fatty acids",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 800,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'total omega-3 fatty acids' names a class or mixture"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "EPA (eicosapentaenoic acid) 400 mg",
+      "parent": "epa",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "446284",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/446284"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "DHA (docosahexaenoic acid) 400 mg",
+      "parent": "dha",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "445580",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/445580"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Lipase 1 mg",
+      "parent": "lipase",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'lipase'"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "gelatin (bovine)",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "water annatto powder",
+      "parent": "water annatto",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for water annatto powder"
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "lemon oil",
+      "parent": "lemon oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "I9GRO824LL",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(I9GRO824LL)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "gelatin",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "tested for purity",
+      "quote": "Norwegian Fish Oil Tested for Purity"
+    },
+    {
+      "phrase": "no sesame",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO"
+    },
+    {
+      "phrase": "no soy allergen",
+      "quote": "Does not contain dairy, eggs, shellfish, tree nuts, peanuts, wheat, soy allergen, sesame, gluten, or GMO"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H314 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/446284/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/446284.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/445580/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/445580.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/I9GRO824LL/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_I9GRO824LL.json"
+    }
+  ]
+}

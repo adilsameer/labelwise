@@ -1,0 +1,486 @@
+{
+  "label_id": "retailer:20653",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 7",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 7,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Fat 0.6 g",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.6,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Vitamin C (as ascorbic acid) 15 mg",
+      "parent": "vitamin c",
+      "form": "ascorbic acid",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 15,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Vitamin D (as cholecalciferol) 75 mcg (3000 IU)",
+      "parent": "vitamin d",
+      "form": "cholecalciferol",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 75,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280795",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280795"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Vitamin E (as d-alpha tocopheryl succinate) 20 mg",
+      "parent": "vitamin e",
+      "form": "d-alpha tocopheryl succinate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 20,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "69540411",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/69540411"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'd-alpha tocopheryl succinate'; the id is for 'vitamin e' (weak_synonym: PubChem matches 'd-alpha-tocopheryl succinate' only as minor synonym of CID 20353 (4345-03-3), GSRS has no such name)"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Thiamin (as thiamin mononitrate) 1.4 mg",
+      "parent": "thiamin",
+      "form": "thiamin mononitrate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.4,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "10762",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10762"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Riboflavin (vitamin B2) 1.4 mg",
+      "parent": "riboflavin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.4,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "493570",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/493570"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Vitamin B6 (as pyridoxine hydrochloride) 1.9 mg",
+      "parent": "vitamin b6",
+      "form": "pyridoxine hydrochloride",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.9,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6019",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6019"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Folate (as L-5-methyltetrahydrofolate) 1334 mcg DFE",
+      "parent": "folate",
+      "form": "l-5-methyltetrahydrofolate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1334,
+        "unit": "mcg DFE",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398561",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398561"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Vitamin B12 (as cyanocobalamin) 2.6 mcg",
+      "parent": "vitamin b12",
+      "form": "cyanocobalamin",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2.6,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "166596686",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/166596686"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Iron (as ferrous fumarate) 27 mg",
+      "parent": "iron",
+      "form": "ferrous fumarate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 27,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6433164",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6433164"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Iodine (as potassium iodide) 220 mcg",
+      "parent": "iodine",
+      "form": "potassium iodide",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 220,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "4875",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4875"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "DHA (Docosahexaenoic Acid) 300 mg",
+      "parent": "dha",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 300,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "445580",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/445580"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "EPA (Eicosapentaenoic Acid) 150 mg",
+      "parent": "epa",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 150,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "446284",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/446284"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Dye Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C24",
+      "claim": "NSF certified",
+      "quote": "NSF",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Manufactured in the USA",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C35",
+      "claim": "Prenatal",
+      "quote": "Prenatal",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C38",
+      "claim": "Contains fish",
+      "quote": "Contains methylated folate, vitamin D3, iron, iodine, and omega-3s (DHA and EPA) from AlaskOmega®, a refined omega-3 fish oil concentrate that has met the Marine Stewardship Council's (MSC) standard for sustainability",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "gelatin",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Ascorbic acid (EC: 200-066-2): 572 of 588 reports Not Classified; E-300 (EC: 477-330-0): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54670067.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H300, H310, H330, H372. ECHA C&L via PubChem: H300 (14.3%), H301 (85.8%), H310 (12.7%), H311 (87.3%), H330 (100%), H372. NITE-CMC, 2 entries: (3S,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol - FY2024 (Revised classification): H330; colecalciferol; Vitamin D3 - FY2008 (New/original classication): H300, H310, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280795/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280795.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 67 of 67 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10762/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/10762.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 122 of 124 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/493570/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/493570.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (88.3%); 22 of 309 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6019/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6019.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/135398561/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/135398561.json"
+    },
+    {
+      "row_id": "r10",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/166596686/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/166596686.json"
+    },
+    {
+      "row_id": "r11",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Iron(II) fumarate (EC: 205-447-7): H412 (53%); 93 of 198 reports Not Classified; Fumaric acid, iron(2+) salt (EC: 231-731-5): 36 of 36 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6433164/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6433164.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H302 (16.2%), H315 (28.4%), H317 (20.8%), H319 (30.1%), H334 (11.7%), H372 (43.6%), H373 (11.4%), H411 (14%); 94 of 721 reports Not Classified. NITE-CMC, 2 entries: Potassium iodide - FY2015 (Revised classification): H320, H360, H362, H370, H372; Potassium iodide - FY2010 (New/original classication): H320, H361, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4875/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/4875.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/445580/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/445580.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H314 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/446284/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/446284.json"
+    }
+  ]
+}

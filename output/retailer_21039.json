@@ -1,0 +1,273 @@
+{
+  "label_id": "retailer:21039",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Lactase 9,000 FCC ALU† (Aspergillus oryzae) 300 mg",
+      "parent": "lactase",
+      "form": null,
+      "source": "aspergillus oryzae",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 300,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "37515NWH9U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(37515NWH9U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Microcrystalline cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "purified water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "magnesium stearate (vegetable grade)",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Contains no artificial colors, preservatives, or sweeteners",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "Contains no artificial colors, preservatives, or sweeteners",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "Good Manufacturing Practices",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "gelatin",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no artificial sweeteners",
+      "quote": "Contains no artificial colors, preservatives, or sweeteners"
+    },
+    {
+      "phrase": "no fish",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs"
+    },
+    {
+      "phrase": "no sesame",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs"
+    },
+    {
+      "phrase": "no tree nuts",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "no dairy, sugar, wheat, gluten, yeast, soy, sesame, egg, fish, shellfish, salt, tree nuts, or GMOs"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/37515NWH9U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_37515NWH9U.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    }
+  ]
+}

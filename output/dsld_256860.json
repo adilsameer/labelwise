@@ -1,0 +1,320 @@
+{
+  "label_id": "dsld:256860",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Betaine Hydrochloride 650 mg",
+      "parent": "betaine hydrochloride",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 650,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11545",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11545"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Pepsin 1:3000 150 mg",
+      "parent": "pepsin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 150,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "GID333S43J",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(GID333S43J)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3.1",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "r3.2",
+      "verbatim": "Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Microcrystalline Cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Rice Bran",
+      "parent": "rice",
+      "form": null,
+      "source": "bran",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "R60QEP13IC",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(R60QEP13IC)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C21",
+      "claim": "No stearates",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in USA",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "formulated without questionable fillers, artificial colors, sweeteners, flavors, and other problematic ingredients",
+      "quote": "Our supplements are GMP (Good Manufacturing Practices) certified, ingredient verified, screened for heavy metals, and formulated without questionable fillers, artificial colors, sweeteners, flavors, and other problematic ingredients."
+    },
+    {
+      "phrase": "screened for heavy metals",
+      "quote": "Our supplements are GMP (Good Manufacturing Practices) certified, ingredient verified, screened for heavy metals, and formulated without questionable fillers, artificial colors, sweeteners, flavors, and other problematic ingredients."
+    },
+    {
+      "phrase": "bpa free",
+      "quote": "BPA Free"
+    },
+    {
+      "phrase": "no corn",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "Contains no: Sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, magnesium stearate, artificial colors or flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (58.5%), H319 (36%); 8 of 164 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11545/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11545.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/GID333S43J/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_GID333S43J.json"
+    },
+    {
+      "row_id": "r3.2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/R60QEP13IC/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_R60QEP13IC.json"
+    }
+  ]
+}

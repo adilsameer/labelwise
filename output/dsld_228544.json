@@ -1,0 +1,215 @@
+{
+  "label_id": "dsld:228544",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Turmeric root extract (Form: standardized to 95% Curcuminoids (Form: from Curcumin C3 Complex Note: A clinically studied source of curcuminoids.) Note: = 475mg) PlantPart: root Genus: Curcuma Species: longa 500 mg",
+      "parent": "curcuma longa",
+      "form": "extract",
+      "source": "root, curcumin c3 complex",
+      "strain": null,
+      "standardization": "95% Curcuminoids",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 500,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "856YO1Z64F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(856YO1Z64F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'curcuma longa root extract' as a name of 'turmeric' (856YO1Z64F); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r2.1",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "r2.2",
+      "verbatim": "Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no corn",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "Contains no sugar, salt, dairy, yeast, wheat, gluten, corn, soy, preservatives, artificial colors or flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r2.2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

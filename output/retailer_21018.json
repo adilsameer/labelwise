@@ -1,0 +1,446 @@
+{
+  "label_id": "retailer:21018",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Papaya Enzyme BlendPapaya Powder (fruit), Bromelain (from pineapple), Papain (from papaya) (fruit) 22 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 22,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "Papaya Powder (fruit)",
+      "parent": "papaya",
+      "form": "powder",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "KU94FIY6JB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(KU94FIY6JB)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the fruit powder; the id is for 'papaya'"
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "Bromelain (from pineapple)",
+      "parent": "bromelain",
+      "form": null,
+      "source": "pineapple",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "U182GP2CF3",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(U182GP2CF3)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.3",
+      "verbatim": "Papain (from papaya) (fruit",
+      "parent": "papain",
+      "form": null,
+      "source": "papaya, fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "A236A06Y32",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(A236A06Y32)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the fruit; the id is for 'papain'"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Sucrose",
+      "parent": "sucrose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5988",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5988"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "sorbitol",
+      "parent": "sorbitol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5780",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5780"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "dextrose",
+      "parent": "dextrose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "IY9XDZ35W2",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(IY9XDZ35W2)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "natural pineapple flavor",
+      "parent": "pineapple flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'pineapple flavor' names a class or mixture"
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "stearic acid",
+      "parent": "stearic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "silicon dioxide",
+      "parent": "silicon dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "maltodextrin (non-GMO)",
+      "parent": "maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7CVR7L4A2D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7CVR7L4A2D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "Artificial color (FD&C yellow # 6)",
+      "parent": "artificial color",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'artificial color'"
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "magnesium stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "No added salt, yeast, preservatives or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "No added salt, yeast, preservatives or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C32",
+      "claim": "Chewable",
+      "quote": "Chewable",
+      "where": "title"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "laboratory tested",
+      "quote": "​ Laboratory Tested"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "No added salt, yeast, preservatives or artificial flavors"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "No added salt, yeast, preservatives or artificial flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/U182GP2CF3/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_U182GP2CF3.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 423 of 442 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5988/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5988.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 1338 of 1338 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5780/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5780.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/IY9XDZ35W2/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_IY9XDZ35W2.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Stearic acid (EC: 200-313-4): H315 (25.1%); 1405 of 2057 reports Not Classified; octadecanoic acid (EC: 680-589-4): H301 (100%), H400 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "x8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7CVR7L4A2D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7CVR7L4A2D.json"
+    },
+    {
+      "row_id": "x10",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    }
+  ]
+}

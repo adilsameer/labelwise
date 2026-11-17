@@ -1,0 +1,514 @@
+{
+  "label_id": "retailer:64033",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 1.7",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.7,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Carbohydrate <1 g",
+      "parent": "total carbohydrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Sugars 0 g",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Sugar Alcohol <0.5 g",
+      "parent": "sugar alcohol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Calcium 32 mg",
+      "parent": "calcium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 32,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Proprietary Probiotic Blend (6B CFU#) 34 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 34,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "not_disclosed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the label does not list the members"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Lactobacillus rhamnosus, (LGG®)",
+      "parent": "lactobacillus rhamnosus",
+      "form": null,
+      "source": null,
+      "strain": "LGG",
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "568703",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Bifidobacterium animalis ssp. lactis, (BB-12®)",
+      "parent": "bifidobacterium animalis subsp. lactis",
+      "form": null,
+      "source": null,
+      "strain": "BB-12",
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "552531",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=552531"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Xylitol",
+      "parent": "xylitol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6912",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6912"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "tricalcium phosphate",
+      "parent": "tricalcium phosphate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24456",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24456"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "maltodextrin",
+      "parent": "maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7CVR7L4A2D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7CVR7L4A2D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "natural flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "citric acid",
+      "parent": "citric acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "311",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/311"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "magnesium stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "guar gum",
+      "parent": "guar gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "E89I1637KE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(E89I1637KE)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "beet juice powder",
+      "parent": "beet juice",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "IOZ32L9H3O",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(IOZ32L9H3O)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'beet juice'"
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "stevia",
+      "parent": "stevia",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'stevia' only as minor synonym of CID 6918840 (rebaudioside a), GSRS has no such name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Sugar Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C32",
+      "claim": "Chewable",
+      "quote": "Chewable",
+      "where": "title"
+    },
+    {
+      "claim_id": "C33",
+      "claim": "For children",
+      "quote": "Kids",
+      "where": "title"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/568703/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_568703.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/552531/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_552531.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6912/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6912.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Tricalcium bis(orthophosphate) (EC: 231-840-8): 529 of 553 reports Not Classified; Calcium phosphate (EC: 233-283-6): H318 (25%); 27 of 36 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24456/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24456.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7CVR7L4A2D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7CVR7L4A2D.json"
+    },
+    {
+      "row_id": "x5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H319, H335. ECHA C&L via PubChem, 2 entries: Citric acid (EC: 201-069-1): H319 (84.7%), H335 (23%); 359 of 4373 reports Not Classified; Citric acid (EC: 680-681-4): H319 (100%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/311/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/311.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "x8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/E89I1637KE/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_E89I1637KE.json"
+    }
+  ]
+}

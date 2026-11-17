@@ -1,0 +1,265 @@
+{
+  "label_id": "dsld:212804",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin B6 (Form: as Pyridoxine Hydrochloride) 2 mg",
+      "parent": "vitamin b6",
+      "form": "pyridoxine hydrochloride",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6019",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6019"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Folate (Folic Acid) 1334 mcg DFE",
+      "parent": "folate",
+      "form": "folic acid",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1334,
+        "unit": "mcg DFE",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398658",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398658"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Folic Acid 800 mcg",
+      "parent": "folic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 800,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398658",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398658"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Vitamin B12 (Form: as Cyanocobalamin) 1000 mcg",
+      "parent": "vitamin b12",
+      "form": "cyanocobalamin",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1000,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "166596686",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/166596686"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Stevia leaf extract 2 mg",
+      "parent": "stevia",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "6TC6NN0876",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(6TC6NN0876)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the leaf extract; the id is for 'stevia rebaudiana leaf'"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Lactose (Milk)",
+      "parent": "lactose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "J2B2A4N98G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(J2B2A4N98G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Acacia Gum",
+      "parent": "acacia gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "5C5403N26O",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(5C5403N26O)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "natural Cherry flavor",
+      "parent": "cherry flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'cherry flavor' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "GMO free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C36",
+      "claim": "Contains milk",
+      "quote": "Allergen statement: Contains milk",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (88.3%); 22 of 309 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6019/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6019.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 188 of 203 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/135398658/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/135398658.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 188 of 203 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/135398658/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/135398658.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/166596686/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/166596686.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/J2B2A4N98G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_J2B2A4N98G.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/5C5403N26O/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_5C5403N26O.json"
+    }
+  ]
+}

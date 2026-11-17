@@ -1,0 +1,147 @@
+{
+  "label_id": "retailer:35812",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 5",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Carbohydrate <1 g",
+      "parent": "total carbohydrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Mesima (Phellinus linteus) mycelium‡/fermented brown rice biomass‡ 1 g",
+      "parent": "phellinus linteus",
+      "form": null,
+      "source": "mycelium",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "40K19XJV3C",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(40K19XJV3C)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Pullulan (capsule)",
+      "parent": "pullulan",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "8ZQ0AYU1TT",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(8ZQ0AYU1TT)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "Certified Organic",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C30",
+      "claim": "Fermented",
+      "quote": "fermented",
+      "where": "rows"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/40K19XJV3C/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_40K19XJV3C.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/8ZQ0AYU1TT/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_8ZQ0AYU1TT.json"
+    }
+  ]
+}

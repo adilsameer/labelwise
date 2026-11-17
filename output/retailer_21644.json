@@ -1,0 +1,193 @@
+{
+  "label_id": "retailer:21644",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Ginkgo Extract (Ginkgo biloba) (leaf) (Standardized to 22% Flavonol Glycosides & 5% Terpene Lactones) 120 mg",
+      "parent": "ginkgo biloba",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": "22% Flavonol Glycosides & 5% Terpene Lactones",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 120,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "19FUJ2C58T",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(19FUJ2C58T)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'ginkgo biloba leaf extract' as a name of 'ginkgo' (19FUJ2C58T); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Microcrystalline Cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "Modified Cellulose (Hypromellose Veggie Capsule)",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "Silicon Dioxide (Silica)",
+      "parent": "silicon dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "Stearic Acid",
+      "parent": "stearic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C08",
+      "claim": "No gluten ingredients",
+      "quote": "Not manufactured with milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soy, sesame, or gluten",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "No GMOs, No Soy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "No GMOs, No Soy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Manufactured and quality tested in USA",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "produced in an fda-registered, third-party audited, and cgmp-compliant facility that may process other products that contain these allergens or ingredients",
+      "quote": "Produced in an FDA-registered, third-party audited, and cGMP-compliant facility that may process other products that contain these allergens or ingredients."
+    },
+    {
+      "phrase": "third-party audited",
+      "quote": "Produced in an FDA-registered, third-party audited, and cGMP-compliant facility that may process other products that contain these allergens or ingredients."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Stearic acid (EC: 200-313-4): H315 (25.1%); 1405 of 2057 reports Not Classified; octadecanoic acid (EC: 680-589-4): H301 (100%), H400 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281.json"
+    }
+  ]
+}

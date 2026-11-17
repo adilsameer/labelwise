@@ -1,0 +1,939 @@
+{
+  "label_id": "dsld:206169",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin D3 (Alt. Name: Cholecalciferol) Note: 100 IU 2.5 mcg",
+      "parent": "vitamin d3",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2.5,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280795",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280795"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Calcium (Form: from Aquamin Algae) 100 mg",
+      "parent": "calcium",
+      "form": null,
+      "source": "aquamin algae",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Magnesium (Form: from Aquamin Algae) 6.5 mg",
+      "parent": "magnesium",
+      "form": null,
+      "source": "aquamin algae",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 6.5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462224",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462224"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of magnesium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Zinc (Form: as Zinc Oxide) 0.3 mg",
+      "parent": "zinc",
+      "form": "zinc oxide",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.3,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "3007857",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3007857"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Nutrition Facts Per Serving",
+      "parent": "nutrition facts per serving",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Calories/Energy Note: 4kcal/17kJ",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Protein 0.2 Gram(s)",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.2,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Total Fat 0.3 Gram(s)",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.3,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Saturated Fat 0.3 Gram(s)",
+      "parent": "saturated fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.3,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Trans Fat 0 Gram(s)",
+      "parent": "trans fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Total Carbohydrates 0.1 Gram(s)",
+      "parent": "total carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.1,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Sugar 0 Gram(s)",
+      "parent": "sugar",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Dietary Fiber 0 Gram(s)",
+      "parent": "dietary fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Sodium 0 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5360545",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360545"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Medium Chain Triglyceride Oil",
+      "parent": "medium chain triglyceride oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C9H2L21V7U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C9H2L21V7U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "purified Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "Titanium Dioxide",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "Beeswax",
+      "parent": "beeswax",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2ZA36H0S2V",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2ZA36H0S2V)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "Sunflower Lecithin",
+      "parent": "sunflower lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "834K0WOS5G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(834K0WOS5G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r22",
+      "verbatim": "Ingredients",
+      "parent": "ingredients",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'ingredients' names a class or mixture"
+    },
+    {
+      "row_id": "r23",
+      "verbatim": "Algae",
+      "parent": "algae",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'algae' names a class or mixture"
+    },
+    {
+      "row_id": "r24",
+      "verbatim": "Medium Chain Triglyceride Oil",
+      "parent": "medium chain triglyceride oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C9H2L21V7U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C9H2L21V7U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r25",
+      "verbatim": "Gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r26",
+      "verbatim": "Glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r27",
+      "verbatim": "purified Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r28",
+      "verbatim": "Color (Titanium Dioxide)",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r29",
+      "verbatim": "Anti-caking agent (Beeswax)",
+      "parent": "beeswax",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2ZA36H0S2V",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2ZA36H0S2V)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r30",
+      "verbatim": "Emulsifier (Sunflower Lecithin)",
+      "parent": "sunflower lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "834K0WOS5G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(834K0WOS5G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r31",
+      "verbatim": "Zinc Oxide",
+      "parent": "zinc oxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "3007857",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3007857"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r32",
+      "verbatim": "Cholecalciferol",
+      "parent": "cholecalciferol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280795",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280795"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "gluten free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Sugar free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "no artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Manufactured in USA",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C33",
+      "claim": "For children",
+      "quote": "For kids",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "Gelatin",
+      "where": "other_ingredients"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H300, H310, H330, H372. ECHA C&L via PubChem: H300 (14.3%), H301 (85.8%), H310 (12.7%), H311 (87.3%), H330 (100%), H372. NITE-CMC, 2 entries: (3S,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol - FY2024 (Revised classification): H330; colecalciferol; Vitamin D3 - FY2008 (New/original classication): H300, H310, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280795/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280795.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H400, H410. ECHA C&L via PubChem, 2 entries: Zinc oxide (EC: 215-222-5): H400 (98.4%), H410 (99.6%); 15 of 7128 reports Not Classified; Zinc oxide (ZnO) (EC: 617-101-6): H400 (100%), H410 (100%). NITE-CMC, 3 entries: Zinc oxide - FY2013 (Revised classification): H361, H370, H400, H410; Zinc oxide - FY2009 (Revised classification): H361, H370; Zinc oxide - FY2006 (New/original classication): H333, H370, H372. Hazardous Chemical Information System (HCIS), Safe Work Australia: H410.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3007857/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/3007857.json"
+    },
+    {
+      "row_id": "r15",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C9H2L21V7U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C9H2L21V7U.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r17",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "r18",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r19",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "r20",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2ZA36H0S2V/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2ZA36H0S2V.json"
+    },
+    {
+      "row_id": "r21",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/834K0WOS5G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_834K0WOS5G.json"
+    },
+    {
+      "row_id": "r24",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C9H2L21V7U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C9H2L21V7U.json"
+    },
+    {
+      "row_id": "r25",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r26",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "r27",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r28",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "r29",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2ZA36H0S2V/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2ZA36H0S2V.json"
+    },
+    {
+      "row_id": "r30",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/834K0WOS5G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_834K0WOS5G.json"
+    },
+    {
+      "row_id": "r31",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H400, H410. ECHA C&L via PubChem, 2 entries: Zinc oxide (EC: 215-222-5): H400 (98.4%), H410 (99.6%); 15 of 7128 reports Not Classified; Zinc oxide (ZnO) (EC: 617-101-6): H400 (100%), H410 (100%). NITE-CMC, 3 entries: Zinc oxide - FY2013 (Revised classification): H361, H370, H400, H410; Zinc oxide - FY2009 (Revised classification): H361, H370; Zinc oxide - FY2006 (New/original classication): H333, H370, H372. Hazardous Chemical Information System (HCIS), Safe Work Australia: H410.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3007857/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/3007857.json"
+    },
+    {
+      "row_id": "r32",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H300, H310, H330, H372. ECHA C&L via PubChem: H300 (14.3%), H301 (85.8%), H310 (12.7%), H311 (87.3%), H330 (100%), H372. NITE-CMC, 2 entries: (3S,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol - FY2024 (Revised classification): H330; colecalciferol; Vitamin D3 - FY2008 (New/original classication): H300, H310, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280795/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280795.json"
+    }
+  ]
+}

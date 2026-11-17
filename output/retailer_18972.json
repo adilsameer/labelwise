@@ -1,0 +1,439 @@
+{
+  "label_id": "retailer:18972",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Iron (as ferrous gluconate) (elemental) 27 mg",
+      "parent": "iron",
+      "form": "ferrous gluconate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 27,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23616740",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23616740"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Microcrystalline cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "croscarmellose sodium",
+      "parent": "croscarmellose sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "M28OL1HH48",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(M28OL1HH48)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "vegetable stearic acid",
+      "parent": "stearic acid",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "polyvinyl alcohol",
+      "parent": "polyvinyl alcohol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "532B59J990",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(532B59J990)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "titanium dioxide",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "polyethylene glycol",
+      "parent": "polyethylene glycol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3WJQ0SDW1A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3WJQ0SDW1A)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "magnesium silicate",
+      "parent": "magnesium silicate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "72941442",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/72941442"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "fd&c blue #1",
+      "parent": "fd&c blue #1",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "19700",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/19700"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "fd&c yellow #5",
+      "parent": "fd&c yellow #5",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "16013",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/16013"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "fd&c red #40",
+      "parent": "fd&c red #40",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "33258",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/33258"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Soy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "laboratory tested",
+      "quote": "Laboratory Tested"
+    },
+    {
+      "phrase": "no fish",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame"
+    },
+    {
+      "phrase": "no sesame",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "Guaranteed no added: dairy, egg, fish, crustacean shellfish, peanuts, tree nuts, wheat, soy, yeast, sesame"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H302 (17.4%); 17 of 23 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/23616740/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/23616740.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/M28OL1HH48/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_M28OL1HH48.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Stearic acid (EC: 200-313-4): H315 (25.1%); 1405 of 2057 reports Not Classified; octadecanoic acid (EC: 680-589-4): H301 (100%), H400 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/532B59J990/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_532B59J990.json"
+    },
+    {
+      "row_id": "x5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3WJQ0SDW1A/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3WJQ0SDW1A.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Silicic acid, magnesium salt (EC: 215-681-1): H318 (29.1%), H319 (17.6%); 187 of 358 reports Not Classified; Magnesium silicate (EC: 237-413-2): 87 of 87 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/72941442/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/72941442.json"
+    },
+    {
+      "row_id": "x8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/19700/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/19700.json"
+    },
+    {
+      "row_id": "x9",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/16013/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/16013.json"
+    },
+    {
+      "row_id": "x10",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 345 of 345 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/33258/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/33258.json"
+    }
+  ]
+}

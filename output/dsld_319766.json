@@ -1,0 +1,79 @@
+{
+  "label_id": "dsld:319766",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Green Coffee Bean Extract (Chlorogenic Acid) standardized to 50% 1600 mg",
+      "parent": "green coffee bean",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": "50%",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1600,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for green coffee bean extract"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan friendly",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "GMO free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "Good Manufacturing Practice",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Manufactured in the USA",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no animal testing",
+      "quote": "No animal testing"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

@@ -1,0 +1,204 @@
+{
+  "label_id": "retailer:22659",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 5",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Carbohydrate 2 g",
+      "parent": "total carbohydrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Dietary Fiber 2 g",
+      "parent": "dietary fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Organic Inulin (FOS) (from Blue Agave) 1.95 g (1,950 mg)",
+      "parent": "inulin",
+      "form": null,
+      "source": "blue agave",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.95,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "JOS53KRJ01",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(JOS53KRJ01)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Vegetable polysaccaride (capsule)",
+      "parent": "polysaccaride",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'polysaccaride'"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "magnesium stearate (vegetable source)",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "Vegetarian",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C08",
+      "claim": "No gluten ingredients",
+      "quote": "Not manufactured with yeast, wheat, gluten, soy, milk, egg, fish, shellfish, tree nut or sesame ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "Certified Organic",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made and quality tested in the USA",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "produced in a gmp facility that processes other ingredients containing these allergens",
+      "quote": "Produced in a GMP facility that processes other ingredients containing these allergens."
+    }
+  ],
+  "for_a_person": [
+    {
+      "kind": "unclear",
+      "note": "'Non GMP Project Verified' may be a misspelling of 'Non GMO Project Verified'",
+      "quote": "Non GMP Project Verified"
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/JOS53KRJ01/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_JOS53KRJ01.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    }
+  ]
+}

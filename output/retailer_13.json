@@ -1,0 +1,136 @@
+{
+  "label_id": "retailer:13",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Berberine HCl (from Indian Barberry extract) (root) (Berberis aristata) 450 mg",
+      "parent": "berberine hcl",
+      "form": "extract",
+      "source": "root, indian barberry extract, berberis aristata",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 450,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "12456",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/12456"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Berberin Phytosome† (Berberis aristata extract (root) / Phospholipid complex from Pea, Sunflower, Grape Seed) 550 mg",
+      "parent": "berberin phytosome",
+      "form": "extract",
+      "source": "root, pea, sunflower, grape seed, seed",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 550,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for berberin phytosome root extract"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Hypromellose (derived from cellulose) capsule",
+      "parent": "hypromellose",
+      "form": null,
+      "source": "cellulose",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NXW29V3WO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NXW29V3WO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "calcium laurate",
+      "parent": "calcium laurate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "9911040",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9911040"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 4 of 4 reports Not Classified. NITE-CMC: H361.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/12456/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/12456.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NXW29V3WO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NXW29V3WO.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 116 of 117 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/9911040/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/9911040.json"
+    }
+  ]
+}

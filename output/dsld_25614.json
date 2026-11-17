@@ -1,0 +1,341 @@
+{
+  "label_id": "dsld:25614",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin D3 1800 IU",
+      "parent": "vitamin d3",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1800,
+        "unit": "IU",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280795",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280795"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Ginger 25 mg",
+      "parent": "ginger",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 25,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C5529G5JPQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C5529G5JPQ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Ginger (root) extract 5% 25 mg",
+      "parent": "ginger",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 25,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C5529G5JPQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C5529G5JPQ)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'ginger root extract' as a name of 'ginger' (C5529G5JPQ); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "BCM-95(R) Bio-Curcumin(R) (Curcuma longa) 25:1 extract 250 mg",
+      "parent": "curcuma longa",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": "25:1",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "856YO1Z64F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(856YO1Z64F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'curcuma longa extract' as a name of 'turmeric' (856YO1Z64F); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Green tea leaf extract (Form: 98% polyphenols, and 45% ECGC) PlantPart: leaf 90 mg",
+      "parent": "green tea",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": "98% polyphenols; 45% ECGC",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 90,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "W2ZU1RY8B0",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(W2ZU1RY8B0)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'green tea leaf extract' as a name of 'green tea leaf' (W2ZU1RY8B0); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r6.1",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "r6.2",
+      "verbatim": "Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C34",
+      "claim": "For women",
+      "quote": "Women's",
+      "where": "title"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no salt",
+      "quote": "Contains no sugar, salt, dairy, wheat, gluten, preservatives, artificial colors or flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H300, H310, H330, H372. ECHA C&L via PubChem: H300 (14.3%), H301 (85.8%), H310 (12.7%), H311 (87.3%), H330 (100%), H372. NITE-CMC, 2 entries: (3S,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol - FY2024 (Revised classification): H330; colecalciferol; Vitamin D3 - FY2008 (New/original classication): H300, H310, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280795/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280795.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C5529G5JPQ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C5529G5JPQ.json"
+    },
+    {
+      "row_id": "r6.2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

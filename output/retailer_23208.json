@@ -1,0 +1,270 @@
+{
+  "label_id": "retailer:23208",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Proprietary Blend: 1,425 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 1425,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "not_disclosed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the label does not list the members"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Senna (leaf), dried",
+      "parent": "senna",
+      "form": null,
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "AK7JF626KX",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(AK7JF626KX)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Licorice (root), dried",
+      "parent": "licorice",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "61ZBX54883",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(61ZBX54883)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the root; the id is for 'licorice'"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Cinnamon (bark), dried",
+      "parent": "cinnamon",
+      "form": null,
+      "source": "bark",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "5S29HWU6QB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(5S29HWU6QB)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the bark; the id is for 'cinnamon'"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Fennel (seed), dried",
+      "parent": "fennel",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "G3QC02NIE6",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(G3QC02NIE6)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Ginger (root), dried",
+      "parent": "ginger",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C5529G5JPQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C5529G5JPQ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Coriander (seed), dried",
+      "parent": "coriander",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "1OV56052IK",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(1OV56052IK)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Bael (fruit), dried",
+      "parent": "bael",
+      "form": null,
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for bael fruit"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Natural flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "caffeine free",
+      "quote": "Caffeine Free"
+    },
+    {
+      "phrase": "100% natural",
+      "quote": "100% Natural Product"
+    },
+    {
+      "phrase": "no odors",
+      "quote": "with no odors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/AK7JF626KX/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_AK7JF626KX.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/G3QC02NIE6/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_G3QC02NIE6.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C5529G5JPQ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C5529G5JPQ.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/1OV56052IK/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_1OV56052IK.json"
+    }
+  ]
+}

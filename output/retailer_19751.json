@@ -1,0 +1,115 @@
+{
+  "label_id": "retailer:19751",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Organic Reishi(Ganoderma lucidum) (mycelium, primordia,fruiting bodies, and extracellular compounds) 600 mg",
+      "parent": "ganoderma lucidum",
+      "form": null,
+      "source": "mycelium, primordia, fruiting bodies",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 600,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "TKD8LH0X2Z",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(TKD8LH0X2Z)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the mycelium; the id is for 'reishi'"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Modified Cellulose (Hypromellose Veggie Capsule)",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "Organic White Sorghum (Ganoderma lucidum Growing Substrate)",
+      "parent": "white sorghum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'white sorghum'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegans",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "Vegetarians",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C08",
+      "claim": "No gluten ingredients",
+      "quote": "Formulated without Gluten, GMOs, or Soy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "formulated without gluten, gmos, or soy",
+      "quote": "It is suitable for vegetarians and vegans and formulated without gluten, GMOs, or soy."
+    },
+    {
+      "phrase": "not manufactured with milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soy, sesame, or gluten",
+      "quote": "Not manufactured with milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soy, sesame, or gluten."
+    },
+    {
+      "phrase": "produced in an fda-registered, third-party audited, and cgmp-compliant facility that may process other products that contain these allergens or ingredients",
+      "quote": "Produced in an FDA-registered, third-party audited, and cGMP-compliant facility that may process other products that contain these allergens or ingredients."
+    },
+    {
+      "phrase": "third-party audited",
+      "quote": "Produced in an FDA-registered, third-party audited, and cGMP-compliant facility that may process other products that contain these allergens or ingredients."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

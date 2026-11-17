@@ -1,0 +1,6 @@
+{
+  "body": "{\n  \"Fault\": {\n    \"Code\": \"PUGREST.NotFound\",\n    \"Message\": \"No CIDs found for the given SID(s)\"\n  }\n}\n",
+  "date": "2026-11-17",
+  "status": 404,
+  "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/LZO6K1506A/cids/JSON"
+}

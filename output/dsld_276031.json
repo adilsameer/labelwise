@@ -1,0 +1,391 @@
+{
+  "label_id": "dsld:276031",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Magnesium (as Magnesium Aspartate) 40 mg",
+      "parent": "magnesium",
+      "form": "magnesium aspartate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "56841975",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/56841975"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Zinc (as Zinc Aspartate, Zinc Monomethionine) 30 mg",
+      "parent": "zinc",
+      "form": "zinc aspartate, zinc monomethionine",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23994",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23994"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (zinc aspartate, zinc monomethionine)"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Valerian root powder 100 mg",
+      "parent": "valerian",
+      "form": "powder",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "JWF5YAW3QW",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(JWF5YAW3QW)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the root powder; the id is for 'valerian'"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "L-Theanine 100 mg",
+      "parent": "l-theanine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "439378",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/439378"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Chamomile flower powder 100 mg",
+      "parent": "chamomile",
+      "form": "powder",
+      "source": "flower",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "FGL3685T2X",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(FGL3685T2X)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the flower powder; the id is for 'chamomile'"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Hops flower powder 100 mg",
+      "parent": "hops",
+      "form": "powder",
+      "source": "flower",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "01G73H6H83",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(01G73H6H83)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the flower powder; the id is for 'hops'"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Skullcap herb powder 100 mg",
+      "parent": "skullcap",
+      "form": "powder",
+      "source": "herb",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for skullcap herb powder"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Wild Lettuce leaf powder 50 mg",
+      "parent": "wild lettuce",
+      "form": "powder",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "H3R170Z9H8",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(H3R170Z9H8)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the leaf powder; the id is for 'lactuca virosa leaf'"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Jujube (Ziziphus jujuba) (fruit) Powder 50 mg",
+      "parent": "ziziphus jujuba",
+      "form": "powder",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "G55HNL2C70",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(G55HNL2C70)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the fruit powder; the id is for 'jujube fruit'"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Melatonin 3 mg",
+      "parent": "melatonin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "896",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/896"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Gelatin Capsule",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Microcrystalline Cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "Gelatin",
+      "where": "other_ingredients"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 52 of 52 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/56841975/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/56841975.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H317 (99.5%); 1 of 206 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/439378/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/439378.json"
+    },
+    {
+      "row_id": "r10",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 139 of 144 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/896/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/896.json"
+    },
+    {
+      "row_id": "r11",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    }
+  ]
+}

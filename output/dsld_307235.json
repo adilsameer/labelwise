@@ -1,0 +1,145 @@
+{
+  "label_id": "dsld:307235",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Bilberry (Vaccinium myrtillus) organic 640 mg",
+      "parent": "bilberry",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 640,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9P2U39H18W",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9P2U39H18W)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Bilberry Fruit Extract (Vaccinium myrtillus Fruit Extract) Standardized to 25% Anthocyanosides 240 mg",
+      "parent": "bilberry",
+      "form": "extract",
+      "source": "fruit",
+      "strain": null,
+      "standardization": "25% Anthocyanosides",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 240,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9P2U39H18W",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9P2U39H18W)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the fruit extract; the id is for 'bilberry'"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Pullulan",
+      "parent": "pullulan",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "8ZQ0AYU1TT",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(8ZQ0AYU1TT)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Nothing Else",
+      "parent": "nothing else",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'nothing else' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Free from: Gluten, dairy and soy allergens",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Free from: Gluten, dairy and soy allergens",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Free from: Gluten, dairy and soy allergens",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "non-GMO",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/9P2U39H18W/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_9P2U39H18W.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/8ZQ0AYU1TT/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_8ZQ0AYU1TT.json"
+    }
+  ]
+}

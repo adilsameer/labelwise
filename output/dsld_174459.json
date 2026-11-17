@@ -1,0 +1,234 @@
+{
+  "label_id": "dsld:174459",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin B12 (Form: as Hydroxocobalamin) 2000 mcg",
+      "parent": "vitamin b12",
+      "form": "hydroxocobalamin",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2000,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "44475014",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/44475014"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Xylitol",
+      "parent": "xylitol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6912",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6912"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Ascorbyl Palmitate",
+      "parent": "ascorbyl palmitate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54680660",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54680660"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "natural Cherry flavor",
+      "parent": "cherry flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'cherry flavor' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no fish",
+      "quote": "Does Not Contain: Milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, GMO, gluten, artificial colors, or artificial flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/44475014/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/44475014.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6912/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6912.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H319 (36.6%), H412 (34.1%); 161 of 475 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54680660/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54680660.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

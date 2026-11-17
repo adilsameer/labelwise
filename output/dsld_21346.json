@@ -1,0 +1,266 @@
+{
+  "label_id": "dsld:21346",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Proprietary Blend (Eleuthero, Licorice, Polygonatum Root Extract, Reishi Mushroom, Schizandra, Solomon Seal) 360 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 360,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "Eleuthero",
+      "parent": "eleuthero",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "ZQH6VH092Z",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(ZQH6VH092Z)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "Licorice",
+      "parent": "licorice",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "61ZBX54883",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(61ZBX54883)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.3",
+      "verbatim": "Polygonatum Root Extract",
+      "parent": "polygonatum",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "W93B56AH6R",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(W93B56AH6R)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the root extract; the id is for 'polygonatum cyrtonema root'"
+    },
+    {
+      "row_id": "r1.4",
+      "verbatim": "Reishi Mushroom",
+      "parent": "reishi mushroom",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "TKD8LH0X2Z",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(TKD8LH0X2Z)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.5",
+      "verbatim": "Schizandra",
+      "parent": "schizandra",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'schizandra'"
+    },
+    {
+      "row_id": "r1.6",
+      "verbatim": "Solomon Seal",
+      "parent": "solomon seal",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'solomon seal'"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "deionized Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "gluten free Grain Alcohol",
+      "parent": "grain alcohol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "702",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/702"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C23",
+      "claim": "Made with organic ingredients",
+      "quote": "Made with organic ingredients",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1.1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/ZQH6VH092Z/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_ZQH6VH092Z.json"
+    },
+    {
+      "row_id": "r1.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/61ZBX54883/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_61ZBX54883.json"
+    },
+    {
+      "row_id": "r1.4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/TKD8LH0X2Z/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_TKD8LH0X2Z.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H225. ECHA C&L via PubChem, 5 entries: Ethanol (EC: 200-578-6): H225, H319 (37.7%); 5 of 13886 reports Not Classified; Alcohol: H319 (100%), H412 (100%); Alcohol: H315 (100%), H319 (100%), H412 (100%); Alcohol: H315 (100%), H319 (100%), H412 (100%); Alcohol: H315 (100%), H319 (100%), H412 (100%). NITE-CMC, 3 entries: Ethanol - FY2013 (Revised classification): H225, H320, H335, H336, H350, H360, H372, H373; Ethanol - FY2009 (Revised classification): H225, H320, H335, H340, H360, H372, H373; Ethanol - FY2006 (New/original classication): H225, H319, H335, H336, H340, H360, H372, H373. Hazardous Chemical Information System (HCIS), Safe Work Australia: H225, H319. Hazardous Substances Data Bank (HSDB): H225, H319.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/702/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/702.json"
+    }
+  ]
+}

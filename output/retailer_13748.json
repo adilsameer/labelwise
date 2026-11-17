@@ -1,0 +1,127 @@
+{
+  "label_id": "retailer:13748",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 40",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Protein 8 g",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 8,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Sodium 30 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5360545",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360545"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "BioActive NeoCell Collagen Peptides™ (from Grassfed Bovine) 10 g",
+      "parent": "bioactive neocell collagen",
+      "form": null,
+      "source": "grassfed bovine",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'bioactive neocell collagen'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C05",
+      "claim": "Keto",
+      "quote": "Keto Friendly",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "No soy, wheat or lactose",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "No soy, wheat or lactose",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "may contain: trace amounts of naturally occurring sulfite residue",
+      "quote": "May contain: trace amounts of naturally occurring sulfite residue."
+    },
+    {
+      "phrase": "no lactose",
+      "quote": "No soy, wheat or lactose"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

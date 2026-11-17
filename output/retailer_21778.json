@@ -1,0 +1,265 @@
+{
+  "label_id": "retailer:21778",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 10",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Carbohydrate 3 g",
+      "parent": "total carbohydrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Sugars 1 g",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Includes 0 g Added Sugars",
+      "parent": "includes 0 g added sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Iron 1 mg",
+      "parent": "iron",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23925",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23925"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iron; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Potassium 50 mg",
+      "parent": "potassium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462222",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462222"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of potassium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Organic Golden Milk Blend 3.2 g",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 3.2,
+        "unit": "g",
+        "scope": "blend"
+      },
+      "blend_contents": "not_disclosed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the label does not list the members"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Probiotic Blend 1 Billion CFU* 4 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "not_disclosed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the label does not list the members"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Organic flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO Project Verified",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "USDA Organic",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C24",
+      "claim": "NSF certified",
+      "quote": "NSF",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in the U.S.A.",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C30",
+      "claim": "Fermented",
+      "quote": "Fermented",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C39",
+      "claim": "Contains tree nuts",
+      "quote": "Contains: Tree nuts (coconut)",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "certified b corporation",
+      "quote": "Certified B Corporation"
+    },
+    {
+      "phrase": "made without dairy or soy ingredients, added sugars nor filler ingredients",
+      "quote": "Made without dairy or soy ingredients, added sugars nor filler ingredients."
+    },
+    {
+      "phrase": "manufactured in a facility that also processes egg, milk, soy, wheat, tree nuts and sesame",
+      "quote": "Manufactured in a facility that also processes egg, milk, soy, wheat, tree nuts and sesame."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

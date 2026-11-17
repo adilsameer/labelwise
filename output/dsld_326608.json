@@ -1,0 +1,461 @@
+{
+  "label_id": "dsld:326608",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Probiotic Blend total cutures, 10 billion CFU 44 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 44,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "total cutures",
+      "parent": "total cutures",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'total cutures' names a class or mixture"
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "10 billion CFU",
+      "parent": "10 billion cfu",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name '10 billion cfu'"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Lactobacillus acidophilus La-14",
+      "parent": "lactobacillus acidophilus",
+      "form": null,
+      "source": null,
+      "strain": "La-14",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1314884",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1314884"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Lactobacillus rhamnosus HN001",
+      "parent": "lactobacillus rhamnosus",
+      "form": null,
+      "source": null,
+      "strain": "HN001",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "486408",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=486408"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Women's Balance Blend 100 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Chaste Tree berry extract organic",
+      "parent": "chaste tree",
+      "form": "extract",
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r4",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "433OSF3U8A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(433OSF3U8A)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the berry extract; the id is for 'chaste tree fruit'"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Maca Root Extract organic",
+      "parent": "maca",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r4",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "HP7119212T",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(HP7119212T)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the root extract; the id is for 'lepidium meyenii root'"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Lavender Aerial Parts Extract organic",
+      "parent": "lavender",
+      "form": "extract",
+      "source": "aerial parts",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r4",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for lavender aerial parts extract"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Inulin (Jerusalem Artichoke) organic jerusalem artichoke 100 mg",
+      "parent": "inulin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "JOS53KRJ01",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(JOS53KRJ01)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Hypromellose",
+      "parent": "hypromellose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NXW29V3WO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NXW29V3WO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Microcrystalline Cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Rice Extract",
+      "parent": "rice",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "A195V20H7A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(A195V20H7A)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'white rice'"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Sunflower Oil",
+      "parent": "sunflower oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3W1JG795YI",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3W1JG795YI)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "no artificial flavors or colors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "no artificial flavors or colors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO Project Verified",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C34",
+      "claim": "For women",
+      "quote": "Women's",
+      "where": "title"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "certified b corporation",
+      "quote": "Certified B Corporation"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/1314884/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_1314884.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/486408/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_486408.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/JOS53KRJ01/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_JOS53KRJ01.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NXW29V3WO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NXW29V3WO.json"
+    },
+    {
+      "row_id": "r10",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3W1JG795YI/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3W1JG795YI.json"
+    }
+  ]
+}

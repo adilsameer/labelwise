@@ -1,0 +1,722 @@
+{
+  "label_id": "dsld:8588",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin A (Form: as Beta Carotene) 5000 IU",
+      "parent": "vitamin a",
+      "form": "beta carotene",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5000,
+        "unit": "IU",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280489",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280489"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Vitamin C (Ascorbic Acid) 300 mg",
+      "parent": "vitamin c",
+      "form": "ascorbic acid",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 300,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Vitamin E (Form: as D-Alpha Tocopheryl Acetate) 100 IU",
+      "parent": "vitamin e",
+      "form": "d-alpha tocopheryl acetate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "IU",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "86472",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/86472"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Zinc (Form: as zinc gluconate, & zinc picolinate) 30 mg",
+      "parent": "zinc",
+      "form": "zinc gluconate, & zinc picolinate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23994",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23994"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (zinc gluconate, & zinc picolinate)"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Selenium (Form: as Selenium Amino Acid Chelate) 50 mcg",
+      "parent": "selenium",
+      "form": "selenium amino acid chelate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6326970",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6326970"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'selenium amino acid chelate'; the id is for 'selenium'"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Copper (Form: as Copper Amino Acid Chelate) 1.5 mg",
+      "parent": "copper",
+      "form": "copper amino acid chelate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23978",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23978"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'copper amino acid chelate'; the id is for 'copper'"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Chromium (Form: as Chromium Picolinate) 25 mcg",
+      "parent": "chromium",
+      "form": "chromium picolinate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 25,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "151932",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/151932"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Lutein 6000 mcg",
+      "parent": "lutein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 6000,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281243",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281243"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Stearic Acid",
+      "parent": "stearic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Sodium Croscarmellose",
+      "parent": "sodium croscarmellose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "M28OL1HH48",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(M28OL1HH48)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Tricalcium Phosphate",
+      "parent": "tricalcium phosphate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24456",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24456"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Dicalcium Phosphate",
+      "parent": "dicalcium phosphate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24441",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24441"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Hydroxypropyl Methylcellulose",
+      "parent": "hydroxypropyl methylcellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NXW29V3WO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NXW29V3WO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Titanium Dioxide",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17.1",
+      "verbatim": "Carnauba Wax",
+      "parent": "carnauba wax",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "R12CBM0EIZ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(R12CBM0EIZ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17.2",
+      "verbatim": "HPMC",
+      "parent": "hpmc",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NXW29V3WO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NXW29V3WO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17.3",
+      "verbatim": "Talc",
+      "parent": "talc",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "165411828",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/165411828"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17.4",
+      "verbatim": "Titanium Dioxide",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17.5",
+      "verbatim": "Triacetin",
+      "parent": "triacetin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5541",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5541"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17.6",
+      "verbatim": "Yellow #10",
+      "parent": "yellow #10",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "35SW5USQ3G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(35SW5USQ3G)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in USA",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C37",
+      "claim": "Contains soy",
+      "quote": "Contains Soy",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 311 of 368 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280489/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280489.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Ascorbic acid (EC: 200-066-2): 572 of 588 reports Not Classified; E-300 (EC: 477-330-0): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54670067/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54670067.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 3 entries: 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate (EC: 231-710-0): 1849 of 1939 reports Not Classified; α-tocopheryl acetate (EC: 200-405-4): H413 (63.7%); 102 of 281 reports Not Classified; 3,4-Dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate (EC: 692-041-1): H413 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/86472/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/86472.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Chromium picolinate (EC: 604-524-6): H315 (94.9%), H319 (94.9%), H335 (94.9%); Chromium picolinate (EC: 477-680-4): H317 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/151932/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/151932.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 151 of 158 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281243/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281243.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Stearic acid (EC: 200-313-4): H315 (25.1%); 1405 of 2057 reports Not Classified; octadecanoic acid (EC: 680-589-4): H301 (100%), H400 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281.json"
+    },
+    {
+      "row_id": "r10",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/M28OL1HH48/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_M28OL1HH48.json"
+    },
+    {
+      "row_id": "r11",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Tricalcium bis(orthophosphate) (EC: 231-840-8): 529 of 553 reports Not Classified; Calcium phosphate (EC: 233-283-6): H318 (25%); 27 of 36 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24456/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24456.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 455 of 468 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24441/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24441.json"
+    },
+    {
+      "row_id": "r15",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NXW29V3WO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NXW29V3WO.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "r17.1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/R12CBM0EIZ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_R12CBM0EIZ.json"
+    },
+    {
+      "row_id": "r17.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NXW29V3WO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NXW29V3WO.json"
+    },
+    {
+      "row_id": "r17.3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 4523 of 4758 reports Not Classified. NITE-CMC: H370, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/165411828/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/165411828.json"
+    },
+    {
+      "row_id": "r17.4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "r17.5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Triacetin (EC: 203-051-9): 1973 of 1977 reports Not Classified; triacetin (EC: 686-191-7): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5541/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5541.json"
+    },
+    {
+      "row_id": "r17.6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/35SW5USQ3G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_35SW5USQ3G.json"
+    }
+  ]
+}

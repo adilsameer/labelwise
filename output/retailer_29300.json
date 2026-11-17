@@ -1,0 +1,2005 @@
+{
+  "label_id": "retailer:29300",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 250",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Fat 8 g",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 8,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Saturated Fat 1 g",
+      "parent": "saturated fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Trans Fat 0 g",
+      "parent": "trans fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Cholesterol 10 mg",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5997",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Sodium 270 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 270,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5360545",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360545"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Total Carbohydrate 28 g",
+      "parent": "total carbohydrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 28,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Dietary Fiber 1 g",
+      "parent": "dietary fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Total Sugars 12 g",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 12,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Includes 11 g Added Sugars",
+      "parent": "includes 11 g added sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Protein 16 g",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 16,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Vitamin D 2.3 mcg",
+      "parent": "vitamin d",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2.3,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "9VU1KI44GP",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(9VU1KI44GP)"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin d; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Iron 0.4 mg",
+      "parent": "iron",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.4,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23925",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23925"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iron; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Vitamin A 230 mcg",
+      "parent": "vitamin a",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 230,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "81G40H8B0T",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(81G40H8B0T)"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin a; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Vitamin E 2.7 mg",
+      "parent": "vitamin e",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2.7,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "69540411",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/69540411"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin e; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Riboflavin 0.28 mg",
+      "parent": "riboflavin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.28,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "493570",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/493570"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Vitamin B6 0.3 mg",
+      "parent": "vitamin b6",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.3,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "104817",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/104817"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin b6; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "Vitamin B12 0.6 mcg",
+      "parent": "vitamin b12",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.6,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "165339223",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/165339223"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin b12; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "Pantothenic Acid 1 mg",
+      "parent": "pantothenic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6613",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6613"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of pantothenic acid; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "Iodine 40 mcg",
+      "parent": "iodine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "807",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/807"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iodine; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "Zinc 3.7 mg",
+      "parent": "zinc",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3.7,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23994",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23994"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of zinc; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r22",
+      "verbatim": "Calcium 500 mg",
+      "parent": "calcium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 500,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r23",
+      "verbatim": "Potassium 320 mg",
+      "parent": "potassium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 320,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462222",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462222"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of potassium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r24",
+      "verbatim": "Vitamin C 24 mg",
+      "parent": "vitamin c",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 24,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin c; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r25",
+      "verbatim": "Thiamin 0.12 mg",
+      "parent": "thiamin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.12,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "1130",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1130"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of thiamin; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r26",
+      "verbatim": "Niacin 3 mg",
+      "parent": "niacin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "938",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/938"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of niacin; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r27",
+      "verbatim": "Folate 95 mcg DFE",
+      "parent": "folate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 95,
+        "unit": "mcg DFE",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135405876",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135405876"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of folate; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r28",
+      "verbatim": "Biotin 3 mcg",
+      "parent": "biotin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "171548",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/171548"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r29",
+      "verbatim": "Phosphorus 390 mg",
+      "parent": "phosphorus",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 390,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462309",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462309"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of phosphorus; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r30",
+      "verbatim": "Magnesium 75 mg",
+      "parent": "magnesium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462224",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462224"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of magnesium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r31",
+      "verbatim": "Copper 0.2 mg",
+      "parent": "copper",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.2,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23978",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23978"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of copper; the id is for the nutrient name"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Filtered water",
+      "parent": "filtered water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'filtered water'"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "orgain organic protein blend™ (grass fed organic milk protein concentrate organic whey protein concentrate)",
+      "parent": "orgain protein",
+      "form": "concentrate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for orgain protein concentrate"
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "organic rice dextrin",
+      "parent": "rice dextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'rice dextrin'"
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "organic brown rice syrup",
+      "parent": "brown rice syrup",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'brown rice syrup'"
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "organic high oleic sunflower oil organic cane sugar",
+      "parent": "high oleic sunflower oil cane sugar",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'high oleic sunflower oil cane sugar'"
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "organic alkalized cocoa powder",
+      "parent": "alkalized cocoa",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for alkalized cocoa powder"
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "organic natural flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "organic sunflower lecithin",
+      "parent": "sunflower lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "834K0WOS5G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(834K0WOS5G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "sodium ascorbate",
+      "parent": "sodium ascorbate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23667548",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23667548"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "magnesium sulfate",
+      "parent": "magnesium sulfate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "DE08037SAB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(DE08037SAB)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x11",
+      "verbatim": "zinc gluconate",
+      "parent": "zinc gluconate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "443445",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/443445"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x12",
+      "verbatim": "dl-alpha tocopheryl acetate",
+      "parent": "dl-alpha tocopheryl acetate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "2117",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2117"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x13",
+      "verbatim": "niacinamide",
+      "parent": "niacinamide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "936",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/936"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x14",
+      "verbatim": "vitamin a palmitate",
+      "parent": "vitamin a palmitate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280531",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280531"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x15",
+      "verbatim": "potassium iodide",
+      "parent": "potassium iodide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "4875",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4875"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x16",
+      "verbatim": "copper gluconate",
+      "parent": "copper gluconate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "10692",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10692"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x17",
+      "verbatim": "calcium d-pantothenate",
+      "parent": "calcium d-pantothenate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "443753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/443753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x18",
+      "verbatim": "cyanocobalamin",
+      "parent": "cyanocobalamin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "166596686",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/166596686"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x19",
+      "verbatim": "cholecalciferol",
+      "parent": "cholecalciferol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280795",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280795"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x20",
+      "verbatim": "folic acid",
+      "parent": "folic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398658",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398658"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x21",
+      "verbatim": "thiamine hydrochloride",
+      "parent": "thiamine hydrochloride",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6202",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6202"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x22",
+      "verbatim": "pyridoxine hydrochloride",
+      "parent": "pyridoxine hydrochloride",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6019",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6019"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x23",
+      "verbatim": "trisodium phosphate",
+      "parent": "trisodium phosphate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24243",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24243"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x24",
+      "verbatim": "potassium chloride",
+      "parent": "potassium chloride",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "4873",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x25",
+      "verbatim": "tricalcium phosphate",
+      "parent": "tricalcium phosphate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24456",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24456"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x26",
+      "verbatim": "tripotassium citrate",
+      "parent": "tripotassium citrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "13344",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/13344"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x27",
+      "verbatim": "gellan gum",
+      "parent": "gellan gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7593U09I4D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7593U09I4D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x28",
+      "verbatim": "sea salt",
+      "parent": "sea salt",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "87GE52P74G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(87GE52P74G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x29",
+      "verbatim": "organic inulin",
+      "parent": "inulin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "JOS53KRJ01",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(JOS53KRJ01)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x30",
+      "verbatim": "organic locust bean gum",
+      "parent": "locust bean gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "V4716MY704",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(V4716MY704)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x31",
+      "verbatim": "organic apple fiber",
+      "parent": "apple fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'apple fiber'"
+    },
+    {
+      "row_id": "x32",
+      "verbatim": "organic acai",
+      "parent": "acai",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "46AM2VJ0AW",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(46AM2VJ0AW)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x33",
+      "verbatim": "organic beet",
+      "parent": "beet",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "N487KM8COK",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(N487KM8COK)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x34",
+      "verbatim": "organic kale",
+      "parent": "kale",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "0Y3L4J38H1",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(0Y3L4J38H1)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x35",
+      "verbatim": "organic raspberry",
+      "parent": "raspberry",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "4N14V5R27W",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(4N14V5R27W)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x36",
+      "verbatim": "organic spinach",
+      "parent": "spinach",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "6WO75C6WVB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(6WO75C6WVB)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x37",
+      "verbatim": "organic tomato",
+      "parent": "tomato",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "Z4KHF2C175",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(Z4KHF2C175)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x38",
+      "verbatim": "organic banana organic blueberry",
+      "parent": "banana blueberry",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'banana blueberry'"
+    },
+    {
+      "row_id": "x39",
+      "verbatim": "organic carrot",
+      "parent": "carrot",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "L56Z1JK48B",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(L56Z1JK48B)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x40",
+      "verbatim": "organic monk fruit extract",
+      "parent": "monk",
+      "form": "extract",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for monk fruit extract"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "No soy ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "No artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "No artificial preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "Organic",
+      "where": "title"
+    },
+    {
+      "claim_id": "C36",
+      "claim": "Contains milk",
+      "quote": "Contains: Milk",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "grass-fed",
+      "quote": "Organic Nutrition, Grass-Fed Protein Shake, Creamy Chocolate Fudge, 4 Pack, 11 fl oz (330 ml) Each"
+    },
+    {
+      "phrase": "no fruit juice",
+      "quote": "No Fruit Juice"
+    },
+    {
+      "phrase": "grass fed",
+      "quote": "Organic Grass Fed Milk Protein"
+    },
+    {
+      "phrase": "no artificial sweeteners",
+      "quote": "No artificial sweeteners"
+    },
+    {
+      "phrase": "carrageenan free",
+      "quote": "Carrageenan Free"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 222 of 227 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5997/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5997.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 122 of 124 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/493570/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/493570.json"
+    },
+    {
+      "row_id": "r28",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 265 of 266 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/171548/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/171548.json"
+    },
+    {
+      "row_id": "x8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/834K0WOS5G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_834K0WOS5G.json"
+    },
+    {
+      "row_id": "x9",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 357 of 361 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/23667548/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/23667548.json"
+    },
+    {
+      "row_id": "x10",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/DE08037SAB/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_DE08037SAB.json"
+    },
+    {
+      "row_id": "x11",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (81.6%), H400 (74.1%), H410 (75.2%); 39 of 266 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/443445/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/443445.json"
+    },
+    {
+      "row_id": "x12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: 3,4-dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate (EC: 231-710-0): 1849 of 1939 reports Not Classified; 3,4-Dihydro-2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-2H-benzopyran-6-yl acetate (EC: 692-041-1): H413 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2117/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/2117.json"
+    },
+    {
+      "row_id": "x13",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (28.6%), H319 (99.6%), H335 (28.4%); 3 of 1154 reports Not Classified. Hazardous Substances Data Bank (HSDB): H315, H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/936/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/936.json"
+    },
+    {
+      "row_id": "x14",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (19%), H360 (79.5%), H361 (12%), H413 (66.3%); 54 of 643 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280531/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280531.json"
+    },
+    {
+      "row_id": "x15",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H302 (16.2%), H315 (28.4%), H317 (20.8%), H319 (30.1%), H334 (11.7%), H372 (43.6%), H373 (11.4%), H411 (14%); 94 of 721 reports Not Classified. NITE-CMC, 2 entries: Potassium iodide - FY2015 (Revised classification): H320, H360, H362, H370, H372; Potassium iodide - FY2010 (New/original classication): H320, H361, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4875/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/4875.json"
+    },
+    {
+      "row_id": "x16",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H302 (99.2%), H315 (43.8%), H317 (52.6%), H319 (43.8%), H373 (52.6%), H400 (94%), H410 (76.1%), H411 (32.7%); 1 of 251 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/10692/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/10692.json"
+    },
+    {
+      "row_id": "x17",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 26 of 26 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/443753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/443753.json"
+    },
+    {
+      "row_id": "x18",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/166596686/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/166596686.json"
+    },
+    {
+      "row_id": "x19",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H300, H310, H330, H372. ECHA C&L via PubChem: H300 (14.3%), H301 (85.8%), H310 (12.7%), H311 (87.3%), H330 (100%), H372. NITE-CMC, 2 entries: (3S,5Z,7E)-9,10-Secocholesta-5,7,10(19)-trien-3-ol - FY2024 (Revised classification): H330; colecalciferol; Vitamin D3 - FY2008 (New/original classication): H300, H310, H360. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280795/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280795.json"
+    },
+    {
+      "row_id": "x20",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 188 of 203 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/135398658/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/135398658.json"
+    },
+    {
+      "row_id": "x21",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H319 (33.2%); 247 of 373 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6202/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6202.json"
+    },
+    {
+      "row_id": "x22",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (88.3%); 22 of 309 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6019/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6019.json"
+    },
+    {
+      "row_id": "x23",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (90.2%), H319 (90.1%), H335 (85.1%); 77 of 1393 reports Not Classified. NITE-CMC: H314, H318. Hazardous Chemical Information System (HCIS), Safe Work Australia: H314.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24243/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24243.json"
+    },
+    {
+      "row_id": "x24",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Potassium chloride (EC: 231-211-8): 825 of 875 reports Not Classified; potassium chloride (EC: 682-118-8): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4873/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/4873.json"
+    },
+    {
+      "row_id": "x25",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Tricalcium bis(orthophosphate) (EC: 231-840-8): 529 of 553 reports Not Classified; Calcium phosphate (EC: 233-283-6): H318 (25%); 27 of 36 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24456/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24456.json"
+    },
+    {
+      "row_id": "x26",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Tripotassium citrate (EC: 212-755-5): 572 of 594 reports Not Classified; Citric acid, potassium salt (EC: 231-905-0): 14 of 14 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/13344/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/13344.json"
+    },
+    {
+      "row_id": "x27",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7593U09I4D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7593U09I4D.json"
+    },
+    {
+      "row_id": "x28",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/87GE52P74G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_87GE52P74G.json"
+    },
+    {
+      "row_id": "x29",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/JOS53KRJ01/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_JOS53KRJ01.json"
+    },
+    {
+      "row_id": "x30",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/V4716MY704/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_V4716MY704.json"
+    },
+    {
+      "row_id": "x32",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/46AM2VJ0AW/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_46AM2VJ0AW.json"
+    },
+    {
+      "row_id": "x33",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/N487KM8COK/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_N487KM8COK.json"
+    },
+    {
+      "row_id": "x34",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/0Y3L4J38H1/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_0Y3L4J38H1.json"
+    },
+    {
+      "row_id": "x35",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/4N14V5R27W/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_4N14V5R27W.json"
+    },
+    {
+      "row_id": "x36",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/6WO75C6WVB/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_6WO75C6WVB.json"
+    },
+    {
+      "row_id": "x37",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/Z4KHF2C175/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_Z4KHF2C175.json"
+    },
+    {
+      "row_id": "x39",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/L56Z1JK48B/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_L56Z1JK48B.json"
+    }
+  ]
+}

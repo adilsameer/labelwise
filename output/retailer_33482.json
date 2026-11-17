@@ -1,0 +1,210 @@
+{
+  "label_id": "retailer:33482",
+  "rows": [
+    {
+      "row_id": "x1",
+      "verbatim": "Menthol 10 mg",
+      "parent": "menthol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "1254",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1254"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "citric acid",
+      "parent": "citric acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "311",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/311"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "eucalyptus oil",
+      "parent": "eucalyptus oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2R04ONI662",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2R04ONI662)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "isomalt",
+      "parent": "isomalt",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "3034828",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3034828"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "natural flavor",
+      "parent": "flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavor' names a class or mixture"
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "vitamin C",
+      "parent": "vitamin c",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin c; the id is for the nutrient name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "vegans",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "vegetarians",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Sugar-Free",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "gluten free diet",
+      "quote": "gluten free"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 4 entries: Menthol (EC: 201-939-0): H315 (97.3%), H319 (82.9%); 7 of 1989 reports Not Classified; DL-menthol (EC: 216-074-4): H315 (99.8%), H319 (13.3%); Neomenthol (EC: 207-723-2): H315 (100%), H319 (43%); (1R,2S,5R)-5-methyl-2-propan-2-ylcyclohexan-1-ol (EC: 810-475-3): Not Classified. Hazardous Substances Data Bank (HSDB): H315, H318, H335, H402, H412.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/1254/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/1254.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H319, H335. ECHA C&L via PubChem, 2 entries: Citric acid (EC: 201-069-1): H319 (84.7%), H335 (23%); 359 of 4373 reports Not Classified; Citric acid (EC: 680-681-4): H319 (100%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/311/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/311.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2R04ONI662/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2R04ONI662.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: (2R,3R,4R,5R)-6-[ [(2S,3R,4S,5S,6R)- 3,4,5-trihydroxy-6-(hydroxymethyl)- 2-tetrahydropyranyl]oxy]hexane- 1,2,3,4,5-pentol (EC: 613-617-0): 38 of 38 reports Not Classified; Reaction mass of 1-O-α-D-glucopyranosyl-D-mannitol and 6-O-α-D-glucopyranosyl-D-glucitol (EC: 908-700-6): 2 of 2 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3034828/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/3034828.json"
+    }
+  ]
+}

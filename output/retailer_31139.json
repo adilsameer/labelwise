@@ -1,0 +1,396 @@
+{
+  "label_id": "retailer:31139",
+  "rows": [
+    {
+      "row_id": "x1",
+      "verbatim": "Glycine soja (soybean) oil",
+      "parent": "glycine soja",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "L7HT8F1ZOD",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(L7HT8F1ZOD)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "isononyl isononanoate",
+      "parent": "isononyl isononanoate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "100986",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/100986"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "tetrahexyldecyl ascorbate",
+      "parent": "tetrahexyldecyl ascorbate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "15801292",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/15801292"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "rosa canina fruit oil",
+      "parent": "rosa canina oil",
+      "form": "oil",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "CR7307M3QZ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(CR7307M3QZ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "oryza sativa (rice) bran extract",
+      "parent": "oryza sativa",
+      "form": "extract",
+      "source": "bran",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "R60QEP13IC",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(R60QEP13IC)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the bran extract; the id is for 'rice bran'"
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "caprylyl methicone",
+      "parent": "caprylyl methicone",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "87373",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/87373"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "citrus paradisi (grapefruit) peel oil",
+      "parent": "citrus paradisi",
+      "form": "oil",
+      "source": "peel",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "YR377U58W9",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(YR377U58W9)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "tocopherol",
+      "parent": "tocopherol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "R0ZB2556P8",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(R0ZB2556P8)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "helianthus annuus (sunflower) extract",
+      "parent": "helianthus annuus",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "BKJ0J3D1BP",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(BKJ0J3D1BP)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'helianthus annuus flowering top'"
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "rosmarinus officinalis (rosemary) leaf extract",
+      "parent": "rosmarinus officinalis",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "IJ67X351P9",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(IJ67X351P9)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'rosmarinus officinalis leaf extract' as a name of 'rosemary' (IJ67X351P9); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x11",
+      "verbatim": "curcuma longa (turmeric) root extract",
+      "parent": "curcuma longa",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "856YO1Z64F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(856YO1Z64F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'curcuma longa root extract' as a name of 'turmeric' (856YO1Z64F); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x12",
+      "verbatim": "limonene",
+      "parent": "limonene",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "440917",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/440917"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "No Added Dyes",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in USA",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "allergy tested",
+      "quote": "Dermatologist + Allergy Tested"
+    },
+    {
+      "phrase": "non-irritating",
+      "quote": "Non-Irritating"
+    },
+    {
+      "phrase": "clinically tested",
+      "quote": "Clinically Tested"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/L7HT8F1ZOD/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_L7HT8F1ZOD.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 243 of 243 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/100986/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/100986.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/15801292/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/15801292.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/CR7307M3QZ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_CR7307M3QZ.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 49 of 50 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/87373/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/87373.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/YR377U58W9/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_YR377U58W9.json"
+    },
+    {
+      "row_id": "x8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/R0ZB2556P8/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_R0ZB2556P8.json"
+    },
+    {
+      "row_id": "x12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H226, H304, H315, H317, H400, H412. ECHA C&L via PubChem: H226, H304 (32.6%), H315, H317 (100%), H400 (96%), H410 (94.1%), H412 (12.5%). NITE-CMC, 2 entries: (4R)-p-Mentha-1,8-diene; d-Limonene - FY2022 (Revised classification): H304, H400, H410; (R)-p-mentha-1,8-diene; d-limonene; - FY2008 (New/original classication): H226, H315, H317. Hazardous Chemical Information System (HCIS), Safe Work Australia: H226, H304, H315, H317, H400, H412.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/440917/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/440917.json"
+    }
+  ]
+}

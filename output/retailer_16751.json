@@ -1,0 +1,740 @@
+{
+  "label_id": "retailer:16751",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Thiamin (as thiamine hydrochloride from ferment media) 1.2 mg",
+      "parent": "thiamin",
+      "form": "thiamine hydrochloride",
+      "source": "ferment media",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.2,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6202",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6202"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Riboflavin (from ferment media) 1.3 ng",
+      "parent": "riboflavin",
+      "form": null,
+      "source": "ferment media",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.3,
+        "unit": "ng",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "493570",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/493570"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Niacin (as niacinamide from ferment media) 16 mg",
+      "parent": "niacin",
+      "form": "niacinamide",
+      "source": "ferment media",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 16,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "936",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/936"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Vitamin B6 (as pyridoxine hydrochloride from ferment media) 3.4 mg",
+      "parent": "vitamin b6",
+      "form": "pyridoxine hydrochloride",
+      "source": "ferment media",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3.4,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6019",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6019"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Folate (as L-5-methylfolate) 400 mcg DFE",
+      "parent": "folate",
+      "form": "l-5-methylfolate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mcg DFE",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "135398561",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/135398561"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Vitamin B12 (7.2 mcg as cyanocobalamin from ferment media and 4.8 mcg methylcobalamin) 12 mcg",
+      "parent": "vitamin b12",
+      "form": "as cyanocobalamin from ferment media and 4.8 mcg methylcobalamin",
+      "source": "ferment media and 4.8 mcg methylcobalamin",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 12,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "165339223",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/165339223"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (as cyanocobalamin from ferment media and 4.8 mcg methylcobalamin)"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Biotin (from ferment media) 30 mcg",
+      "parent": "biotin",
+      "form": null,
+      "source": "ferment media",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "171548",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/171548"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Pantothenic Acid (as calcium D-pantothenate from ferment media) 5 mg",
+      "parent": "pantothenic acid",
+      "form": "calcium d-pantothenate",
+      "source": "ferment media",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "443753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/443753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Energy and Digestion Support Blend Organic Maca (root), Organic Schizandra (fruit), Organic Cardamom (seed) 75 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r9.1",
+      "verbatim": "Organic Maca (root)",
+      "parent": "maca",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r9",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "HP7119212T",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(HP7119212T)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9.2",
+      "verbatim": "Organic Schizandra (fruit)",
+      "parent": "schizandra",
+      "form": null,
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r9",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "ABS794681C",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(ABS794681C)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9.3",
+      "verbatim": "Organic Cardamom (seed",
+      "parent": "cardamom",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r9",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "8BC4CUT4JL",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(8BC4CUT4JL)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Organic maltodextrin",
+      "parent": "maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7CVR7L4A2D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7CVR7L4A2D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "ferment media (organic soy flour, organic Saccharomyces cerevisiae, organic orange peel powder, papain [deactivated], bromelain [deactivated], lactic acid bacteria [L acidophilus, B. bifidum, L rhamnosus), hydrated silica",
+      "parent": "ferment media",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for ferment media powder"
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "organic guar gum",
+      "parent": "guar gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "E89I1637KE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(E89I1637KE)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "organic gum arabic",
+      "parent": "gum arabic",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'gum arabic'"
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "organic agave fiber",
+      "parent": "agave fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'agave fiber'"
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "organic rice hulls",
+      "parent": "rice hulls",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'rice hulls'"
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "organic agave syrup",
+      "parent": "agave syrup",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'agave syrup'"
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "organic rice extract",
+      "parent": "rice",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "A195V20H7A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(A195V20H7A)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'white rice'"
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "organic rice hulls",
+      "parent": "rice hulls",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'rice hulls'"
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "organic gum arabic",
+      "parent": "gum arabic",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'gum arabic'"
+    },
+    {
+      "row_id": "x11",
+      "verbatim": "organic sunflower ci()",
+      "parent": "sunflower ci",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'sunflower ci'"
+    },
+    {
+      "row_id": "x12",
+      "verbatim": "organic coating (organic maltodextrin, organic sunflower lecithin, organic palm oil, organic guar gum",
+      "parent": "coating",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'coating'"
+    },
+    {
+      "row_id": "x13",
+      "verbatim": "Fermented soy",
+      "parent": "fermented soy",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'fermented soy'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "title"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "No Artificial Flavors or Colors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "No Artificial Flavors or Colors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO Project Verified",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "Certified Organic",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Manufactured in the US",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C29",
+      "claim": "Whole food",
+      "quote": "Whole-food",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C30",
+      "claim": "Fermented",
+      "quote": "Fermented",
+      "where": "title"
+    },
+    {
+      "claim_id": "C37",
+      "claim": "Contains soy",
+      "quote": "Contains: Fermented soy",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "certified gluten-free by nsf",
+      "quote": "Certified Gluten-Free by NSF"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H319 (33.2%); 247 of 373 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6202/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6202.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 122 of 124 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/493570/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/493570.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (28.6%), H319 (99.6%), H335 (28.4%); 3 of 1154 reports Not Classified. Hazardous Substances Data Bank (HSDB): H315, H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/936/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/936.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (88.3%); 22 of 309 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6019/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6019.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/135398561/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/135398561.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 265 of 266 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/171548/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/171548.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 26 of 26 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/443753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/443753.json"
+    },
+    {
+      "row_id": "r9.1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/HP7119212T/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_HP7119212T.json"
+    },
+    {
+      "row_id": "r9.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/ABS794681C/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_ABS794681C.json"
+    },
+    {
+      "row_id": "r9.3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/8BC4CUT4JL/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_8BC4CUT4JL.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7CVR7L4A2D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7CVR7L4A2D.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/E89I1637KE/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_E89I1637KE.json"
+    }
+  ]
+}

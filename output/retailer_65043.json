@@ -1,0 +1,482 @@
+{
+  "label_id": "retailer:65043",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 10",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Total Fat 1 g",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Cholesterol 5 mg",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5997",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "ArcticPure® Fish Oil Concentrate 1.25 g",
+      "parent": "fish oil concentrate",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.25,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "XGF7L72M0F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(XGF7L72M0F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the concentrate; the id is for 'fish oil'"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "EPA (Eicosapentaenoic Acid) 450 mg",
+      "parent": "epa",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 450,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "446284",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/446284"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "DHA (Docosahexaenoic Acid) 340 mg",
+      "parent": "dha",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 340,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "445580",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/445580"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Other omega-3 Essential Fatty Acids 60 mg",
+      "parent": "other omega-3 essential fatty acids",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 60,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'other omega-3 essential fatty acids' names a class or mixture"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "polyacrylic resin",
+      "parent": "polyacrylic",
+      "form": null,
+      "source": "resin",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for polyacrylic resin"
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "purified water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "D-alpha tocopherols",
+      "parent": "d-alpha tocopherols",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'd-alpha tocopherols'"
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "talc",
+      "parent": "talc",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "165411828",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/165411828"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "triethyl citrate",
+      "parent": "triethyl citrate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6506",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6506"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Contains no yeast, dairy, egg, gluten or wheat",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Contains no yeast, dairy, egg, gluten or wheat",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Contains no yeast, dairy, egg, gluten or wheat",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "Contains no yeast, dairy, egg, gluten or wheat",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Contains no sugar, starch, salt, or artificial color, flavor or fragrance",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Contains no sugar, starch, salt, or artificial color, flavor or fragrance",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Contains no sugar, starch, salt, or artificial color, flavor or fragrance",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C31",
+      "claim": "Enteric coated",
+      "quote": "Enteric Coated",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C37",
+      "claim": "Contains soy",
+      "quote": "Contains fish (anchovy) and soy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C38",
+      "claim": "Contains fish",
+      "quote": "Contains fish (anchovy) and soy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "Gelatin",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no yeast",
+      "quote": "Contains no yeast, dairy, egg, gluten or wheat"
+    },
+    {
+      "phrase": "no fragrance",
+      "quote": "Contains no sugar, starch, salt, or artificial color, flavor or fragrance"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "Contains no sugar, starch, salt, or artificial color, flavor or fragrance"
+    },
+    {
+      "phrase": "no starch",
+      "quote": "Contains no sugar, starch, salt, or artificial color, flavor or fragrance"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 222 of 227 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5997/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5997.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H314 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/446284/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/446284.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/445580/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/445580.json"
+    },
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 4523 of 4758 reports Not Classified. NITE-CMC: H370, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/165411828/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/165411828.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Triethyl citrate (EC: 201-070-7): 1942 of 2014 reports Not Classified; Triethyl 2-hydroxypropane-1,2,3-tricarboxylate (EC: 629-703-6): Not Classified. Hazardous Substances Data Bank (HSDB): H332.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6506/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6506.json"
+    }
+  ]
+}

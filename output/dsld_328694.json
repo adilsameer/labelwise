@@ -1,0 +1,343 @@
+{
+  "label_id": "dsld:328694",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Proprietary Blend of Probiotic Bacteria 40 billion CFU, MAKTREK (Bi-Pass Technology)",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "of Probiotic Bacteria 40 billion CFU",
+      "parent": "of probiotic bacteria 40 billion cfu",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'of probiotic bacteria 40 billion cfu'"
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "MAKTREK (Bi-Pass Technology",
+      "parent": "maktrek",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'maktrek'"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Lactobacillus acidophilus LA-14",
+      "parent": "lactobacillus acidophilus",
+      "form": null,
+      "source": null,
+      "strain": "LA-14",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1314884",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1314884"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Bifidobacterium animalis lactis BL-04",
+      "parent": "bifidobacterium animalis subsp. lactis",
+      "form": null,
+      "source": null,
+      "strain": "BL-04",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "580050",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=580050"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Lactiplantibacillus plantarum Lp-115",
+      "parent": "lactiplantibacillus plantarum",
+      "form": null,
+      "source": null,
+      "strain": "Lp-115",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1590",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1590"
+      },
+      "status": "review",
+      "reason": "strain_no_id: no NCBI taxonomy id for strain Lp-115; the id is for the species Lactiplantibacillus plantarum"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Lactobacillus paracasei LPC-37",
+      "parent": "lactobacillus paracasei",
+      "form": null,
+      "source": null,
+      "strain": "LPC-37",
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "ncbi_taxid",
+        "id": "1597",
+        "lookup_url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1597"
+      },
+      "status": "review",
+      "reason": "strain_no_id: no NCBI taxonomy id for strain LPC-37; the id is for the species Lacticaseibacillus paracasei"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Marine Polysaccharides complex",
+      "parent": "polysaccharides",
+      "form": null,
+      "source": "marine",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'polysaccharides' names a class or mixture"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Fructooligosaccharides",
+      "parent": "fructooligosaccharides",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'fructooligosaccharides' only as minor synonym of CID 439709 (beta-d-fructofuranose), GSRS has no such name"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Rice Maltodextrin",
+      "parent": "rice maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'rice maltodextrin'"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "L-Leucine",
+      "parent": "l-leucine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6106",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6106"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Dairy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Soy free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "GMO Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in USA",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "lab tested",
+      "quote": "Lab Tested"
+    },
+    {
+      "phrase": "fda registered facility",
+      "quote": "Made in FDA Registered Facility"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/1314884/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_1314884.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/taxonomy/580050/JSON",
+      "copy_path": "evidence/pubchem_ghs/taxid_580050.json"
+    },
+    {
+      "row_id": "r10",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 208 of 208 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6106/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6106.json"
+    }
+  ]
+}

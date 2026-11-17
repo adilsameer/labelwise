@@ -1,0 +1,1072 @@
+{
+  "label_id": "dsld:256639",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 150 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 150,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Calories from Fat 35 Calorie(s)",
+      "parent": "calories from fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 35,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Fat 4 Gram(s)",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Saturated Fat 1.5 Gram(s)",
+      "parent": "saturated fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.5,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Cholesterol 0 mg",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5997",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Total Carbohydrates 6 Gram(s)",
+      "parent": "total carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 6,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Dietary Fiber 3 Gram(s)",
+      "parent": "dietary fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 3,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Total Sugars 1 Gram(s)",
+      "parent": "total sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Added Sugars 0 Gram(s)",
+      "parent": "added sugars",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Protein 21 Gram(s)",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 21,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Calcium 35 mg",
+      "parent": "calcium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 35,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Iron 4 mg",
+      "parent": "iron",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23925",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23925"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iron; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Sodium 430 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 430,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5360545",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360545"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Potassium 100 mg",
+      "parent": "potassium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462222",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462222"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of potassium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Non-Proprietary Protein Blend 21 Gram(s)",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 21,
+        "unit": "Gram(s)",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Pea Protein 60%",
+      "parent": "pea protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r15",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7Q50F46595",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7Q50F46595)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Pumpkin seed Protein 15%",
+      "parent": "pumpkin protein",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r15",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for pumpkin protein seed"
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "Sunflower Protein 10%",
+      "parent": "sunflower protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r15",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'sunflower protein'"
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "Hemp Protein 10%",
+      "parent": "hemp protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r15",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'hemp protein'"
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "Almond Protein 5%",
+      "parent": "almond protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r15",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'almond protein'"
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "Digestive Enzymes 50 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r22",
+      "verbatim": "Protease",
+      "parent": "protease",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r21",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'protease' only as minor synonym of CID 3086051 (bacillomycin), GSRS has no such name"
+    },
+    {
+      "row_id": "r23",
+      "verbatim": "Peptidase",
+      "parent": "peptidase",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r21",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'peptidase'"
+    },
+    {
+      "row_id": "r24",
+      "verbatim": "Hemicellulase",
+      "parent": "hemicellulase",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r21",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "171706620",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/171706620"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r25.1",
+      "verbatim": "Almond Protein",
+      "parent": "almond protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'almond protein'"
+    },
+    {
+      "row_id": "r25.2",
+      "verbatim": "Hemp Protein",
+      "parent": "hemp protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'hemp protein'"
+    },
+    {
+      "row_id": "r25.3",
+      "verbatim": "Pea Protein",
+      "parent": "pea protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7Q50F46595",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7Q50F46595)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r25.4",
+      "verbatim": "Pumpkin Protein",
+      "parent": "pumpkin protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'pumpkin protein'"
+    },
+    {
+      "row_id": "r25.5",
+      "verbatim": "Sunflower Protein",
+      "parent": "sunflower protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'sunflower protein'"
+    },
+    {
+      "row_id": "r26",
+      "verbatim": "Peanut flour",
+      "parent": "peanut flour",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "QE1QX6B99R",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(QE1QX6B99R)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r27",
+      "verbatim": "Cocoa",
+      "parent": "cocoa",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "D9108TZ9KG",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(D9108TZ9KG)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r28",
+      "verbatim": "Coconut Oil",
+      "parent": "coconut oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "Q9L0O73W7L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(Q9L0O73W7L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r29",
+      "verbatim": "Natural Flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    },
+    {
+      "row_id": "r30",
+      "verbatim": "Tapioca Starch",
+      "parent": "tapioca starch",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "24SC3U704I",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(24SC3U704I)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r31",
+      "verbatim": "organic Guar Gum",
+      "parent": "guar gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "E89I1637KE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(E89I1637KE)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r32",
+      "verbatim": "organic Gum Acacia",
+      "parent": "gum acacia",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "5C5403N26O",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(5C5403N26O)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r33",
+      "verbatim": "Xanthan Gum",
+      "parent": "xanthan gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "TTV12P4NEE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(TTV12P4NEE)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r34",
+      "verbatim": "Monkfruit",
+      "parent": "monkfruit",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'monkfruit'"
+    },
+    {
+      "row_id": "r35.1",
+      "verbatim": "Hemicellulase",
+      "parent": "hemicellulase",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "171706620",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/171706620"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r35.2",
+      "verbatim": "Peptidase",
+      "parent": "peptidase",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'peptidase'"
+    },
+    {
+      "row_id": "r35.3",
+      "verbatim": "Protease",
+      "parent": "protease",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'protease' only as minor synonym of CID 3086051 (bacillomycin), GSRS has no such name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Dairy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Soy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "GMO Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C23",
+      "claim": "Made with organic ingredients",
+      "quote": "Made with Organic Ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in USA",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C39",
+      "claim": "Contains tree nuts",
+      "quote": "Allergen: Contains peanuts, coconut and almond",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "plant-based",
+      "quote": "Whether you're the strongest person on Earth, a health-conscious individual or you simply want to incorporate more plant-based nutrition in your life, PlentiPlants is designed for those who strive to become a better human."
+    },
+    {
+      "phrase": "fda registered facility",
+      "quote": "FDA Registered Facility"
+    },
+    {
+      "phrase": "plant based",
+      "quote": "Plant Based"
+    },
+    {
+      "phrase": "no artificial ingredients",
+      "quote": "No dairy, soy or artificial ingredients"
+    },
+    {
+      "phrase": "manufactured in a facility that also processes eggs, milk, soy, wheat and tree nuts",
+      "quote": "Manufactured in a facility that also processes eggs, milk, soy, wheat and tree nuts"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 222 of 227 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5997/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5997.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7Q50F46595/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7Q50F46595.json"
+    },
+    {
+      "row_id": "r24",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H334 (99%); 2 of 198 reports Not Classified. Hazardous Chemical Information System (HCIS), Safe Work Australia: H334.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/171706620/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/171706620.json"
+    },
+    {
+      "row_id": "r25.3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7Q50F46595/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7Q50F46595.json"
+    },
+    {
+      "row_id": "r26",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/QE1QX6B99R/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_QE1QX6B99R.json"
+    },
+    {
+      "row_id": "r27",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/D9108TZ9KG/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_D9108TZ9KG.json"
+    },
+    {
+      "row_id": "r28",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/Q9L0O73W7L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_Q9L0O73W7L.json"
+    },
+    {
+      "row_id": "r30",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/24SC3U704I/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_24SC3U704I.json"
+    },
+    {
+      "row_id": "r31",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/E89I1637KE/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_E89I1637KE.json"
+    },
+    {
+      "row_id": "r32",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/5C5403N26O/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_5C5403N26O.json"
+    },
+    {
+      "row_id": "r33",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/TTV12P4NEE/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_TTV12P4NEE.json"
+    },
+    {
+      "row_id": "r35.1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H334 (99%); 2 of 198 reports Not Classified. Hazardous Chemical Information System (HCIS), Safe Work Australia: H334.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/171706620/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/171706620.json"
+    }
+  ]
+}

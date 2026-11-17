@@ -1,0 +1,93 @@
+{
+  "label_id": "retailer:13755",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 25",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 25,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Protein(as hydrolyzed collagen Types 1 and 3) 6 g",
+      "parent": "protein",
+      "form": "hydrolyzed collagen types 1 and 3",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 6,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (hydrolyzed collagen types 1 and 3)"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Hydrolyzed Collagen Types 1 and 3 (Bovine) 6.6 g (6600 mg)",
+      "parent": "hydrolyzed collagen types 1 and 3",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 6.6,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'hydrolyzed collagen types 1 and 3'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Soy Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "bse free",
+      "quote": "BSE-Free"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

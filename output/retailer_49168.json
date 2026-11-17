@@ -1,0 +1,384 @@
+{
+  "label_id": "retailer:49168",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Proprietary Blend:Wildcrafted Goldenseal Root, Organic Blessed Thistle Herb, Cayenne Pepper 40 MHU, Wildcrafted Cramp Bark, Wildcrafted False Unicorn Root, Ginger Root, Organic Red Raspberry Leaf, Wildcrafted Uva Ursi Leaf, & Wildcrafted Squaw Vine Herb. 900 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 900,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r1.1",
+      "verbatim": "Wildcrafted Goldenseal Root",
+      "parent": "goldenseal",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "ZW3Z11D0JV",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(ZW3Z11D0JV)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.2",
+      "verbatim": "Organic Blessed Thistle Herb",
+      "parent": "blessed thistle",
+      "form": null,
+      "source": "herb",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "NJN80GZ34N",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(NJN80GZ34N)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.3",
+      "verbatim": "Cayenne Pepper 40 MHU",
+      "parent": "cayenne pepper",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "6M47G7C4SY",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(6M47G7C4SY)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.4",
+      "verbatim": "Wildcrafted Cramp Bark",
+      "parent": "cramp",
+      "form": null,
+      "source": "bark",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "T1UG6H6805",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(T1UG6H6805)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.5",
+      "verbatim": "Wildcrafted False Unicorn Root",
+      "parent": "false unicorn",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS gives 'chamaelirium luteum root' (DQV54Y5H3U) from chamaelirium luteum, and NCBI maps 'false unicorn' to Unicorn (1498384); confirm which plant the label means"
+    },
+    {
+      "row_id": "r1.6",
+      "verbatim": "Ginger Root",
+      "parent": "ginger",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C5529G5JPQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C5529G5JPQ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.7",
+      "verbatim": "Organic Red Raspberry Leaf",
+      "parent": "red raspberry",
+      "form": null,
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "4N14V5R27W",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(4N14V5R27W)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the leaf; the id is for 'raspberry'"
+    },
+    {
+      "row_id": "r1.8",
+      "verbatim": "Wildcrafted Uva Ursi Leaf",
+      "parent": "uva ursi",
+      "form": null,
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3M5V3D1X36",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3M5V3D1X36)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r1.9",
+      "verbatim": "Wildcrafted Squaw Vine Herb",
+      "parent": "squaw vine",
+      "form": null,
+      "source": "herb",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'squaw vine'"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Plant-derived capsule",
+      "parent": "capsule",
+      "form": null,
+      "source": "plant-derived",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'capsule' does not name the capsule material"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "Vegetarian",
+      "where": "title"
+    },
+    {
+      "claim_id": "C03",
+      "claim": "Kosher",
+      "quote": "Kosher",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Dairy-Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Sugar-Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "laboratory tested",
+      "quote": "Produced in a GMP compliant facility with no added fillers or chemicals & laboratory tested for purity, strength & composition."
+    },
+    {
+      "phrase": "no chemicals",
+      "quote": "with no added fillers or chemicals & laboratory tested for purity, strength & composition"
+    },
+    {
+      "phrase": "no fillers",
+      "quote": "with no added fillers or chemicals & laboratory tested for purity, strength & composition"
+    },
+    {
+      "phrase": "tested for purity",
+      "quote": "Produced in a GMP compliant facility with no added fillers or chemicals & laboratory tested for purity, strength & composition."
+    }
+  ],
+  "for_a_person": [
+    {
+      "kind": "exception",
+      "note": "The statement has an exception; a person must decide what it covers.",
+      "quote": "Not manufactured with wheat, gluten, soy, milk, egg, fish, shellfish or tree nut ingredients except products containing black walnut hull"
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r1.1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/ZW3Z11D0JV/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_ZW3Z11D0JV.json"
+    },
+    {
+      "row_id": "r1.2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/NJN80GZ34N/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_NJN80GZ34N.json"
+    },
+    {
+      "row_id": "r1.3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/6M47G7C4SY/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_6M47G7C4SY.json"
+    },
+    {
+      "row_id": "r1.4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/T1UG6H6805/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_T1UG6H6805.json"
+    },
+    {
+      "row_id": "r1.6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C5529G5JPQ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C5529G5JPQ.json"
+    },
+    {
+      "row_id": "r1.8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3M5V3D1X36/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3M5V3D1X36.json"
+    }
+  ]
+}

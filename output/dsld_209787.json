@@ -1,0 +1,354 @@
+{
+  "label_id": "dsld:209787",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 40 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Calories from Fat 40 Calorie(s)",
+      "parent": "calories from fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Fat 4 Gram(s)",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Cholesterol 15 mg",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 15,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5997",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Omega-3 Fatty Acids (Form: as TG) 2.8 Gram(s)",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 2.8,
+        "unit": "Gram(s)",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Eicosapentaenoic Acid EPA (Form: Eicosapentaenoic Acid Triglyceride) 1410 mg",
+      "parent": "eicosapentaenoic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r5",
+      "amount": {
+        "value": 1410,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5282847",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5282847"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Docosahexaenoic Acid DHA (Form: Docosahexaenoic Acid Triglyceride) 990 mg",
+      "parent": "docosahexaenoic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r5",
+      "amount": {
+        "value": 990,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "445580",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/445580"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Other Omega-3 Fatty Acids Note: Triglycerides 400 mg",
+      "parent": "other omega-3 fatty acids",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r5",
+      "amount": {
+        "value": 400,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'other omega-3 fatty acids' names a class or mixture"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Marine Lipid concentrate (Fish Oil)",
+      "parent": "lipid",
+      "form": "concentrate",
+      "source": "marine",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'lipid' names a class or mixture"
+    },
+    {
+      "row_id": "r10.1",
+      "verbatim": "Ascorbyl Palmitate",
+      "parent": "ascorbyl palmitate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54680660",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54680660"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10.2",
+      "verbatim": "Mixed Tocopherols",
+      "parent": "mixed tocopherols",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'mixed tocopherols' names a class or mixture"
+    },
+    {
+      "row_id": "r10.3",
+      "verbatim": "natural Lemon flavor",
+      "parent": "lemon flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'lemon flavor' names a class or mixture"
+    },
+    {
+      "row_id": "r10.4",
+      "verbatim": "Rosemary extract",
+      "parent": "rosemary",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "IJ67X351P9",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(IJ67X351P9)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'rosemary'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "gluten-free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "non-GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C38",
+      "claim": "Contains fish",
+      "quote": "Contains: Fish (anchovy, sardine, and mackerel)",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "sustainably sourced",
+      "quote": "OmegaGenics EPA-DHA 2400 features a concentrated, purified source of omega-3 fatty acids from sustainably sourced, cold-water fish."
+    },
+    {
+      "phrase": "tested for purity",
+      "quote": "All OmegaGenics formulas are tested for purity and quality and stabilized with antioxidants to maintain freshness."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 222 of 227 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5997/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5997.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5282847/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5282847.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/445580/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/445580.json"
+    },
+    {
+      "row_id": "r10.1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H319 (36.6%), H412 (34.1%); 161 of 475 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54680660/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54680660.json"
+    }
+  ]
+}

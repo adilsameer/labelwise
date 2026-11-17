@@ -1,0 +1,376 @@
+{
+  "label_id": "dsld:205645",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Coenzyme Q10 (Ubiquinone) 30 mg",
+      "parent": "coenzyme q10",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281915",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281915"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Rice Bran Oil",
+      "parent": "rice oil",
+      "form": "oil",
+      "source": "bran",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "LZO6K1506A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(LZO6K1506A)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Gelatin (Bovine)",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Vegetable Glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Soy Lecithin",
+      "parent": "soy lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "1DI56QDM62",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(1DI56QDM62)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Titanium Dioxide",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7.1",
+      "verbatim": "Gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7.2",
+      "verbatim": "purified Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7.3",
+      "verbatim": "Titanium Dioxide",
+      "parent": "titanium dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "26042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7.4",
+      "verbatim": "Vegetable Glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non-GMO",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "Good Manufacturing Practice",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in U.S.A.",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C37",
+      "claim": "Contains soy",
+      "quote": "Allergen warning: Soy (soy lecithin)",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "Gelatin",
+      "where": "other_ingredients"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish",
+      "quote": "This product is manufactured and packaged in a facility which may also process milk, soy, wheat, egg, peanuts, tree nuts, fish and crustacean shellfish."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 85 of 85 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281915/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281915.json"
+    },
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/LZO6K1506A/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_LZO6K1506A.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/1DI56QDM62/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_1DI56QDM62.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "r7.1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r7.2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r7.3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H351. ECHA C&L via PubChem, 5 entries: Titanium dioxide (EC: 236-675-5): H351 (36.1%); 7032 of 11189 reports Not Classified; Rutile (TiO2) (EC: 215-282-2): H351 (12.6%); 664 of 762 reports Not Classified; Titanium oxide (EC: 933-915-7): H319 (100%), H335 (100%), H372 (100%), H413 (100%); dioxotitanium (EC: 619-318-1): Not Classified; Titanium dioxide (EC: 643-044-1): Not Classified. NITE-CMC, 4 entries: Titanium dioxide (nanoparticle) - FY2016 (Revised classification): H351, H372; Titanium dioxide (excluding nanoparticle) - FY2016 (Revised classification): H351, H372, H413; Titanium (IV) oxide - FY2009 (Revised classification): H320, H351; Titanium dioxide - FY2006 (New/original classication): H320, H335, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/26042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/26042.json"
+    },
+    {
+      "row_id": "r7.4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "label_id": "retailer:65010",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin E (as d-alpha Tocopherol Succinate) 50 mg",
+      "parent": "vitamin e",
+      "form": "d-alpha tocopherol succinate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "69540411",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/69540411"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'd-alpha tocopherol succinate'; the id is for 'vitamin e' (weak_synonym: PubChem matches 'd-alpha tocopherol succinate' only as minor synonym of CID 425400 (vitamin e acid succinate), GSRS has no such name)"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Vitamin B-6 (as Pyridoxine HCl) 10 mg",
+      "parent": "vitamin b-6",
+      "form": "pyridoxine hcl",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6019",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6019"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Magnesium (as Magnesium Oxide) 200 mg",
+      "parent": "magnesium",
+      "form": "magnesium oxide",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 200,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "14792",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14792"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Selenium (as I-Selenomethionine) 100 mcg",
+      "parent": "selenium",
+      "form": "i-selenomethionine",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6326970",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6326970"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'i-selenomethionine'; the id is for 'selenium'"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Chromium (yeast) 100 mcg",
+      "parent": "chromium",
+      "form": "yeast",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NY3SM6B8U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NY3SM6B8U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Hawthorn (Crataegus oxycantha) (Aerial extract) (Guaranteed 2.7 mg [1.8%] Vitexin-2-Rhamnoside) 150 mg",
+      "parent": "crataegus oxycantha",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": "Guaranteed 2.7 mg [1.8%]",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 150,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for crataegus oxycantha extract / hawthorn extract"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Taurine 250 mg",
+      "parent": "taurine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "1123",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1123"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Coenzyme Q-10 30 mg",
+      "parent": "coenzyme q-10",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281915",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281915"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Herbal Blend(Hawthorn Berry (Crataegus oxycantha) (berry), Rosemary (Rosemarinus officinalis) (leaf), Ginger (Zingiber officinale) (root) 500 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 500,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r9.1",
+      "verbatim": "Hawthorn Berry (Crataegus oxycantha) (berry)",
+      "parent": "crataegus oxycantha",
+      "form": null,
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r9",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS gives 'crataegus douglasii fruit' (65ER808MP7) from crataegus douglasii, and NCBI has no single taxon for 'crataegus oxycantha'; confirm which plant the label means"
+    },
+    {
+      "row_id": "r9.2",
+      "verbatim": "Rosemary (Rosemarinus officinalis) (leaf)",
+      "parent": "rosemarinus officinalis",
+      "form": null,
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r9",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS gives 'rosemary' (IJ67X351P9) from salvia rosmarinus, and NCBI has no single taxon for 'rosemarinus officinalis'; confirm which plant the label means"
+    },
+    {
+      "row_id": "r9.3",
+      "verbatim": "Ginger (Zingiber officinale) (root",
+      "parent": "zingiber officinale",
+      "form": null,
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r9",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C5529G5JPQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C5529G5JPQ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Vegetable cellulose capsule",
+      "parent": "cellulose",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "maltodextrin",
+      "parent": "maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7CVR7L4A2D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7CVR7L4A2D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "magnesium stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H318 (88.3%); 22 of 309 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6019/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6019.json"
+    },
+    {
+      "row_id": "r3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 1586 of 1807 reports Not Classified. NITE-CMC: H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/14792/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/14792.json"
+    },
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NY3SM6B8U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NY3SM6B8U.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (81.5%), H319 (81.5%), H335 (81.4%); 307 of 1656 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/1123/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/1123.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 85 of 85 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281915/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281915.json"
+    },
+    {
+      "row_id": "r9.3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/C5529G5JPQ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_C5529G5JPQ.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7CVR7L4A2D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7CVR7L4A2D.json"
+    },
+    {
+      "row_id": "x5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    }
+  ]
+}

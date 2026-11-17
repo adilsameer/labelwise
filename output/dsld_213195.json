@@ -1,0 +1,753 @@
+{
+  "label_id": "dsld:213195",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 17 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 17,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Calories from Fat 5 Calorie(s)",
+      "parent": "calories from fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Fat 0.5 Gram(s)",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.5,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Saturated Fat 0 Gram(s)",
+      "parent": "saturated fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Trans Fat 0 Gram(s)",
+      "parent": "trans fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Cholesterol 0 Gram(s)",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5997",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Sodium 20 mg",
+      "parent": "sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 20,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5360545",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5360545"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of sodium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Total Carbohydrates 1.7 Gram(s)",
+      "parent": "total carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.7,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Dietary Fiber < 1 Gram(s)",
+      "parent": "dietary fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Sugar 0.15 Gram(s)",
+      "parent": "sugar",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.15,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Protein 1.2 Gram(s)",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1.2,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Vitamin A (Beta-Carotene)",
+      "parent": "vitamin a",
+      "form": "beta-carotene",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280489",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280489"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Vitamin C",
+      "parent": "vitamin c",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54670067",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of vitamin c; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Calcium",
+      "parent": "calcium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of calcium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Iron",
+      "parent": "iron",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23925",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23925"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iron; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Potassium",
+      "parent": "potassium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462222",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462222"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of potassium; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Iodine",
+      "parent": "iodine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "807",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/807"
+      },
+      "status": "review",
+      "reason": "form_not_given: the label does not say which form of iodine; the id is for the nutrient name"
+    },
+    {
+      "row_id": "r18.1",
+      "verbatim": "Amaranth",
+      "parent": "amaranth",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS gives 'amaranth' as the chemical AMARANTH (37RBV3X49K), but the row names a plant"
+    },
+    {
+      "row_id": "r18.2",
+      "verbatim": "Black Chia",
+      "parent": "black chia",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for black chia seed"
+    },
+    {
+      "row_id": "r18.3",
+      "verbatim": "Broccoli",
+      "parent": "broccoli",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "TRV7Y4GE8Q",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(TRV7Y4GE8Q)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r18.4",
+      "verbatim": "Golden Flax",
+      "parent": "golden flax",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for golden flax seed"
+    },
+    {
+      "row_id": "r18.5",
+      "verbatim": "Quinoa",
+      "parent": "quinoa",
+      "form": null,
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for quinoa seed"
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "Chlorella",
+      "parent": "chlorella",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'chlorella'"
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "organic Spirulina",
+      "parent": "spirulina",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'spirulina'"
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "organic Barley Grass juice conc.",
+      "parent": "barley grass juice conc",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'barley grass juice conc'"
+    },
+    {
+      "row_id": "r22",
+      "verbatim": "wildcrafted Hydrilla",
+      "parent": "hydrilla",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'hydrilla'"
+    },
+    {
+      "row_id": "r23",
+      "verbatim": "Phasophyta Kelp",
+      "parent": "phasophyta kelp",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'phasophyta kelp'"
+    },
+    {
+      "row_id": "r24.1",
+      "verbatim": "Silicon Mineral Complex",
+      "parent": "silicon mineral complex",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'silicon mineral complex'"
+    },
+    {
+      "row_id": "r24.2",
+      "verbatim": "Stevia",
+      "parent": "stevia",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'stevia' only as minor synonym of CID 6918840 (rebaudioside a), GSRS has no such name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan friendly",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C23",
+      "claim": "Made with organic ingredients",
+      "quote": "Made with organic ingredients",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "hypoallergenic",
+      "quote": "Hypoallergenic: This product does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances."
+    },
+    {
+      "phrase": "no fish",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances"
+    },
+    {
+      "phrase": "no fragrances",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances"
+    },
+    {
+      "phrase": "no salt",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances"
+    },
+    {
+      "phrase": "no yeast",
+      "quote": "does not contain milk, eggs, soy, fish, crustacean shellfish, tree nuts, peanuts, wheat, yeast, salt, preservatives, artificial color, flavor, or fragrances"
+    }
+  ],
+  "for_a_person": [
+    {
+      "kind": "conflict",
+      "note": "The label says Gluten free ('Gluten free'), but row r21 is 'organic Barley Grass juice conc.'.",
+      "quote": "Gluten free"
+    }
+  ],
+  "evidence": [
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 222 of 227 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5997/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5997.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 311 of 368 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280489/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280489.json"
+    },
+    {
+      "row_id": "r18.3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/TRV7Y4GE8Q/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_TRV7Y4GE8Q.json"
+    }
+  ]
+}

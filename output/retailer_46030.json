@@ -1,0 +1,195 @@
+{
+  "label_id": "retailer:46030",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 10",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Carbohydrates <1 g",
+      "parent": "carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Protein 1 g",
+      "parent": "protein",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "g",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Bovine Whole Colostrum 2000 mg",
+      "parent": "colostrum",
+      "form": null,
+      "source": "bovine",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 2000,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'colostrum'"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Organic European Elderberry (Sambucus nigra) Fruit Extract 80 mg",
+      "parent": "sambucus nigra",
+      "form": "extract",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 80,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "BQY1UBX046",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(BQY1UBX046)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'sambucus nigra fruit extract' as a name of 'european elderberry' (BQY1UBX046); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Natural flavor",
+      "parent": "flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavor' names a class or mixture"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "stevia leaf extract",
+      "parent": "stevia",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "6TC6NN0876",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(6TC6NN0876)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the leaf extract; the id is for 'stevia rebaudiana leaf'"
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "monk fruit extract",
+      "parent": "monk",
+      "form": "extract",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for monk fruit extract"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C26",
+      "claim": "Third-party tested",
+      "quote": "Third Party Tested",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C36",
+      "claim": "Contains milk",
+      "quote": "Contains: Milk (whey, casein, lactose)",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no additives",
+      "quote": "No Additives"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": []
+}

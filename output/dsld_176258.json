@@ -1,0 +1,483 @@
+{
+  "label_id": "dsld:176258",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 30 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Calories from Fat 5 Calorie(s)",
+      "parent": "calories from fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Total Fat 0.5 Gram(s)",
+      "parent": "total fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 0.5,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Total Carbohydrates 7 Gram(s)",
+      "parent": "total carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 7,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Sugar 4 Gram(s)",
+      "parent": "sugar",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Arbonne Adaptogen Blend 400 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Codonopsis (Codonopsis pilosula) (root) extract powder PlantPart: root Genus: Codonopsis Species: pilosula Note: 4:1",
+      "parent": "codonopsis pilosula",
+      "form": "extract powder",
+      "source": "root",
+      "strain": null,
+      "standardization": "4:1",
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "02VJ3CEY9G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(02VJ3CEY9G)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the root extract powder; the id is for 'codonopsis pilosula root'"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Astragalus (Astragalus membranous) (root) extract powder PlantPart: root Genus: Astragalus Species: membranous Note: 4:1",
+      "parent": "astragalus membranous",
+      "form": "extract powder",
+      "source": "root",
+      "strain": null,
+      "standardization": "4:1",
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for astragalus membranous root extract powder / astragalus root extract powder"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Rhodiola rosea (root) extract powder (Form: 2.78% Salidrosides) PlantPart: root Genus: Rhodiola Species: rosea",
+      "parent": "rhodiola rosea",
+      "form": "extract powder",
+      "source": "root",
+      "strain": null,
+      "standardization": "2.78% Salidrosides",
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3S5ITS5ULN",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3S5ITS5ULN)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the root extract powder; the id is for 'sedum roseum root'"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Brown Rice syrup",
+      "parent": "brown rice syrup",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'brown rice syrup'"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "dried Cane syrup",
+      "parent": "cane syrup",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'cane syrup'"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Palm kernel Oil",
+      "parent": "palm oil",
+      "form": "oil",
+      "source": "kernel",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "B0S90M0233",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(B0S90M0233)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Sunflower Lecithin",
+      "parent": "sunflower lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "834K0WOS5G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(834K0WOS5G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Cocoa powder",
+      "parent": "cocoa",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "D9108TZ9KG",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(D9108TZ9KG)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Mono & Diglycerides",
+      "parent": "mono & diglycerides",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'mono & diglycerides'"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Peppermint Oil",
+      "parent": "peppermint oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "AV092KU4JH",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(AV092KU4JH)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "natural Chocolate flavor",
+      "parent": "chocolate flavor",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'chocolate flavor' names a class or mixture"
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "Maltodextrin",
+      "parent": "maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7CVR7L4A2D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7CVR7L4A2D)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten-free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Contains no artificial colors, flavors or sweeteners",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Contains no artificial colors, flavors or sweeteners",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made in the USA",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C32",
+      "claim": "Chewable",
+      "quote": "Chews",
+      "where": "title"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "made in a facility that processes milk, peanuts, tree nuts, and soy",
+      "quote": "Made in a facility that processes milk, peanuts, tree nuts, and soy."
+    },
+    {
+      "phrase": "no artificial sweeteners",
+      "quote": "Contains no artificial colors, flavors or sweeteners"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/B0S90M0233/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_B0S90M0233.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/834K0WOS5G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_834K0WOS5G.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/D9108TZ9KG/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_D9108TZ9KG.json"
+    },
+    {
+      "row_id": "r16",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/AV092KU4JH/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_AV092KU4JH.json"
+    },
+    {
+      "row_id": "r18",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7CVR7L4A2D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7CVR7L4A2D.json"
+    }
+  ]
+}

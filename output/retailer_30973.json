@@ -1,0 +1,148 @@
+{
+  "label_id": "retailer:30973",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Maitake Fruiting Body Extract, PD-Fraction®, Standardized to 30% D-fraction (proteoglucan) 18.3 mg",
+      "parent": "maitake , , to d-fraction",
+      "form": "extract",
+      "source": "fruiting body",
+      "strain": null,
+      "standardization": "30% D-fraction",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 18.3,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for maitake , , to d-fraction fruiting body extract"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Vegetable glycerine",
+      "parent": "glycerine",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "Vegetarians",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C19",
+      "claim": "No artificial preservatives",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no artifical colors",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives"
+    },
+    {
+      "phrase": "no flavors",
+      "quote": "Contains no gluten, wheat, soy, dairy, artifical colors, flavors or preservatives"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    }
+  ]
+}

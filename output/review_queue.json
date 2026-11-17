@@ -1,0 +1,17 @@
+{
+  "review": {
+    "ambiguous_name": 37,
+    "blend_header": 51,
+    "form_no_id": 129,
+    "form_not_given": 86,
+    "multiple_forms": 13,
+    "no_match": 170,
+    "not_one_substance": 55,
+    "nutrition_panel": 174,
+    "strain_no_id": 6,
+    "weak_synonym": 11
+  },
+  "candidates": 184,
+  "for_a_person": 7,
+  "no_record": 350
+}

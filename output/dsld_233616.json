@@ -1,0 +1,613 @@
+{
+  "label_id": "dsld:233616",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Zinc (Form: as Zinc Oxide) 50 mg",
+      "parent": "zinc",
+      "form": "zinc oxide",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "3007857",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3007857"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Tongkat Ali powder 400 mg",
+      "parent": "tongkat ali",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 400,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for tongkat ali powder"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Maca 0.6% extract 250 mg",
+      "parent": "maca",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": "0.6% extract",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for maca extract"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "L-Arginine 250 mg",
+      "parent": "l-arginine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6322",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6322"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Ginseng Eleutherococcus Blend 125 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 125,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Panax ginseng",
+      "parent": "panax ginseng",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r5",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'panax ginseng'"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Eleutherococcus",
+      "parent": "eleutherococcus",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r5",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'eleutherococcus'"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Proprietary Blend Note: consisting of 745 mg",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 745,
+        "unit": "mg",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Sarsaparilla extract",
+      "parent": "sarsaparilla",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for sarsaparilla extract"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Pumpkin extract",
+      "parent": "pumpkin",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "SYW0QUB89Y",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(SYW0QUB89Y)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'pumpkin'"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Muira Puama extract",
+      "parent": "muira puama",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for muira puama extract"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Oat Straw",
+      "parent": "oat straw",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "WQ0UW3VFG5",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(WQ0UW3VFG5)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Nettle",
+      "parent": "nettle",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'nettle'"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Cayenne Pepper",
+      "parent": "cayenne pepper",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "6M47G7C4SY",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(6M47G7C4SY)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Astragalus extract",
+      "parent": "astragalus",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for astragalus extract"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Catuaba",
+      "parent": "catuaba",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'catuaba'"
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Licorice extract",
+      "parent": "licorice",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "61ZBX54883",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(61ZBX54883)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'licorice'"
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "Tribulus terrestris",
+      "parent": "tribulus terrestris",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'tribulus terrestris' only as minor synonym of CID 10125785 (90131-68-3), GSRS has no such name"
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "Orchic Note: substance",
+      "parent": "orchic",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "PR4RXL6G2H",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(PR4RXL6G2H)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "Oyster extract",
+      "parent": "oyster",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "FX2S0D3781",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(FX2S0D3781)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "Boron (Boron Amino Acid Chelate)",
+      "parent": "boron",
+      "form": "boron amino acid chelate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r8",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462311",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462311"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'boron amino acid chelate'; the id is for 'boron'"
+    },
+    {
+      "row_id": "r22",
+      "verbatim": "Stearic Acid",
+      "parent": "stearic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5281",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5281"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r23",
+      "verbatim": "Vegetable Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": "vegetable",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'vegetable magnesium stearate' does not say which fatty acid salt mix"
+    },
+    {
+      "row_id": "r24",
+      "verbatim": "Silicon Dioxide",
+      "parent": "silicon dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C28",
+      "claim": "Made in USA",
+      "quote": "Made In U.S.A",
+      "where": "statements"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H400, H410. ECHA C&L via PubChem, 2 entries: Zinc oxide (EC: 215-222-5): H400 (98.4%), H410 (99.6%); 15 of 7128 reports Not Classified; Zinc oxide (ZnO) (EC: 617-101-6): H400 (100%), H410 (100%). NITE-CMC, 3 entries: Zinc oxide - FY2013 (Revised classification): H361, H370, H400, H410; Zinc oxide - FY2009 (Revised classification): H361, H370; Zinc oxide - FY2006 (New/original classication): H333, H370, H372. Hazardous Chemical Information System (HCIS), Safe Work Australia: H410.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3007857/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/3007857.json"
+    },
+    {
+      "row_id": "r4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H319 (13.3%); 1565 of 1818 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6322/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6322.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/WQ0UW3VFG5/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_WQ0UW3VFG5.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/6M47G7C4SY/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_6M47G7C4SY.json"
+    },
+    {
+      "row_id": "r19",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/PR4RXL6G2H/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_PR4RXL6G2H.json"
+    },
+    {
+      "row_id": "r20",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/FX2S0D3781/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_FX2S0D3781.json"
+    },
+    {
+      "row_id": "r22",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Stearic acid (EC: 200-313-4): H315 (25.1%); 1405 of 2057 reports Not Classified; octadecanoic acid (EC: 680-589-4): H301 (100%), H400 (100%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5281/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5281.json"
+    },
+    {
+      "row_id": "r24",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    }
+  ]
+}

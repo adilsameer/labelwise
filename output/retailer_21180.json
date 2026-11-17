@@ -1,0 +1,265 @@
+{
+  "label_id": "retailer:21180",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "DAOgest® porcine kidney extract (Diamine Oxidase Activity 30,000 HDU) 4.2 mg",
+      "parent": "kidney extract",
+      "form": "extract",
+      "source": "porcine, kidney",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 4.2,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for "
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Microcrystalline cellulose",
+      "parent": "microcrystalline cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "OP1R32D61U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(OP1R32D61U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "hypromellose",
+      "parent": "hypromellose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3NXW29V3WO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3NXW29V3WO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "gellan gum",
+      "parent": "gellan gum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7593U09I4D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7593U09I4D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "ascorbyl palmitate",
+      "parent": "ascorbyl palmitate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "54680660",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54680660"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C09",
+      "claim": "Wheat free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C10",
+      "claim": "Dairy free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C11",
+      "claim": "Soy free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C12",
+      "claim": "Nut free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C13",
+      "claim": "Egg free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C14",
+      "claim": "Shellfish free",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C18",
+      "claim": "No artificial flavors",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "no fish",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors"
+    },
+    {
+      "phrase": "no sesame",
+      "quote": "Does not contain dairy, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame, gluten, GMO, artificial colors, or artificial flavors"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/OP1R32D61U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_OP1R32D61U.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/3NXW29V3WO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_3NXW29V3WO.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7593U09I4D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7593U09I4D.json"
+    },
+    {
+      "row_id": "x5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H319 (36.6%), H412 (34.1%); 161 of 475 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/54680660/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/54680660.json"
+    }
+  ]
+}

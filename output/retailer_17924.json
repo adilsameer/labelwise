@@ -1,0 +1,438 @@
+{
+  "label_id": "retailer:17924",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Vitamin D-2 (as Ergocalciferol) 20 mcg",
+      "parent": "vitamin d-2",
+      "form": "ergocalciferol",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 20,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5280793",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5280793"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Calcium (as Calcium Carbonate, Citrate, Malate) 1,000 mg",
+      "parent": "calcium",
+      "form": "calcium carbonate, citrate, malate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1000,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5460341",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (calcium carbonate, citrate, malate)"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Magnesium (as Magnesium Oxide, Citrate) 600 mg",
+      "parent": "magnesium",
+      "form": "magnesium oxide, citrate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 600,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462224",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462224"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (magnesium oxide, citrate)"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Zinc (as Zinc Picolinate, Citrate) 15 mg",
+      "parent": "zinc",
+      "form": "zinc picolinate, citrate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 15,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23994",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23994"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (zinc picolinate, citrate)"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Copper (as Copper Citrate, Gluconate) 1 mg",
+      "parent": "copper",
+      "form": "copper citrate, gluconate",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "23978",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23978"
+      },
+      "status": "review",
+      "reason": "multiple_forms: the row names several forms (copper citrate, gluconate)"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Bamboo (Bambusa vulgaris) (stem extract) (Supplying 21 mg [70%] Silica) 30 mg",
+      "parent": "bambusa vulgaris",
+      "form": "extract",
+      "source": "stem",
+      "strain": null,
+      "standardization": "Supplying 21 mg [70%]",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 30,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "SMR633LHTC",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(SMR633LHTC)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the stem extract; the id is for 'bambusa vulgaris stem'"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Boron (as Boron Citrate Complex) 100 mcg",
+      "parent": "boron",
+      "form": "boron citrate complex",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5462311",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5462311"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the form 'boron citrate complex'; the id is for 'boron'"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Glutamic Acid HCl 100 mg",
+      "parent": "glutamic acid hcl",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "2723891",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/2723891"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Cellulose",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "croscarmellose sodium",
+      "parent": "croscarmellose sodium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "M28OL1HH48",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(M28OL1HH48)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "magnesium stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "tristar",
+      "parent": "tristar",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5569",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5569"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "silica",
+      "parent": "silica",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "maltodextrin",
+      "parent": "maltodextrin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7CVR7L4A2D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7CVR7L4A2D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "acacia",
+      "parent": "acacia",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "5C5403N26O",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(5C5403N26O)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H301, H311, H330, H372. ECHA C&L via PubChem: H300+H310+H330 (41.8%), H300 (41.8%), H301 (57.8%), H310 (41.8%), H311 (57.4%), H330 (99.2%), H372 (99.2%), H413 (41.8%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H301, H311, H330, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5280793/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5280793.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H314 (51.4%); 58 of 144 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/2723891/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/2723891.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/M28OL1HH48/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_M28OL1HH48.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H317, H351, H400, H410. ECHA C&L via PubChem: H302 (25.8%), H317 (100%), H330 (24.2%), H351 (97.8%), H400 (98.9%), H410 (99.4%). NITE-CMC, 3 entries: alpha, alpha, alpha-Trifluoro-2,6-dinitro-N,N-dipropyl-p-toluidine; Trifluralin - FY2020 (Revised classification): H317, H351, H371, H372; Trifluralin - FY2019 (Revised classification): H400, H410; alpha,alpha,alpha-trifluoro-2,6-dinitro-N,N-dipropyl-p-toluidine - FY2006 (New/original classication): H303, H316, H317, H319. Hazardous Chemical Information System (HCIS), Safe Work Australia: H317, H351, H410.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5569/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5569.json"
+    },
+    {
+      "row_id": "x5",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7CVR7L4A2D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7CVR7L4A2D.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/5C5403N26O/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_5C5403N26O.json"
+    }
+  ]
+}

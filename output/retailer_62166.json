@@ -1,0 +1,1127 @@
+{
+  "label_id": "retailer:62166",
+  "rows": [
+    {
+      "row_id": "x1",
+      "verbatim": "Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "glycine soja (soybean) oil",
+      "parent": "glycine soja",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "L7HT8F1ZOD",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(L7HT8F1ZOD)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "c12-15 alkyl benzoate",
+      "parent": "c12-15 alkyl benzoate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "A9EJ3J61HQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(A9EJ3J61HQ)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x4",
+      "verbatim": "cetearyl alcohol",
+      "parent": "cetearyl alcohol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "62238",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/62238"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x5",
+      "verbatim": "petrolatum",
+      "parent": "petrolatum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "4T6H12BN9U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(4T6H12BN9U)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x6",
+      "verbatim": "isopropyl myristate",
+      "parent": "isopropyl myristate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "8042",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8042"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x7",
+      "verbatim": "ricinus communis (castor) seed oil",
+      "parent": "ricinus communis",
+      "form": "oil",
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "D5340Y2I9G",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(D5340Y2I9G)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x8",
+      "verbatim": "sodium cetearyl sulfate",
+      "parent": "sodium cetearyl sulfate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7ZBS06BH4B",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7ZBS06BH4B)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x9",
+      "verbatim": "urtica dioica (nettle) leaf powder",
+      "parent": "urtica dioica",
+      "form": "powder",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "X6M0DRN46Q",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(X6M0DRN46Q)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the leaf powder; the id is for 'urtica dioica leaf'"
+    },
+    {
+      "row_id": "x10",
+      "verbatim": "capsicum frutescens fruit extract",
+      "parent": "capsicum frutescens",
+      "form": "extract",
+      "source": "fruit",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "J1M3NA843L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(J1M3NA843L)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'capsicum frutescens fruit extract' as a name of 'tabasco pepper' (J1M3NA843L); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x11",
+      "verbatim": "equisetum arvense extract",
+      "parent": "equisetum arvense",
+      "form": "extract",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "1DP6Y6B65Z",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(1DP6Y6B65Z)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the extract; the id is for 'equisetum arvense top'"
+    },
+    {
+      "row_id": "x12",
+      "verbatim": "cola nitida seed extract",
+      "parent": "cola nitida",
+      "form": "extract",
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "PQM9SA369U",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(PQM9SA369U)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'cola nitida seed extract' as a name of 'cola nut' (PQM9SA369U); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x13",
+      "verbatim": "panthenol",
+      "parent": "panthenol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "4678",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4678"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x14",
+      "verbatim": "cholesterol",
+      "parent": "cholesterol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5997",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5997"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x15",
+      "verbatim": "zea mays (corn) oil",
+      "parent": "zea mays",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "8470G57WFM",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(8470G57WFM)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x16",
+      "verbatim": "curcuma longa (turmeric) root extract",
+      "parent": "curcuma longa",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "856YO1Z64F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(856YO1Z64F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'curcuma longa root extract' as a name of 'turmeric' (856YO1Z64F); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x17",
+      "verbatim": "carbomer",
+      "parent": "carbomer",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "0A5MM307FC",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(0A5MM307FC)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x18",
+      "verbatim": "phenyl trimethicone",
+      "parent": "phenyl trimethicone",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "DR0K5NOJ4R",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(DR0K5NOJ4R)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x19",
+      "verbatim": "propylene glycol",
+      "parent": "propylene glycol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "1030",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1030"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x20",
+      "verbatim": "aminomethyl propanol",
+      "parent": "aminomethyl propanol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11807",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11807"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x21",
+      "verbatim": "phenoxyethanol",
+      "parent": "phenoxyethanol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "31236",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/31236"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x22",
+      "verbatim": "benzoic acid",
+      "parent": "benzoic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "243",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/243"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x23",
+      "verbatim": "ethylhexylglycerin",
+      "parent": "ethylhexylglycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "9859093",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9859093"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x24",
+      "verbatim": "glycereth-2 cocoate",
+      "parent": "glycereth-2 cocoate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "JWM00VS7HC",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(JWM00VS7HC)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x25",
+      "verbatim": "parfum (fragrance)",
+      "parent": "parfum",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'parfum' names a class or mixture"
+    },
+    {
+      "row_id": "x26",
+      "verbatim": "benzyl salicylate",
+      "parent": "benzyl salicylate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "8363",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8363"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x27",
+      "verbatim": "butylphenyl methylpropional",
+      "parent": "butylphenyl methylpropional",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "228987",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/228987"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x28",
+      "verbatim": "cinnamyl alcohol",
+      "parent": "cinnamyl alcohol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "5315892",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5315892"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x29",
+      "verbatim": "citronellol",
+      "parent": "citronellol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "8842",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8842"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x30",
+      "verbatim": "coumarin",
+      "parent": "coumarin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "323",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/323"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x31",
+      "verbatim": "eugenol",
+      "parent": "eugenol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "3314",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3314"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x32",
+      "verbatim": "geraniol",
+      "parent": "geraniol",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "637566",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/637566"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x33",
+      "verbatim": "hexyl cinnamal hydroxycitronellal",
+      "parent": "hexyl cinnamal hydroxycitronellal",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'hexyl cinnamal hydroxycitronellal'"
+    },
+    {
+      "row_id": "x34",
+      "verbatim": "limonene",
+      "parent": "limonene",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "440917",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/440917"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x35",
+      "verbatim": "linalool",
+      "parent": "linalool",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "6549",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6549"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x36",
+      "verbatim": "caramel",
+      "parent": "caramel",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "T9D99G2B1R",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(T9D99G2B1R)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/L7HT8F1ZOD/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_L7HT8F1ZOD.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/A9EJ3J61HQ/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_A9EJ3J61HQ.json"
+    },
+    {
+      "row_id": "x4",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/62238/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/62238.json"
+    },
+    {
+      "row_id": "x5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/4T6H12BN9U/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_4T6H12BN9U.json"
+    },
+    {
+      "row_id": "x6",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (15.6%); 2565 of 3041 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8042/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/8042.json"
+    },
+    {
+      "row_id": "x7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/D5340Y2I9G/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_D5340Y2I9G.json"
+    },
+    {
+      "row_id": "x8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7ZBS06BH4B/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7ZBS06BH4B.json"
+    },
+    {
+      "row_id": "x13",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 356 of 356 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/4678/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/4678.json"
+    },
+    {
+      "row_id": "x14",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 222 of 227 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5997/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5997.json"
+    },
+    {
+      "row_id": "x15",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/8470G57WFM/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_8470G57WFM.json"
+    },
+    {
+      "row_id": "x17",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/0A5MM307FC/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_0A5MM307FC.json"
+    },
+    {
+      "row_id": "x18",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/DR0K5NOJ4R/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_DR0K5NOJ4R.json"
+    },
+    {
+      "row_id": "x19",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 6762 of 6899 reports Not Classified. NITE-CMC: H336, H370, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/1030/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/1030.json"
+    },
+    {
+      "row_id": "x20",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H315, H319, H412. ECHA C&L via PubChem: H315 (99.7%), H319 (97%), H412 (95.9%); 12 of 4294 reports Not Classified. NITE-CMC, 3 entries: 1-Propanol, 2-amino-2-methyl- - FY2025 (Revised classification): H314, H318, H360, H373; 2-Amino-2-methylpropanol - FY2018 (Revised classification): Not Classified; 2-amino-2-methylpropanol - FY2008 (New/original classication): H315, H318. Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H319, H412.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11807/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11807.json"
+    },
+    {
+      "row_id": "x21",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H302, H318, H335. ECHA C&L via PubChem: H302 (99.8%), H318 (13%), H319 (87%), H335 (13%); 1 of 4299 reports Not Classified. NITE-CMC, 3 entries: 2-Phenoxyethanol - FY2022 (Revised classification): H302, H318; 2-Phenoxyethanol - FY2013 (Revised classification): H319, H336; 2-phenoxyethanol - FY2008 (New/original classication): H320, H336, H361. Hazardous Chemical Information System (HCIS), Safe Work Australia: H302, H319.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/31236/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/31236.json"
+    },
+    {
+      "row_id": "x22",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H315, H318, H372. ECHA C&L via PubChem: H302 (29.7%), H315 (82.8%), H318 (81.3%), H319 (16.4%), H372 (20.5%); 28 of 3274 reports Not Classified. NITE-CMC, 2 entries: Benzoic acid - FY2025 (Revised classification): H315, H318, H372; Benzoic acid - FY2013 (New/original classication): H318, H361, H373, H402. Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H318, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/243/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/243.json"
+    },
+    {
+      "row_id": "x23",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H318, H412. ECHA C&L via PubChem, 2 entries: 3-(2-ethylhexyloxy)propane-1,2-diol (EC: 408-080-2): H318 (100%), H332 (11.7%), H412 (97.4%); 1,2-Propanediol, 3-(2-ethylhexyloxy) (EC: 615-116-2): H312 (15.6%), H318 (100%), H412 (100%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H318, H412.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/9859093/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/9859093.json"
+    },
+    {
+      "row_id": "x24",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/JWM00VS7HC/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_JWM00VS7HC.json"
+    },
+    {
+      "row_id": "x26",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H317. ECHA C&L via PubChem: H317 (99%), H319 (76.2%), H411 (24.1%), H412 (68.4%); 9 of 2207 reports Not Classified. NITE-CMC: H317, H320, H361, H401, H411. Hazardous Chemical Information System (HCIS), Safe Work Australia: H317, H319. Hazardous Substances Data Bank (HSDB): H317, H319, H371, H401.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8363/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/8363.json"
+    },
+    {
+      "row_id": "x27",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H360Fd. ECHA C&L via PubChem: H302 (98.7%), H315 (90.9%), H317 (99.6%), H360Fd (10.9%), H361 (84.9%), H411 (84.2%), H412 (14%). NITE-CMC, 2 entries: 3-(4-tert-Butylphenyl)-2-methylpropanal - FY2018 (Revised classification): H227, H302, H315, H317, H320, H335, H336, H360, H373; p-tert-Butyl-alpha-methylhydrocinnamic aldehyde - FY2011 (New/original classication): H315, H317, H336, H373. Hazardous Chemical Information System (HCIS), Safe Work Australia: H302, H315, H317, H361f.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/228987/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/228987.json"
+    },
+    {
+      "row_id": "x28",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Cinnamyl alcohol (EC: 203-212-3): H302 (15.5%), H317 (99.7%); 1 of 2033 reports Not Classified; (2E)-3-PHENYLPROP-2-EN-1-OL (EC: 689-359-8): H302 (100%), H315 (12.5%), H317 (100%), H319 (100%), H335 (12.5%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H317.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/5315892/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/5315892.json"
+    },
+    {
+      "row_id": "x29",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Citronellol (EC: 203-375-0): H315 (95.7%), H317 (99.6%), H319 (65.1%), H411 (15.8%); (±)-3,7-dimethyloct-6-en-1-ol (EC: 247-737-6): H315 (100%), H317 (100%), H319 (17.5%). Hazardous Substances Data Bank (HSDB): H315, H317, H319, H401.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/8842/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/8842.json"
+    },
+    {
+      "row_id": "x30",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H301 (12.1%), H302 (84.5%), H317 (92.9%); 43 of 2825 reports Not Classified. NITE-CMC: H302, H373. Hazardous Chemical Information System (HCIS), Safe Work Australia: H301.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/323/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/323.json"
+    },
+    {
+      "row_id": "x31",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H302 (17.3%), H315 (20.6%), H317 (99.8%), H319 (80.4%); 5 of 2820 reports Not Classified. NITE-CMC, 2 entries: Eugenol - FY2025 (Revised classification): H317, H319, H336, H351, H401, H412; Eugenol - FY2010 (New/original classication): H302, H315, H317. Hazardous Chemical Information System (HCIS), Safe Work Australia: H317, H319.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3314/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/3314.json"
+    },
+    {
+      "row_id": "x32",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H317. ECHA C&L via PubChem: H315 (98.9%), H317 (99.4%), H318 (92.4%); 7 of 2637 reports Not Classified. NITE-CMC: H227, H315, H317, H336, H401. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 2,6-Octadien-1-ol, 3,7-dimethyl-, (E)-: H315, H317, H318; 2,6-Octadien-1-ol, 3,7-dimethyl-: H315, H317, H318. Hazardous Substances Data Bank (HSDB): H315, H317, H318, H402.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/637566/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/637566.json"
+    },
+    {
+      "row_id": "x34",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H226, H304, H315, H317, H400, H412. ECHA C&L via PubChem: H226, H304 (32.6%), H315, H317 (100%), H400 (96%), H410 (94.1%), H412 (12.5%). NITE-CMC, 2 entries: (4R)-p-Mentha-1,8-diene; d-Limonene - FY2022 (Revised classification): H304, H400, H410; (R)-p-mentha-1,8-diene; d-limonene; - FY2008 (New/original classication): H226, H315, H317. Hazardous Chemical Information System (HCIS), Safe Work Australia: H226, H304, H315, H317, H400, H412.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/440917/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/440917.json"
+    },
+    {
+      "row_id": "x35",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council, 2 entries: licareol; (R)-3,7-dimethyl-1,6-octadien-3-ol; l-linalool: H317; linalool; 3,7-dimethyl-1,6-octadien-3-ol; dl-linalool: H317. ECHA C&L via PubChem: H315 (97.2%), H317 (61.7%), H319 (79.9%); 4 of 2927 reports Not Classified. NITE-CMC: H227, H315, H317, H319, H336, H361, H402. Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H317. Hazardous Substances Data Bank (HSDB): H227, H315, H319, H402.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/6549/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/6549.json"
+    },
+    {
+      "row_id": "x36",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/T9D99G2B1R/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_T9D99G2B1R.json"
+    }
+  ]
+}

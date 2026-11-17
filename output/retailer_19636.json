@@ -1,0 +1,278 @@
+{
+  "label_id": "retailer:19636",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Milk Thistle Extract (Silybum marianum) (Seed)(Standardized to 80% Silymarin) 300 mg",
+      "parent": "silybum marianum",
+      "form": "extract",
+      "source": "seed",
+      "strain": null,
+      "standardization": "80% Silymarin",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 300,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "U946SH95EE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(U946SH95EE)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'silybum marianum seed extract' as a name of 'milk thistle' (U946SH95EE); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Dandelion Extract (Taraxacum mongolicum) (Root) 100 mg",
+      "parent": "taraxacum mongolicum",
+      "form": "extract",
+      "source": "root",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 100,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: GSRS gives 'taraxacum officinale root' (9DE5YCO0RU) from taraxacum sect. taraxacum, and NCBI maps 'taraxacum mongolicum' to Taraxacum mongolicum (90037); confirm which plant the label means"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Artichoke Extract (Cynara scolymus) (Leaf) 50 mg",
+      "parent": "cynara scolymus",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "B71UA545DE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(B71UA545DE)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'cynara scolymus leaf extract' as a name of 'cynara scolymus leaf' (B71UA545DE); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Ginger Powder (Zingiber officinale) (rhizome) 25 mg",
+      "parent": "zingiber officinale",
+      "form": "powder",
+      "source": "rhizome",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 25,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "C5529G5JPQ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(C5529G5JPQ)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'zingiber officinale rhizome powder' as a name of 'ginger' (C5529G5JPQ); no UNII for the powder itself"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Turmeric Extract (Curcuma longa) (rhizome) 25 mg",
+      "parent": "curcuma longa",
+      "form": "extract",
+      "source": "rhizome",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 25,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "856YO1Z64F",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(856YO1Z64F)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'curcuma longa rhizome extract' as a name of 'turmeric' (856YO1Z64F); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Black Pepper Extract (Piper nigrum) (Fruit) (standardized to 95% Piperine) 5 mg",
+      "parent": "piper nigrum",
+      "form": "extract",
+      "source": "fruit",
+      "strain": null,
+      "standardization": "95% Piperine",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "KM66971LVF",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(KM66971LVF)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'piper nigrum fruit extract' as a name of 'black pepper' (KM66971LVF); no UNII for the extract itself"
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Modified Cellulose (Hypromellose Veggie Capsule)",
+      "parent": "cellulose",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "ambiguous_name: 'cellulose' does not say which cellulose (GSRS has powdered and microcrystalline, no plain 'cellulose')"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "Silicon Dioxide (Silica)",
+      "parent": "silicon dioxide",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "24261",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x3",
+      "verbatim": "Magnesium Stearate",
+      "parent": "magnesium stearate",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "11177",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/11177"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegans",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C02",
+      "claim": "Vegetarian",
+      "quote": "Vegetarians",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C08",
+      "claim": "No gluten ingredients",
+      "quote": "Formulated without Gluten, GMOs, or Soy",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "formulated without gluten, gmos, or soy",
+      "quote": "It is suitable for vegetarians and vegans and formulated without gluten, GMOs, or soy."
+    },
+    {
+      "phrase": "not manufactured with milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soy, sesame, or gluten",
+      "quote": "Not manufactured with milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soy, sesame, or gluten."
+    },
+    {
+      "phrase": "produced in an fda-registered, third-party audited, and cgmp-compliant facility that may process other products that contain these allergens or ingredients",
+      "quote": "Produced in an FDA-registered, third-party audited, and cGMP-compliant facility that may process other products that contain these allergens or ingredients."
+    },
+    {
+      "phrase": "third-party audited",
+      "quote": "Produced in an FDA-registered, third-party audited, and cGMP-compliant facility that may process other products that contain these allergens or ingredients."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "x2",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 8 entries: Silicon dioxide (EC: 231-545-4): 7724 of 9127 reports Not Classified; AMORPHOUS SILICA (EC: 601-216-3): H315 (56.3%), H319 (56.3%), H335 (56.3%); 889 of 2540 reports Not Classified; Silica, vitreous (EC: 262-373-8): 1614 of 1682 reports Not Classified; Cristobalite (EC: 238-455-4): H350 (12.6%), H372 (46%), H373 (29.4%); 125 of 1288 reports Not Classified; Silicon dioxide (EC: 601-214-2): 1086 of 1124 reports Not Classified; Silica (EC: 807-338-5): 17 of 17 reports Not Classified; Silica (EC: 685-393-2): H315 (16.7%), H319 (16.7%), H335 (16.7%); 5 of 6 reports Not Classified; Silicon dioxide (EC: 643-045-7): Not Classified. NITE-CMC, 4 entries: Silica (silicon dioxide containing crystalline and amorphous) - FY2015 (New/original classication): H319, H335, H350, H372; Crystalline silica (cristabolite) - FY2015 (New/original classication): H341, H350, H372; Amorphous silica (vitreous) - FY2015 (New/original classication): Not Classified; Amorphous silica (silica gel, precipitated silica) - FY2015 (New/original classication): H320, H335. Hazardous Chemical Information System (HCIS), Safe Work Australia, 2 entries: 14464-46-1: H350i, H372; 7631-86-9: H350i, H372.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/24261/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/24261.json"
+    },
+    {
+      "row_id": "x3",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H315 (22.4%), H319 (25.9%), H335 (22.7%), H413 (18.4%); 280 of 510 reports Not Classified. NITE-CMC: H316, H320.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/11177/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/11177.json"
+    }
+  ]
+}

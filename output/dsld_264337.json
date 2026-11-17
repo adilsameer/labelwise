@@ -1,0 +1,1318 @@
+{
+  "label_id": "dsld:264337",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 40 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Fat 1 Gram(s)",
+      "parent": "fat",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Carbohydrates 10 Gram(s)",
+      "parent": "carbohydrates",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Fiber 5 Gram(s)",
+      "parent": "fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Sugar 1 Gram(s)",
+      "parent": "sugar",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1,
+        "unit": "Gram(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "Fiber Complex",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Oat Fiber 4630 mg",
+      "parent": "oat fiber",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": 4630,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'oat fiber'"
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Inulin 1000 mg",
+      "parent": "inulin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": 1000,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "JOS53KRJ01",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(JOS53KRJ01)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Flax Seed Powder 500 mg",
+      "parent": "flax",
+      "form": "powder",
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": 500,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "4110YT348C",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(4110YT348C)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the seed powder; the id is for 'flax seed'"
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Apple Pectin 75 mg",
+      "parent": "apple pectin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "O2ZUP321U8",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(O2ZUP321U8)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Agave, Powder 75 mg",
+      "parent": "agave",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for agave powder"
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Psyllium 50 mg",
+      "parent": "psyllium",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r6",
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "181572",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/181572"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Antioxidant Complex",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Kale powder 150 mg",
+      "parent": "kale",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 150,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "0Y3L4J38H1",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(0Y3L4J38H1)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'kale'"
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Kelp powder 125 mg",
+      "parent": "kelp",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 125,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for kelp powder"
+    },
+    {
+      "row_id": "r16",
+      "verbatim": "Aronia, Powder 62.5 mg",
+      "parent": "aronia",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for aronia powder"
+    },
+    {
+      "row_id": "r17",
+      "verbatim": "Maqui berry powder 62.5 mg",
+      "parent": "maqui",
+      "form": "powder",
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for maqui berry powder"
+    },
+    {
+      "row_id": "r18",
+      "verbatim": "Lychee Berry Powder 62.5 mg",
+      "parent": "lychee",
+      "form": "powder",
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for lychee berry powder"
+    },
+    {
+      "row_id": "r19",
+      "verbatim": "Baobab, Powder 62.5 mg",
+      "parent": "baobab",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for baobab powder"
+    },
+    {
+      "row_id": "r20",
+      "verbatim": "Tart Cherry powder 62.5 mg",
+      "parent": "tart cherry",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for tart cherry powder"
+    },
+    {
+      "row_id": "r21",
+      "verbatim": "Pomegranate powder 62.5 mg",
+      "parent": "pomegranate",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "56687D1Z4D",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(56687D1Z4D)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r22",
+      "verbatim": "Zucchini powder 55 mg",
+      "parent": "zucchini",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 55,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "EQU1BON34S",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(EQU1BON34S)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'zucchini'"
+    },
+    {
+      "row_id": "r23",
+      "verbatim": "Broccoli powder 55 mg",
+      "parent": "broccoli",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 55,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "UOI4FT57BZ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(UOI4FT57BZ)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'broccoli'"
+    },
+    {
+      "row_id": "r24",
+      "verbatim": "Spinach powder 55 mg",
+      "parent": "spinach",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 55,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "6WO75C6WVB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(6WO75C6WVB)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'spinach'"
+    },
+    {
+      "row_id": "r25",
+      "verbatim": "Blackberry powder 50 mg",
+      "parent": "blackberry",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "8A6OMU3I8L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(8A6OMU3I8L)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'blackberry'"
+    },
+    {
+      "row_id": "r26",
+      "verbatim": "Blueberry powder 37.5 mg",
+      "parent": "blueberry",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 37.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "253RUG1X1A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(253RUG1X1A)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'blueberry'"
+    },
+    {
+      "row_id": "r27",
+      "verbatim": "Coffee Berry Powder 1.25 mg",
+      "parent": "coffee",
+      "form": "powder",
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r13",
+      "amount": {
+        "value": 1.25,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for coffee berry powder"
+    },
+    {
+      "row_id": "r28",
+      "verbatim": "Immune Support Complex",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r29",
+      "verbatim": "Pineapple powder 75 mg",
+      "parent": "pineapple",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2A88ZO081O",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2A88ZO081O)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'pineapple'"
+    },
+    {
+      "row_id": "r30",
+      "verbatim": "Sea Buckthorn Berry Powder 62.5 mg",
+      "parent": "sea buckthorn",
+      "form": "powder",
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for sea buckthorn berry powder"
+    },
+    {
+      "row_id": "r31",
+      "verbatim": "Brown Seaweed 62.5 mg",
+      "parent": "brown seaweed",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'brown seaweed'"
+    },
+    {
+      "row_id": "r32",
+      "verbatim": "Amla powder 62.5 mg",
+      "parent": "amla",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for amla powder"
+    },
+    {
+      "row_id": "r33",
+      "verbatim": "Mangosteen powder 62.5 mg",
+      "parent": "mangosteen",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for mangosteen powder"
+    },
+    {
+      "row_id": "r34",
+      "verbatim": "Goji Berry Powder 62.5 mg",
+      "parent": "goji",
+      "form": "powder",
+      "source": "berry",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 62.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for goji berry powder"
+    },
+    {
+      "row_id": "r35",
+      "verbatim": "Parsley powder 55 mg",
+      "parent": "parsley",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 55,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "58FMD0Q0EV",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(58FMD0Q0EV)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'parsley'"
+    },
+    {
+      "row_id": "r36",
+      "verbatim": "Maca powder 12.5 mg",
+      "parent": "maca",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 12.5,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for maca powder"
+    },
+    {
+      "row_id": "r37",
+      "verbatim": "Camu Camu powder 11.25 mg",
+      "parent": "camu camu",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r28",
+      "amount": {
+        "value": 11.25,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for camu camu powder"
+    },
+    {
+      "row_id": "r38",
+      "verbatim": "Digestive Support Complex",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r39",
+      "verbatim": "Flax seed Oil powder 125 mg",
+      "parent": "flax oil powder",
+      "form": "oil",
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r38",
+      "amount": {
+        "value": 125,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for flax oil powder seed oil"
+    },
+    {
+      "row_id": "r40",
+      "verbatim": "Coconut Oil powder 125 mg",
+      "parent": "coconut oil powder",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r38",
+      "amount": {
+        "value": 125,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "Q9L0O73W7L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(Q9L0O73W7L)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the powder; the id is for 'coconut oil'"
+    },
+    {
+      "row_id": "r41",
+      "verbatim": "Pumpkin seed Oil powder 125 mg",
+      "parent": "pumpkin oil powder",
+      "form": "oil",
+      "source": "seed",
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r38",
+      "amount": {
+        "value": 125,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for pumpkin oil powder seed oil"
+    },
+    {
+      "row_id": "r42",
+      "verbatim": "Prune powder 75 mg",
+      "parent": "prune",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r38",
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "S8O01I9YLZ",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(S8O01I9YLZ)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'prune'"
+    },
+    {
+      "row_id": "r43",
+      "verbatim": "Papaya powder 75 mg",
+      "parent": "papaya",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r38",
+      "amount": {
+        "value": 75,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "KU94FIY6JB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(KU94FIY6JB)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'papaya'"
+    },
+    {
+      "row_id": "r44",
+      "verbatim": "Detox Complex",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r45",
+      "verbatim": "Spirulina powder 1000 mg",
+      "parent": "spirulina",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r44",
+      "amount": {
+        "value": 1000,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "101557521",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/101557521"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r46",
+      "verbatim": "Alfalfa powder 250 mg",
+      "parent": "alfalfa",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r44",
+      "amount": {
+        "value": 250,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "DJO934BRBD",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(DJO934BRBD)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the powder; the id is for 'medicago sativa whole'"
+    },
+    {
+      "row_id": "r47",
+      "verbatim": "Chlorella powder 55 mg",
+      "parent": "chlorella",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r44",
+      "amount": {
+        "value": 55,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for chlorella powder"
+    },
+    {
+      "row_id": "r48",
+      "verbatim": "Cholesterol Support Complex",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r49",
+      "verbatim": "Lecithin powder 1000 mg",
+      "parent": "lecithin",
+      "form": "powder",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r48",
+      "amount": {
+        "value": 1000,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for lecithin powder"
+    },
+    {
+      "row_id": "r50",
+      "verbatim": "Sunflower Oil powder 125 mg",
+      "parent": "sunflower oil powder",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r48",
+      "amount": {
+        "value": 125,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "3W1JG795YI",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(3W1JG795YI)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no id for the powder; the id is for 'sunflower oil'"
+    },
+    {
+      "row_id": "r51",
+      "verbatim": "Cinnamon 25 mg",
+      "parent": "cinnamon",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r48",
+      "amount": {
+        "value": 25,
+        "unit": "mg",
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "5S29HWU6QB",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(5S29HWU6QB)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r52",
+      "verbatim": "Citric Acid",
+      "parent": "citric acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "311",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/311"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r53",
+      "verbatim": "Natural Flavors",
+      "parent": "flavors",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'flavors' names a class or mixture"
+    },
+    {
+      "row_id": "r54",
+      "verbatim": "Malic Acid",
+      "parent": "malic acid",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "525",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/525"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r55",
+      "verbatim": "Cane",
+      "parent": "cane",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'cane'"
+    },
+    {
+      "row_id": "r56",
+      "verbatim": "Stevia",
+      "parent": "stevia",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "weak_synonym: PubChem matches 'stevia' only as minor synonym of CID 6918840 (rebaudioside a), GSRS has no such name"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C17",
+      "claim": "No artificial colors",
+      "quote": "No artificial colors",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "cGMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C37",
+      "claim": "Contains soy",
+      "quote": "Allergy Warning: Contains ingredients derived from soy",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "100% natural",
+      "quote": "100% natural flavors"
+    },
+    {
+      "phrase": "made in a facility that also processes milk, egg, wheat, peanut, tree nut, fish, and shellfish ingredients",
+      "quote": "Made in a facility that also processes milk, egg, wheat, peanut, tree nut, fish, and shellfish ingredients."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/JOS53KRJ01/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_JOS53KRJ01.json"
+    },
+    {
+      "row_id": "r10",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/O2ZUP321U8/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_O2ZUP321U8.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 53 of 53 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/181572/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/181572.json"
+    },
+    {
+      "row_id": "r21",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/56687D1Z4D/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_56687D1Z4D.json"
+    },
+    {
+      "row_id": "r45",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/101557521/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/101557521.json"
+    },
+    {
+      "row_id": "r51",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/5S29HWU6QB/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_5S29HWU6QB.json"
+    },
+    {
+      "row_id": "r52",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "Regulation (EC) No 1272/2008 of the European Parliament and of the Council: H319, H335. ECHA C&L via PubChem, 2 entries: Citric acid (EC: 201-069-1): H319 (84.7%), H335 (23%); 359 of 4373 reports Not Classified; Citric acid (EC: 680-681-4): H319 (100%). Hazardous Chemical Information System (HCIS), Safe Work Australia: H315, H319, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/311/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/311.json"
+    },
+    {
+      "row_id": "r54",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Malic acid (EC: 230-022-8): H315 (74.2%), H318 (10.5%), H319 (89.2%); 7 of 2124 reports Not Classified; DL-malic acid (EC: 210-514-9): H302 (10.5%), H315 (38%), H318 (13.4%), H319 (86.6%), H335 (10.5%). NITE-CMC: H315, H319. Hazardous Substances Data Bank (HSDB): H302, H315, H318, H335.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/525/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/525.json"
+    }
+  ]
+}

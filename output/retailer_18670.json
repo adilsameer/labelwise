@@ -1,0 +1,123 @@
+{
+  "label_id": "retailer:18670",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "lodine 1,950 mcg",
+      "parent": "lodine",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 1950,
+        "unit": "mcg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "3308",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3308"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "x1",
+      "verbatim": "Organic vegetable glycerin",
+      "parent": "vegetable glycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'vegetable glycerin'"
+    },
+    {
+      "row_id": "x2",
+      "verbatim": "triple-distilled biophotonic structured water",
+      "parent": "triple-distilled biophotonic structured water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'triple-distilled biophotonic structured water'"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C01",
+      "claim": "Vegan",
+      "quote": "Vegan-Friendly",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C07",
+      "claim": "Gluten free",
+      "quote": "Gluten-Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C15",
+      "claim": "Sugar free",
+      "quote": "Sugar-Free",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C20",
+      "claim": "Non-GMO",
+      "quote": "Non GMO Project Verified",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "USDA Organic",
+      "where": "statements"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "alcohol free",
+      "quote": "Alcohol-Free"
+    },
+    {
+      "phrase": "no animal testing",
+      "quote": "No Animal Testing"
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r1",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: H301 (100%), H319 (88%), H361 (10%).",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/3308/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/3308.json"
+    }
+  ]
+}

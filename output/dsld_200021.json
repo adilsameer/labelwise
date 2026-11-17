@@ -1,0 +1,249 @@
+{
+  "label_id": "dsld:200021",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Essiac Proprietary Organic Herbal Complex 1.56 Gram(s)",
+      "parent": null,
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_header",
+      "group": null,
+      "amount": {
+        "value": 1.56,
+        "unit": "Gram(s)",
+        "scope": "blend"
+      },
+      "blend_contents": "listed",
+      "identity": null,
+      "status": "review",
+      "reason": "blend_header: named mixture; the member rows carry the ids"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "organic Blessed Thistle",
+      "parent": "blessed thistle",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'blessed thistle'"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "organic Burdock",
+      "parent": "burdock",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'burdock'"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "organic Sheep Sorrel",
+      "parent": "sheep sorrel",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'sheep sorrel'"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "organic Red Clover",
+      "parent": "red clover",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "L9153EKV2Y",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(L9153EKV2Y)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "organic Slippery Elm",
+      "parent": "slippery elm",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "63POE2M46Y",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(63POE2M46Y)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "organic Watercress",
+      "parent": "watercress",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "K5877MW0LE",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(K5877MW0LE)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "organic Kelp",
+      "parent": "kelp",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'kelp'"
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "organic Rhubarb",
+      "parent": "rhubarb",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "blend_member",
+      "group": "r1",
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": "member"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "G280W4MW6E",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(G280W4MW6E)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C22",
+      "claim": "Organic product",
+      "quote": "Organic",
+      "where": "title"
+    }
+  ],
+  "candidates": [],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/L9153EKV2Y/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_L9153EKV2Y.json"
+    },
+    {
+      "row_id": "r6",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/63POE2M46Y/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_63POE2M46Y.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/K5877MW0LE/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_K5877MW0LE.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/G280W4MW6E/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_G280W4MW6E.json"
+    }
+  ]
+}

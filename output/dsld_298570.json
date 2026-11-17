@@ -1,0 +1,465 @@
+{
+  "label_id": "dsld:298570",
+  "rows": [
+    {
+      "row_id": "r1",
+      "verbatim": "Calories 5 Calorie(s)",
+      "parent": "calories",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "Calorie(s)",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "nutrition_panel: a nutrition facts line, not one substance"
+    },
+    {
+      "row_id": "r2",
+      "verbatim": "Elderberry Concentrate (Sambucus nigra Berry Concentrate, Sambucus nigra Fruit Concentrate) 50:1, equivalent to 2,500 mg 50 mg",
+      "parent": "elderberry",
+      "form": "concentrate",
+      "source": null,
+      "strain": null,
+      "standardization": "50:1",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 50,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no GSRS name for elderberry concentrate"
+    },
+    {
+      "row_id": "r3",
+      "verbatim": "Olive Leaf Extract (Oleuropein) min. 18% Oleuropein 40 mg",
+      "parent": "olive",
+      "form": "extract",
+      "source": "leaf",
+      "strain": null,
+      "standardization": "18% Oleuropein",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "MJ95C3OH47",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(MJ95C3OH47)"
+      },
+      "status": "review",
+      "reason": "form_no_id: GSRS lists 'olive leaf extract' as a name of 'olea europaea (olive) leaf powder' (MJ95C3OH47); no UNII for the extract itself"
+    },
+    {
+      "row_id": "r4",
+      "verbatim": "Garlic Bulb Extract 40 mg",
+      "parent": "garlic",
+      "form": "extract",
+      "source": "bulb",
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "V1V998DC17",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(V1V998DC17)"
+      },
+      "status": "review",
+      "reason": "form_no_id: no UNII for the bulb extract; the id is for 'garlic'"
+    },
+    {
+      "row_id": "r5",
+      "verbatim": "Oregano oil (min. Carvacrol 55%) min. 55% Carvacrol 40 mg",
+      "parent": "oregano oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": "55% Carvacrol",
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 40,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "7D0CGR40U1",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(7D0CGR40U1)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r6",
+      "verbatim": "ImmunEnhancer (Arabinogalactan) 10 mg",
+      "parent": "immunenhancer",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 10,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "no_match: no PubChem or GSRS name 'immunenhancer'"
+    },
+    {
+      "row_id": "r7",
+      "verbatim": "Rosemary oil 5 mg",
+      "parent": "rosemary oil",
+      "form": "oil",
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "ingredient",
+      "group": null,
+      "amount": {
+        "value": 5,
+        "unit": "mg",
+        "scope": "ingredient"
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "8LGU7VM393",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(8LGU7VM393)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r8",
+      "verbatim": "Bovine Gelatin",
+      "parent": "gelatin",
+      "form": null,
+      "source": "bovine",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2G86QN327L",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2G86QN327L)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r9",
+      "verbatim": "Glycerin",
+      "parent": "glycerin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "753",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r10",
+      "verbatim": "Enteric Coating",
+      "parent": "enteric coating",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": null,
+      "status": "review",
+      "reason": "not_one_substance: 'enteric coating' names a class or mixture"
+    },
+    {
+      "row_id": "r11",
+      "verbatim": "Water",
+      "parent": "water",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "pubchem_cid",
+        "id": "962",
+        "lookup_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r12",
+      "verbatim": "Carob",
+      "parent": "carob",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "5MG5Z946UO",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(5MG5Z946UO)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r13",
+      "verbatim": "Rice Bran Oil",
+      "parent": "rice oil",
+      "form": "oil",
+      "source": "bran",
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "LZO6K1506A",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(LZO6K1506A)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r14",
+      "verbatim": "Beeswax",
+      "parent": "beeswax",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "2ZA36H0S2V",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(2ZA36H0S2V)"
+      },
+      "status": "identified",
+      "reason": null
+    },
+    {
+      "row_id": "r15",
+      "verbatim": "Soy Lecithin",
+      "parent": "soy lecithin",
+      "form": null,
+      "source": null,
+      "strain": null,
+      "standardization": null,
+      "role": "excipient",
+      "group": null,
+      "amount": {
+        "value": null,
+        "unit": null,
+        "scope": null
+      },
+      "blend_contents": null,
+      "identity": {
+        "system": "unii",
+        "id": "1DI56QDM62",
+        "lookup_url": "https://gsrs.ncats.nih.gov/api/v1/substances(1DI56QDM62)"
+      },
+      "status": "identified",
+      "reason": null
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "C08",
+      "claim": "No gluten ingredients",
+      "quote": "Not manufactured with wheat, gluten, milk, egg, fish, shellfish ingredients",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C27",
+      "claim": "Made under GMP",
+      "quote": "GMP",
+      "where": "statements"
+    },
+    {
+      "claim_id": "C31",
+      "claim": "Enteric coated",
+      "quote": "Enteric Coating",
+      "where": "other_ingredients"
+    },
+    {
+      "claim_id": "C40",
+      "claim": "Contains gelatin",
+      "quote": "Gelatin",
+      "where": "other_ingredients"
+    }
+  ],
+  "candidates": [
+    {
+      "phrase": "produced in a gmp facility that processes other ingredients containing these allergens",
+      "quote": "Produced in a GMP facility that processes other ingredients containing these allergens."
+    }
+  ],
+  "for_a_person": [],
+  "evidence": [
+    {
+      "row_id": "r5",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/7D0CGR40U1/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_7D0CGR40U1.json"
+    },
+    {
+      "row_id": "r7",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/8LGU7VM393/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_8LGU7VM393.json"
+    },
+    {
+      "row_id": "r8",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2G86QN327L/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2G86QN327L.json"
+    },
+    {
+      "row_id": "r9",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem: 5522 of 5617 reports Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/753/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/753.json"
+    },
+    {
+      "row_id": "r11",
+      "source": "pubchem_ghs",
+      "status": "record",
+      "summary": "ECHA C&L via PubChem, 2 entries: Water (EC: 231-791-2): 1866 of 1876 reports Not Classified; water (EC: 686-299-4): Not Classified.",
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug_view/data/compound/962/JSON?heading=GHS+Classification",
+      "copy_path": "evidence/pubchem_ghs/962.json"
+    },
+    {
+      "row_id": "r12",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/5MG5Z946UO/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_5MG5Z946UO.json"
+    },
+    {
+      "row_id": "r13",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/LZO6K1506A/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_LZO6K1506A.json"
+    },
+    {
+      "row_id": "r14",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/2ZA36H0S2V/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_2ZA36H0S2V.json"
+    },
+    {
+      "row_id": "r15",
+      "source": "pubchem_ghs",
+      "status": "no_record",
+      "summary": null,
+      "date": "2026-11-17",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/substance/xref/RegistryID/1DI56QDM62/cids/JSON",
+      "copy_path": "evidence/pubchem_ghs/unii_1DI56QDM62.json"
+    }
+  ]
+}
