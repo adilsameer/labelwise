@@ -211,6 +211,10 @@ def resolve_botanical(row):
             if clash:
                 return None, "review", f"ambiguous_name: {clash}"
             ident = identity("unii", hit["unii"])
+            if exact and phys and phys.split()[0].upper() not in hit["name"].upper():
+                # GSRS lists "green tea extract" as a name of the leaf record: the id is for the leaf
+                return ident, "review", (f"form_no_id: GSRS lists '{n}' as a name of '{hit['name'].lower()}' "
+                                         f"({hit['unii']}); no UNII for the {phys} itself")
             if exact:
                 return ident, "identified", None
             what = " ".join(x for x in (part, phys) if x)
