@@ -86,10 +86,10 @@ def split_top_level(text):
 
 def bracket_list(text):
     """'Head (a, b, c)' -> ('Head', [a, b, c]) when the bracket holds a list."""
-    m = re.match(r"^(.*?)[\s:]*\((.*)\)?\s*$", text)
+    m = re.match(r"^(.*?)[\s:]*[(\[](.*)[)\]]?\s*$", text)
     if not m:
         return None
-    head, inner = m.group(1), m.group(2).rstrip(")")
+    head, inner = m.group(1), m.group(2).rstrip(")]")
     items = split_top_level(inner)
     return (head, items) if len(items) > 1 else None
 
@@ -383,7 +383,49 @@ def build_rows(label):
         out.append(make_row(r["row_id"], verbatim, name, role, group, r["amount"], r["unit"], contents))
         for i, item in enumerate(members or [], 1):
             out.append(make_row(f"{r['row_id']}.{i}", item, item, "blend_member", r["row_id"], None, None))
+
+    # Retailer labels give other ingredients only as text: make them rows x1, x2, ...
+    if not any(r["section"] == "other_ingredients" for r in src) and (label.get("other_ingredients") or "").strip():
+        for text in other_ingredient_items(label["other_ingredients"], src):
+            row = make_row(f"x{sum(1 for o in out if o['row_id'].startswith('x')) + 1}", text, text,
+                           "excipient", None, None, None)
+            row["amount"]["scope"] = None
+            out.append(row)
     return out
+
+
+ALLERGEN_SENTENCE_RE = re.compile(r"^(?:milk|tree nuts?|soy|wheat|eggs?|fish|shellfish|peanuts?|sesame|none)\b|^contains\s*:", re.I)
+LIST_PREFIX_RE = re.compile(r"^(?:contains\s*)?(?:<\s*2%|less than 2%(?: of)?|2% or less of)\s*:?\s*", re.I)
+
+
+def other_ingredient_items(text, rows):
+    """Split a retailer other-ingredients text into one item per substance."""
+    # the text sometimes repeats a Supplement Facts row before the excipients, with no comma
+    for r in rows:
+        name = clean(r["name"])
+        if len(name) <= 5 or BLEND_WORD_RE.search(name):
+            continue
+        found = re.search(r"(?:^|(?<=[,)\]] ))" + r"\s*".join(re.escape(ch) for ch in name if not ch.isspace()), text, re.I)
+        if found:
+            m = re.match(r"(\s*[(\[][^()\[\]]*(?:[(\[][^()\[\]]*[)\]][^()\[\]]*)*[)\]])*", text[found.end():])
+            text = text[:found.start()] + ", " + text[found.end() + m.end():]
+    items = []
+    for sentence in re.split(r"(?:(?<=[a-z]{3}\.)|(?<=\)\.))\s+(?=[A-Z])|;\s*", text):
+        sentence = LIST_PREFIX_RE.sub("", sentence.strip().rstrip(".;").strip())
+        if not sentence or ALLERGEN_SENTENCE_RE.match(sentence):
+            continue
+        parts = split_top_level(sentence)
+        if parts:  # "... stearic acid (vegetable source) and silicon dioxide": split the last "and"
+            last = parts.pop()
+            parts += [p for p in re.split(r"\s+and\s+(?![^(\[]*[)\]])(?!mineral)", last) if p.strip()]
+        for part in parts:
+            part = LIST_PREFIX_RE.sub("", part.strip())
+            split = bracket_list(part)
+            if split and (EXCIPIENT_WRAPPER_RE.search(split[0]) or BLEND_WORD_RE.search(split[0])):
+                items += [clean_verbatim(x) for x in split[1]]
+            elif part:
+                items.append(clean_verbatim(part))
+    return [x for x in items if x and x.lower() != "none"]
 
 
 def rows_from_raw_text(raw):
