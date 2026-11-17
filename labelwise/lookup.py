@@ -187,6 +187,7 @@ def resolve_botanical(row):
     part = singular(row["_parts"][0]) if row["_parts"] else None
     phys = row["_physical"]
     levels = []  # (names, exact?)
+    bases = [re.sub(rf"\s+{phys}$", "", b) if phys else b for b in bases]  # "palm oil" + kernel + oil
     full = [" ".join(x for x in (b, part, phys) if x) for b in bases]
     levels.append((full, True))
     if part and phys:
@@ -205,7 +206,8 @@ def resolve_botanical(row):
             if hit["class"] == "chemical":  # "amaranth" the seed is not Amaranth the dye
                 return None, "review", (f"ambiguous_name: GSRS gives '{n}' as the chemical {hit['name']} "
                                         f"({hit['unii']}), but the row names a plant")
-            clash = organism_clash(latin, hit) or organism_clash(common, hit, strict=False)
+            clash = organism_clash(latin, hit) or (len((common or "").split()) == 2
+                                                    and organism_clash(common, hit, strict=False))
             if clash:
                 return None, "review", f"ambiguous_name: {clash}"
             ident = identity("unii", hit["unii"])
@@ -262,9 +264,12 @@ def resolve_microbe(row):
     if not strain:
         return identity("ncbi_taxid", taxid), "identified", None
 
-    for term in dict.fromkeys([f"{sci} {strain}", f"{species} {strain}"]):
+    codes = [strain] + ([strain[1:]] if re.fullmatch(r"L[A-Z]{2,}", strain) else [])  # NCBI files LGG as "GG"
+    for term in dict.fromkeys(t for code in codes for t in (f"{sci} {code}", f"{species} {code}")):
         names = ncbi_names(ncbi_search(term))
-        match = [i for i, (n, _) in names.items() if norm(strain) in norm(n) and n.lower().startswith(sci.lower().split(" subsp.")[0])]
+        code = term.split()[-1]
+        match = [i for i, (n, _) in names.items()
+                 if any(norm(t) == norm(code) for t in n.split()) and n.lower().startswith(sci.lower().split(" subsp.")[0])]
         if len(match) == 1:
             return identity("ncbi_taxid", match[0]), "identified", None
     rank = ncbi_names([taxid]).get(taxid, (None, "species"))[1]
@@ -342,6 +347,14 @@ def identify(row):
             row.update(identity=ident, status="identified", reason=None)
             return row
         why = why or note
+    tail = re.search(r"\s+(concentrate|isolate|powder|extract|hydrolysate)$", row["parent"] or "")
+    if tail:  # "Fish Oil concentrate": no id for the concentrate, but the oil itself is the nearest id
+        base = row["parent"][:tail.start()]
+        nearest, _ = resolve_compound(base, food=food)
+        if nearest:
+            row.update(identity=nearest, status="review",
+                       reason=f"form_no_id: no id for the {tail.group(1)}; the id is for '{base}'")
+            return row
     row.update(identity=None, status="review",
                reason=why if why else f"no_match: no PubChem or GSRS name '{row['parent']}'")
     return row
