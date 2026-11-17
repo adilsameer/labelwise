@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 .DS_Store
+.playwright-mcp/
+handcheck/marks.json.bak
