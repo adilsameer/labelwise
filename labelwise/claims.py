@@ -28,7 +28,9 @@ POSITIVE = {
     "C04": (r"\bhalal\b(?:[- ]certified)?", None),
     "C05": (r"\bketo\b(?:[- ]friendly)?", None),
     "C06": (r"\bpaleo\b(?:[- ]friendly)?", None),
-    "C08": (r"\bno gluten ingredients\b", None),
+    # "No gluten ingredients", and recipe statements that name gluten ("Made without: ..., gluten, ...")
+    "C08": (r"\bno gluten ingredients\b|\b(?:(?:formulated|made|manufactured|produced) without|not (?:made|manufactured|produced) with)\b"
+            r"[^.]*\bgluten\b[^.]*", None),
     "C15": (r"\bsugar[- ]free\b|\bzero sugar\b", None),
     "C16": (r"\bno (?:added sugars?|sugar added)\b|\bwithout added sugars?\b", None),
     "C20": (r"(?<!non )(?<!non-)\bnon[- ]?gmo\b(?: project verified)?|\bgmo[- ]free\b", None),
@@ -37,13 +39,13 @@ POSITIVE = {
     "C23": (r"\bmade with organic\b[\w ]*|\borganic ingredients\b|\bwith (?:certified )?organic\b", None),
     "C24": (r"\bnsf\b(?: certified(?: for sport)?)?", r"nsf[- ](?:registered|gmp)|certified [\w-]+(?: [\w-]+)? by nsf|[\w-]+ certified by nsf"),
     "C25": (r"\binformed[- ](?:sport|choice)\b", None),
-    "C26": (r"\bthird[- ]party[- ]tested\b|\b(?:independent|third[- ]party) (?:lab|laborator)\w*", None),
+    "C26": (r"\b(?:third|3rd)[- ]party[- ]tested\b|\bindependently tested\b|\b(?:independent|third[- ]party) (?:lab|laborator)\w*", None),
     "C27": (r"(?<!non )\bc?gmp\b|\bgood manufacturing practices?\b", None),
-    "C28": (r"\b(?:made|manufactured|produced)\s+in\s+(?:the\s+)?(?:u\.?s\.?a?\.?|united states)(?![a-z])"
+    "C28": (r"\b(?:made|manufactured|produced)(?:\s+and\s+[\w ]{1,25}?)?\s+in\s+(?:the\s+)?(?:u\.?s\.?a?\.?|united states)(?![a-z])"
             r"|\bfacility in the (?:u\.?s\.?a\.?|united states)\b", None),
     "C29": (r"\bwhole[- ]foods?\b", None),
     "C30": (r"\bfermented\b|\bfermentation process\b", None),
-    "C31": (r"\benteric[- ]coat(?:ed|ing)\b|\bdelayed[- ]release\b", None),
+    "C31": (r"\benteric[- ]coat(?:ed|ing)\b|\bdelayed[- ]release\b|\bacid[- ]resistant\b", None),
     "C32": (r"\bchewables?\b|\bchew(?:s|ed)?\b", r"\b(?:not|n't|never)\b[\w ]{0,15}\bchew"),
     "C33": (r"\bfor kids\b|\bkids'?\b|\bchildren'?s\b|\bfor children\b|\bfor toddlers\b",
             r"reach of (?:kids|children)|not (?:intended )?for children|for children (?:under|ages?|aged|\d)"),
@@ -62,7 +64,7 @@ FREE_ITEMS = [
     (r"shellfish|shell-fish|crustacean shellfish|crustaceans?", "C14"),
     (r"sugars?", "C15"),
     (r"added sugars?", "C16"),
-    (r"(?:artificial |synthetic )?(?:colou?rs?|dyes?|colou?rings?)", "C17"),
+    (r"(?:artificial |synthetic )?(?:fd&c )?(?:colou?rs?|dyes?|colou?rings?)", "C17"),
     (r"(?:artificial |synthetic )flavou?rs?|(?:artificial |synthetic )flavou?rings?", "C18"),
     (r"(?:artificial |synthetic )?preservatives?", "C19"),
     (r"gmos?|genetically modified organisms|ingredients derived from genetically modified organisms|gmo ingredients", "C20"),
@@ -76,14 +78,16 @@ CANDIDATE_ITEMS = (r"lactose|yeast|corn|sesame|fish|peanuts?|tree nuts?|salt|sod
                    r"|artificial ingredients|flavou?rs?|filler ingredients|binders|rice|nightshades|alcohol|bovine|fat")
 
 CLAIMISH = re.compile(r"animal|dairy|milk|gluten|wheat|soy|artificial|gmo|sugar|preservative|filler|additive", re.I)
+# "Made / formulated without ..." is a recipe statement (claims.md C09 note): candidates, not Free-from claims.
 FREE_TRIGGER = re.compile(r"\b(?:free (?:of|from)(?: synthetic)?|does not contain|do not contain|contains no|contain no"
-                          r"|formulated without|made without|with no)\b:?\s*", re.I)
-WEAK_TRIGGER = re.compile(r"^no\b\s*", re.I)  # "No soy, wheat or lactose." only at the start of a segment
+                          r"|guaranteed no added|with no)\b:?\s*", re.I)
+WEAK_TRIGGER = re.compile(r"(?:^|(?<=,\s))no\b\s*", re.I)  # "No soy, wheat or lactose." / "..., no artificial flavors"
 X_FREE = re.compile(r"\b((?:[A-Za-z][A-Za-z-]*\s*(?:,|&|and)\s*)*[A-Za-z][A-Za-z-]*)[- ]free\b", re.I)
 X_FREE_STOP = {"toll", "call", "hassle", "worry"}
 X_FREE_CANDIDATES = r"bse|cruelty|allergen|soy-free|grain|nut|peanut|tree nut|dye|fragrance|paraben|sulfate|phthalate"
 
-CONTAINS_TRIGGER = re.compile(r"^(?:allergens?(?: information)?:\s*)?contains:?\s+(?!no\b|less\b|\d|unique|up to)", re.I)
+CONTAINS_TRIGGER = re.compile(r"^(?:(?:allergens?(?: statement| warning| information)?|allergy (?:warning|information))\s*:\s*"
+                              r"(?:contains:?\s*)?|contains:?\s+)(?!no\b|less\b|\d|unique|up to|may\b)", re.I)
 CONTAINS_ITEMS = [
     (r"milk|dairy|whey|casein|milk products", "C36"),
     (r"soy|soya|soybeans?|soy lecithin", "C37"),
@@ -93,7 +97,8 @@ CONTAINS_ITEMS = [
 
 CANDIDATES = [
     r"\bmay contain\b[^.]*",
-    r"\b(?:made|manufactured|produced|processed|packaged) in an? [^.]*?facility[^.]*",
+    r"\b(?:made|manufactured|produced|processed|packaged) in an? [^.]*?facility[^.]*?(?:process|handle|contain|allergen)[^.]*",
+    r"\b(?:formulated|made|manufactured|produced) without\b[^.]*",
     r"\bhypoallergenic\b",
     r"\bplant[- ]based\b",
     r"\b(?:laboratory|lab|clinically|dermatologist|allergy) tested\b",
@@ -226,6 +231,7 @@ class Finder:
     def run(self):
         for seg in segments(self.raw):
             if inside(seg[0], self.blocks):
+                self.positive(seg, only=("C30", "C31"))  # "fermented" / "enteric coating" may be ingredient text
                 continue
             self.positive(seg)
             self.free_lists(seg)
@@ -240,10 +246,12 @@ class Finder:
         if "C07" in self.claims:
             self.claims.pop("C08", None)
 
-    def positive(self, seg):
+    def positive(self, seg, only=None):
         s, e = seg
         text = self.raw[s:e]
         for cid, (pat, cancel) in POSITIVE.items():
+            if only and cid not in only:
+                continue
             for m in re.finditer(pat, text, re.I):
                 if cancel and any(c.start() <= m.start() < c.end() or m.start() <= c.start() < m.end()
                                   for c in re.finditer(cancel, text, re.I)):
@@ -256,7 +264,7 @@ class Finder:
     def free_lists(self, seg):
         s, e = seg
         text = self.raw[s:e]
-        m = FREE_TRIGGER.search(text) or WEAK_TRIGGER.match(text)
+        m = FREE_TRIGGER.search(text) or WEAK_TRIGGER.search(text)
         if not m:
             return
         weak = m.re is WEAK_TRIGGER
@@ -320,6 +328,15 @@ class Finder:
                 known.append((w, hit))
             if not known:
                 continue
+            after = text[m.end():]
+            if re.match(r"\s+(?!and\b|or\b|&|formula|product|supplement|certified)[A-Za-z]", after) \
+                    and not re.match(r"\s+[A-Z][a-z]+ [A-Z]", after):
+                # "Shell-Fish Free Glucosamine", "a shell-fish free source": about one ingredient
+                if not re.match(r"\s+(?:and [\w ]+ )?diets?\b", after):
+                    continue
+            if re.match(r"\s+(?:and [\w ]+ )?diets?\b", after):  # "gluten free ... diets" is about a diet
+                self.add_candidate(s, f"{m.group(0).lower()} diet", (s + m.start(), s + m.end()))
+                continue
             first = min(m.start() + m.group(0).lower().find(w) for w, _ in known if w in m.group(0).lower())
             span = (s + first, s + m.end())
             for w, hit in known:
@@ -339,7 +356,9 @@ class Finder:
         quote_end = e - (1 if self.raw[e - 1] == "." else 0)
         for item in split_items(text[m.end():]):
             low = re.sub(r"\s+(?:ingredients|products)$", "", item.lower())
-            hit = next((t for p, t in CONTAINS_ITEMS if re.fullmatch(p, low)), None)
+            if "free" in low:
+                continue
+            hit = next((t for p, t in CONTAINS_ITEMS if re.search(rf"\b(?:{p})\b", low)), None)
             if hit:
                 self.add_claim(hit, s, quote_end, seg)
 
@@ -445,8 +464,9 @@ def find_claims(label, rows):
         claims.append({"claim_id": cid, "claim": CLAIM_NAMES[cid], "quote": quote, "where": where(label, quote)})
 
     people = []
+    covered = {q for _, _, q in f.text_exceptions}
     for cid, s, e in f.exceptions:
-        if cid not in f.claims:
+        if cid not in f.claims and not any(q in raw[s:e] for q in covered):
             people.append(("exception", f"{CLAIM_NAMES[cid]} is stated with an exception; a person must decide.",
                            raw[s:e].strip()))
     people += [("exception", note, quote) for _, note, quote in sorted(f.text_exceptions)]
