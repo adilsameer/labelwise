@@ -7,7 +7,7 @@ import time
 from collections import Counter
 from pathlib import Path
 
-from labelwise import fetch
+from labelwise import db, fetch
 from labelwise.pipeline import process_label
 
 ROOT = Path(__file__).resolve().parent
@@ -69,6 +69,7 @@ def main():
         "seconds": round(time.monotonic() - start, 2),
         "version": code_version(),
     })
+    db.build(out, args.labels)
     print(f"{len(results)} labels, {len(rows)} rows -> {out}")
 
 
