@@ -50,7 +50,8 @@ def gsrs_exact(name):
     hits = []
     for c in (j or {}).get("content", []):
         if c.get("approvalID") and not c.get("deprecated"):
-            hits.append({"unii": c["approvalID"], "name": c.get("_name", ""), "record": c})
+            hits.append({"unii": c["approvalID"], "name": c.get("_name", ""), "record": c,
+                         "class": c.get("substanceClass")})
     return hits
 
 
@@ -115,34 +116,63 @@ def pubchem_synonyms(cid):
     return [s.lower() for s in j["InformationList"]["Information"][0].get("Synonym", [])] if j else []
 
 
-def resolve_compound(name):
+def pubchem_title(cid):
+    _, j = fetch_json(f"{PUBCHEM}/compound/cid/{cid}/property/Title/JSON")
+    return j["PropertyTable"]["Properties"][0].get("Title") if j else None
+
+
+def same_name(a, b):
+    return re.sub(r"[^a-z0-9]", "", (a or "").lower()) == re.sub(r"[^a-z0-9]", "", (b or "").lower())
+
+
+def resolve_compound(name, food=False):
     """Return (identity, None) for one substance name, or (None, "code: why") / (None, None).
 
-    GSRS (curated) comes first; its UNII is mapped to a CID through PubChem's own UNII xref.
-    A PubChem-only match counts only when the name is a leading synonym of that compound
-    ("kelp" is a deep synonym of astemizole, so it does not count).
+    Three passes over the name and its spelling variants, strongest evidence first:
+    1. PubChem's own title is exactly the name (not for plant or food rows: "amaranth" is also a dye).
+    2. GSRS (curated) has the exact name; its UNII is mapped to a CID through PubChem's UNII xref.
+    3. PubChem matches the name as one of the compound's leading synonyms
+       ("kelp" is a deep synonym of astemizole, so it does not count).
     """
-    weak = None
-    for n in variants(name):
+    names = variants(name)
+    cids = {} if food else {n: pubchem_cids(n) for n in names}
+
+    for n in names:
+        c = cids.get(n, [])
+        if len(c) == 1 and same_name(pubchem_title(c[0]), n):
+            return identity("pubchem_cid", c[0]), None
+
+    for n in names:
         hits = gsrs_exact(n)
         if len(hits) > 1:
             return None, f"ambiguous_name: GSRS has {len(hits)} substances named '{n}'"
-        cids = pubchem_cids(n)
-        if hits:
-            unii = hits[0]["unii"]
-            mapped = unii_cids(unii)
-            if len(set(mapped) & set(cids)) == 1:
-                return identity("pubchem_cid", (set(mapped) & set(cids)).pop()), None
-            if len(mapped) == 1:
-                return identity("pubchem_cid", mapped[0]), None
-            return identity("unii", unii), None
-        if len(cids) == 1:
-            syns = pubchem_synonyms(cids[0])
+        if not hits:
+            continue
+        if food and hits[0]["class"] == "chemical":
+            return None, (f"ambiguous_name: GSRS gives '{n}' as the chemical {hits[0]['name']} ({hits[0]['unii']}), "
+                          f"but the row names a plant or food")
+        unii = hits[0]["unii"]
+        mapped = unii_cids(unii)
+        titled = [c for c in mapped if same_name(pubchem_title(c), hits[0]["name"]) or same_name(pubchem_title(c), n)]
+        if len(titled) == 1:  # the UNII maps to several CIDs; the one titled like the substance wins
+            return identity("pubchem_cid", titled[0]), None
+        if len(set(mapped) & set(cids.get(n, []))) == 1:
+            return identity("pubchem_cid", (set(mapped) & set(cids[n])).pop()), None
+        if len(mapped) == 1:
+            return identity("pubchem_cid", mapped[0]), None
+        return identity("unii", unii), None
+
+    weak = None
+    for n in names:
+        c = cids.get(n, [])
+        if len(c) == 1:
+            syns = pubchem_synonyms(c[0])
             if n.lower() in syns[:LEADING_SYNONYMS]:
-                return identity("pubchem_cid", cids[0]), None
-            weak = weak or f"weak_synonym: PubChem matches '{n}' only as minor synonym of CID {cids[0]} ({syns[0] if syns else '?'}), GSRS has no such name"
-        elif len(cids) > 1:
-            weak = weak or f"ambiguous_name: PubChem has {len(cids)} compounds named '{n}' and GSRS has none"
+                return identity("pubchem_cid", c[0]), None
+            weak = weak or (f"weak_synonym: PubChem matches '{n}' only as minor synonym of CID {c[0]} "
+                            f"({syns[0] if syns else '?'}), GSRS has no such name")
+        elif len(c) > 1:
+            weak = weak or f"ambiguous_name: PubChem has {len(c)} compounds named '{n}' and GSRS has none"
     return None, weak
 
 
@@ -172,6 +202,9 @@ def resolve_botanical(row):
             if not hits:
                 continue
             hit = hits[0]
+            if hit["class"] == "chemical":  # "amaranth" the seed is not Amaranth the dye
+                return None, "review", (f"ambiguous_name: GSRS gives '{n}' as the chemical {hit['name']} "
+                                        f"({hit['unii']}), but the row names a plant")
             clash = organism_clash(latin, hit) or organism_clash(common, hit, strict=False)
             if clash:
                 return None, "review", f"ambiguous_name: {clash}"
@@ -302,8 +335,9 @@ def identify(row):
     phys = row["_physical"]
     names = [f"{row['parent']} {phys}"] if phys and phys not in row["parent"] else []
     names += [n for n in row["_names"] if n != phys]
+    food = row.get("_organic", False)
     for n in dict.fromkeys(names):
-        ident, note = resolve_compound(n)
+        ident, note = resolve_compound(n, food=food)
         if ident:
             row.update(identity=ident, status="identified", reason=None)
             return row
