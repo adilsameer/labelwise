@@ -23,6 +23,48 @@ def blank_marks(out):
     }
 
 
+def merge(pre, base, out):
+    """Keep a pre-mark only where the output is unchanged since the pre-check; flag everything else."""
+    m = blank_marks(out)
+    for part in ("rows", "claims", "candidates", "evidence"):
+        for x in m[part]:
+            for k in ("parse", "identity", "mark"):
+                if k in x:
+                    x[k] = None
+            x["changed"] = True
+    base_rows = {r["row_id"]: r for r in base["rows"]}
+    pre_rows = {r["row_id"]: r for r in pre["rows"]}
+    for x, r in zip(m["rows"], out["rows"]):
+        old = pre_rows.get(r["row_id"])
+        if old and base_rows.get(r["row_id"]) == r:
+            x.update(parse=old["parse"], identity=old["identity"], note=old.get("note", ""), changed=False)
+        elif old and old.get("note"):
+            x["pre_note"] = old["note"]
+    base_claims = {c["claim_id"]: c for c in base["claims"]}
+    pre_claims = {c["claim_id"]: c for c in pre["claims"]}
+    for x, c in zip(m["claims"], out["claims"]):
+        if base_claims.get(c["claim_id"]) == c and c["claim_id"] in pre_claims:
+            old = pre_claims[c["claim_id"]]
+            x.update(mark=old["mark"], note=old.get("note", ""), changed=False)
+    base_cands = {(c["phrase"], c["quote"]): i for i, c in enumerate(base["candidates"], 1)}
+    pre_cands = {c["n"]: c for c in pre["candidates"]}
+    for x, c in zip(m["candidates"], out["candidates"]):
+        old = pre_cands.get(base_cands.get((c["phrase"], c["quote"])))
+        if old:
+            x.update(mark=old["mark"], note=old.get("note", ""), changed=False)
+    base_ev = {e["row_id"]: e for e in base["evidence"]}
+    pre_ev = {e["row_id"]: e for e in pre["evidence"]}
+    for x, e in zip(m["evidence"], out["evidence"]):
+        if base_ev.get(e["row_id"]) == e and e["row_id"] in pre_ev:
+            old = pre_ev[e["row_id"]]
+            x.update(mark=old["mark"], note=old.get("note", ""), changed=False)
+    found = {c["claim_id"] for c in out["claims"]}
+    m["missed_claims"] = [c for c in pre.get("missed_claims", []) if c["claim_id"] not in found]
+    verbatims = " | ".join(r["verbatim"].lower() for r in out["rows"])
+    m["missed_rows"] = [r for r in pre.get("missed_rows", []) if r["text"].lower()[:20] not in verbatims]
+    return m
+
+
 def main():
     sample = json.loads((HERE / "sample.json").read_text())["labels"]
     labels = {}
@@ -34,14 +76,20 @@ def main():
     for lid in sample:
         name = lid.replace(":", "_") + ".json"
         out = json.loads((ROOT / "output" / name).read_text())
-        pre = HERE / "premarks" / name
-        marks = json.loads(pre.read_text()) if pre.exists() else blank_marks(out)
+        pre, base = HERE / "premarks" / name, HERE / "premarks_base" / name
+        if pre.exists() and base.exists():
+            marks = merge(json.loads(pre.read_text()), json.loads(base.read_text()), out)
+        else:
+            marks = blank_marks(out)
         lab = labels[lid]
         data.append({"label": {k: lab.get(k) for k in ("label_id", "source_url", "title", "brand", "raw_text")},
                      "out": out, "marks": marks, "premarked": pre.exists()})
     html = TEMPLATE.replace("/*DATA*/", json.dumps(data, ensure_ascii=False).replace("</", "<\\/"))
     (HERE / "review.html").write_text(html)
-    print(f"wrote handcheck/review.html ({len(data)} labels, {sum(d['premarked'] for d in data)} pre-marked)")
+    todo = sum(x.get("changed", False) for d in data for part in ("rows", "claims", "candidates", "evidence")
+               for x in d["marks"][part])
+    print(f"wrote handcheck/review.html ({len(data)} labels, {sum(d['premarked'] for d in data)} pre-marked, "
+          f"{todo} items changed since the pre-check and left unmarked)")
 
 
 TEMPLATE = r"""<!doctype html>
@@ -54,16 +102,19 @@ TEMPLATE = r"""<!doctype html>
 :root {
   --bg: #f7f7f5; --panel: #ffffff; --text: #1d1d1b; --muted: #6b6b66; --line: #e2e1dc;
   --ok: #1f7a4d; --ok-bg: #e6f4ec; --bad: #b42318; --bad-bg: #fdecea; --accent: #2f5bd3; --code: #f1f0ec;
+  --todo-bg: #fff6d6;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #161615; --panel: #1f1f1d; --text: #ecebe6; --muted: #a09f98; --line: #34332f;
     --ok: #5fcf95; --ok-bg: #173527; --bad: #ff8a7e; --bad-bg: #3d1d1a; --accent: #8aa8ff; --code: #2a2a27;
+    --todo-bg: #3a3215;
   }
 }
 :root[data-theme="dark"] {
   --bg: #161615; --panel: #1f1f1d; --text: #ecebe6; --muted: #a09f98; --line: #34332f;
   --ok: #5fcf95; --ok-bg: #173527; --bad: #ff8a7e; --bad-bg: #3d1d1a; --accent: #8aa8ff; --code: #2a2a27;
+  --todo-bg: #3a3215;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -91,6 +142,8 @@ table { border-collapse: collapse; width: 100%; font-size: 12.5px; }
 th, td { text-align: left; vertical-align: top; padding: 6px; border-top: 1px solid var(--line); }
 th { color: var(--muted); font-weight: 600; }
 tr.wrong td { background: var(--bad-bg); }
+tr.todo td { background: var(--todo-bg); }
+.prenote { color: var(--muted); font-size: 11px; font-style: italic; }
 code { background: var(--code); padding: 0 4px; border-radius: 4px; font-size: 12px; }
 .small { color: var(--muted); font-size: 11.5px; }
 .toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
@@ -107,6 +160,7 @@ input.note { width: 100%; min-width: 160px; font: inherit; font-size: 12px; padd
 <body>
 <header>
   <h1>Hand check · 20 labels</h1>
+  <span class="stat">to check: <b id="ntodo">0</b></span>
   <span class="stat">wrong marks: <b id="nwrong">0</b></span>
   <span class="stat">pre-marked by AI reviewers; confirm or change each mark</span>
   <span style="flex:1"></span>
@@ -119,7 +173,7 @@ input.note { width: 100%; min-width: 160px; font: inherit; font-size: 12px; padd
 </main>
 <script>
 const DATA = /*DATA*/;
-const KEY = "handcheck-marks-v1";
+const KEY = "handcheck-marks-v2";
 let marks = DATA.map(d => JSON.parse(JSON.stringify(d.marks)));
 try { const saved = JSON.parse(localStorage.getItem(KEY) || "null"); if (saved && saved.length === marks.length) marks = saved; } catch (e) {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(marks)); } catch (e) {} update(); };
@@ -130,7 +184,7 @@ function toggle(obj, field, onchange) {
   const wrap = document.createElement("span"); wrap.className = "toggle";
   for (const v of ["ok", "wrong"]) {
     const b = document.createElement("button"); b.textContent = v; b.className = v + (obj[field] === v ? " on" : "");
-    b.onclick = () => { obj[field] = v; onchange(); };
+    b.onclick = () => { obj[field] = v; obj.changed = false; onchange(); };
     wrap.appendChild(b);
   }
   return wrap;
@@ -170,12 +224,14 @@ function render() {
     rt.innerHTML = '<table><thead><tr><th>row</th><th>verbatim</th><th class="hide-sm">parsed</th><th>id / status</th><th>parse</th><th>identity</th></tr></thead><tbody></tbody></table>';
     out.rows.forEach(r => {
       const mk = find(m.rows, "row_id", r.row_id) || (m.rows.push({row_id: r.row_id, parse: "ok", identity: "ok", note: ""}), m.rows.at(-1));
-      const tr = document.createElement("tr"); if (mk.parse === "wrong" || mk.identity === "wrong") tr.className = "wrong";
+      const tr = document.createElement("tr");
+      tr.className = (mk.parse == null || mk.identity == null) ? "todo" : (mk.parse === "wrong" || mk.identity === "wrong") ? "wrong" : "";
       tr.innerHTML = `<td><code>${esc(r.row_id)}</code></td><td>${esc(r.verbatim)}</td><td class="hide-sm">${fields(r)}</td>
         <td>${ident(r)}<br><span class="small">${esc(r.status)}${r.reason ? ": " + esc(r.reason) : ""}</span></td><td></td><td></td>`;
       tr.children[4].appendChild(toggle(mk, "parse", rerender));
       tr.children[5].appendChild(toggle(mk, "identity", rerender));
       tr.children[5].appendChild(noteInput(mk));
+      if (mk.pre_note) tr.children[5].insertAdjacentHTML("beforeend", `<div class="prenote">pre-check (old output): ${esc(mk.pre_note)}</div>`);
       rt.querySelector("tbody").appendChild(tr);
     });
     sec.appendChild(rt);
@@ -210,8 +266,8 @@ function simpleTable(items, getMark, c1, c2, rerender) {
   if (!items.length) { wrap.innerHTML = '<div class="small">none</div>'; return wrap; }
   wrap.innerHTML = "<table><tbody></tbody></table>";
   items.forEach(it => {
-    const mk = getMark(it) || {mark: "ok", note: ""};
-    const tr = document.createElement("tr"); if (mk.mark === "wrong") tr.className = "wrong";
+    const mk = getMark(it) || {mark: null, note: ""};
+    const tr = document.createElement("tr"); tr.className = mk.mark == null ? "todo" : mk.mark === "wrong" ? "wrong" : "";
     tr.innerHTML = `<td style="width:28%">${c1(it)}</td><td>${c2(it)}</td><td style="width:220px"></td>`;
     tr.children[2].appendChild(toggle(mk, "mark", rerender));
     tr.children[2].appendChild(noteInput(mk));
@@ -237,6 +293,9 @@ function missedList(m, key, cols, label, rerender) {
 function update() {
   const n = JSON.stringify(marks).split('"wrong"').length - 1 + marks.reduce((s, m) => s + (m.missed_rows || []).length + (m.missed_claims || []).length, 0);
   document.getElementById("nwrong").textContent = n;
+  const todo = marks.reduce((s, m) => s + ["rows", "claims", "candidates", "evidence"].reduce((t, p) =>
+    t + (m[p] || []).filter(x => x.mark === null || x.parse === null || x.identity === null).length, 0), 0);
+  document.getElementById("ntodo").textContent = todo;
 }
 document.getElementById("export").onclick = () => {
   const blob = new Blob([JSON.stringify(marks, null, 2)], {type: "application/json"});

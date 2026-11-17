@@ -13,10 +13,12 @@ HERE = ROOT / "handcheck"
 
 
 def load_marks(path):
+    """(marks, origin, output folder the marks judge)."""
     if path and Path(path).exists():
-        return json.loads(Path(path).read_text()), Path(path).name
+        return json.loads(Path(path).read_text()), Path(path).name, ROOT / "output"
     files = sorted(glob.glob(str(HERE / "premarks" / "*.json")))
-    return [json.loads(Path(f).read_text()) for f in files], "premarks/ (not yet confirmed by a person)"
+    return ([json.loads(Path(f).read_text()) for f in files],
+            "premarks/ (AI pre-check of the output before fixes, in premarks_base/)", HERE / "premarks_base")
 
 
 def pct(ok, total):
@@ -24,12 +26,16 @@ def pct(ok, total):
 
 
 def main():
-    marks, origin = load_marks(sys.argv[1] if len(sys.argv) > 1 else HERE / "marks.json")
+    marks, origin, out_dir = load_marks(sys.argv[1] if len(sys.argv) > 1 else HERE / "marks.json")
+    unmarked = sum(1 for m in marks for p in ("rows", "claims", "candidates", "evidence") for x in m.get(p, [])
+                   if None in (x.get("mark", "ok"), x.get("parse", "ok"), x.get("identity", "ok")))
+    if unmarked:
+        sys.exit(f"{unmarked} items are not marked yet; finish them in review.html first")
     t = {k: [0, 0] for k in ("parse", "id_identified", "id_review", "claims", "candidates", "evidence")}
     missed_claims = missed_rows = 0
     wrong = []
     for m in marks:
-        out = json.loads((ROOT / "output" / (m["label_id"].replace(":", "_") + ".json")).read_text())
+        out = json.loads((out_dir / (m["label_id"].replace(":", "_") + ".json")).read_text())
         status = {r["row_id"]: r["status"] for r in out["rows"]}
         for r in m["rows"]:
             t["parse"][1] += 1
@@ -74,9 +80,10 @@ def main():
         *[f"- {w}" for w in wrong],
         "",
     ]
-    (HERE / "accuracy.md").write_text("\n".join(lines))
+    target = "accuracy.md" if out_dir == ROOT / "output" else "accuracy_precheck.md"
+    (HERE / target).write_text("\n".join(lines))
     print("\n".join(lines[:12]))
-    print(f"... {len(wrong)} wrong items listed in handcheck/accuracy.md")
+    print(f"... {len(wrong)} wrong items listed in handcheck/{target}")
 
 
 if __name__ == "__main__":
