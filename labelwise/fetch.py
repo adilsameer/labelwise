@@ -69,7 +69,7 @@ def fetch_json(url):
         return entry, None
 
 
-def _get(url, tries=4):
+def _get(url, tries=6):
     global _last_call
     for attempt in range(tries):
         wait = MIN_GAP - (time.monotonic() - _last_call)
