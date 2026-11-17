@@ -102,7 +102,7 @@ def is_nutrition(name):
 
 TRAILING_AMOUNT_RE = re.compile(
     r"(\s+[<>]?\d[\d,]*(?:\.\d+)?\s*(?:[A-Za-zµ]+(?:\(s\))?)?(?:\s+(?:RAE|DFE|NE|DV))?)+\s*$")
-SALT_RE = re.compile(r"(ate|ite|ide)\b", re.I)
+SALT_RE = re.compile(r"(ate|ite|ide|hcl)\b", re.I)
 COMPOUND_HEAD_RE = re.compile(r"\b\w*(ase|ine|acid|ate|ide|hcl)\b", re.I)
 
 
@@ -127,9 +127,12 @@ def chemical_form(name, verbatim, head_is_nutrient):
             re.search(r"\bForm:[^()]*?\bas ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", text)
         if m:
             return form_text(m.group(1))
-    if head_is_nutrient:
-        m = re.search(r"\bForm:\s*from ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", verbatim)
-        if m and SALT_RE.search(m.group(1)):
+    # "from X" is a form when X is a salt of a nutrient or names the ingredient itself
+    # ("Choline (Form: from Choline Bitartrate)", "Thiamin (from Thiamin HCl)"); otherwise it is a source
+    head = clean(re.split(r"[(\[]", strip_brands(name))[0]).lower()
+    for text in (verbatim, name):
+        m = re.search(r"(?:\bForm:\s*|\()from ([^()]+?)(?=\s+\b(?:Note|Alt\. Name|PlantPart):|\)|$)", text)
+        if m and (head_is_nutrient and SALT_RE.search(m.group(1)) or head and head.split()[-1] in m.group(1).lower()):
             return form_text(m.group(1))
     if head_is_nutrient:
         for text in (name, verbatim):
@@ -253,6 +256,7 @@ def parse_substance(name, verbatim):
         "_common": common or None,
         "_parts": [p.lower() for p in PLANT_PART_RE.findall(" ".join(source_list))],
         "_physical": phys.group(1).lower() if phys else None,
+        "_organic": bool(re.search(r"\borganic\b", name, re.I)),  # farm produce, never a synthetic chemical
     }
 
 
@@ -349,8 +353,13 @@ def build_rows(label):
         if r["section"] == "other_ingredients":
             split = bracket_list(verbatim)
             if split and EXCIPIENT_WRAPPER_RE.search(split[0]):
+                head_parts = [p.lower() for p in PLANT_PART_RE.findall(split[0])]  # "Sprouted seed Complex (...)"
                 for i, item in enumerate(split[1], 1):
-                    out.append(make_row(f"{r['row_id']}.{i}", item, item, "excipient", None, None, None))
+                    member = make_row(f"{r['row_id']}.{i}", item, item, "excipient", None, None, None)
+                    if head_parts and member["_kind"] == "substance" and not member["_parts"]:
+                        member["_parts"] = head_parts
+                        member["source"] = ", ".join(filter(None, [member["source"], *head_parts]))
+                    out.append(member)
                 continue
             row = make_row(r["row_id"], verbatim, name, "excipient", None, r["amount"], r["unit"])
             if split:  # "Fish Gelatin (Carp, Catfish, ...)": one substance, the list is its source
