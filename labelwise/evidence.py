@@ -61,15 +61,12 @@ def ghs_summary(body):
         source, name = refs.get(ref, ("?", None))
         by_source.setdefault(SOURCE_LABEL.get(source, source), []).append((name, text))
 
-    out, several = [], False
+    out = []
     for source, entries in by_source.items():
         if len(entries) == 1:
             out.append(f"{source}: {entries[0][1]}.")
         else:
-            several = True
             out.append(f"{source}, {len(entries)} entries: " + "; ".join(f"{n}: {t}" for n, t in entries) + ".")
-    if several:
-        out.append("The record covers several substances and does not name the form on this label.")
     return " ".join(out) or "GHS Classification section present with no hazard statements."
 
 
