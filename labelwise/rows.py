@@ -431,6 +431,9 @@ def other_ingredient_items(text, rows):
         if len(name) <= 5 or BLEND_WORD_RE.search(name):
             continue
         found = re.search(r"(?:^|(?<=[,)\]] ))" + r"\s*".join(re.escape(ch) for ch in name if not ch.isspace()), text, re.I)
+        # "magnesium sulfate" in the excipient list is not a repeat of the "Magnesium" row
+        if found and found.start() and re.match(r"\s*[a-z]", text[found.end():]):
+            found = None
         if found:
             m = re.match(r"(\s*[(\[][^()\[\]]*(?:[(\[][^()\[\]]*[)\]][^()\[\]]*)*[)\]])*", text[found.end():])
             text = text[:found.start()] + ", " + text[found.end() + m.end():]
