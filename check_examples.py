@@ -56,6 +56,8 @@ def main():
             diffs += compare_rows(got["rows"], want["rows"])
         if args.part in ("claims", "all"):
             diffs += compare_list(got["claims"], want["claims"], ["claim_id", "quote", "where"])
+            diffs += compare_list(got["candidates"], want["candidates"], ["phrase", "quote"])
+            diffs += compare_list(got["for_a_person"], want["for_a_person"], ["kind", "quote"])
         if args.part in ("evidence", "all"):
             diffs += compare_list(got["evidence"], want["evidence"], ["row_id", "source", "status", "url"])
         print(f"{ex.name}: {len(diffs)} differences")
