@@ -44,11 +44,14 @@ def main():
     start = time.monotonic()
 
     labels = [json.loads(line) for line in open(args.labels, encoding="utf-8") if line.strip()]
-    results = []
+    results, copies = [], {}
     for label in labels:
-        result = process_label(label)
+        result = process_label(label, copies)
         write_json(out / (label["label_id"].replace(":", "_") + ".json"), result)
         results.append(result)
+
+    for path, entry in sorted(copies.items()):
+        write_json(out / path, entry)
 
     rows = [r for res in results for r in res["rows"]]
     review_rows = [r for r in rows if r["status"] == "review"]
