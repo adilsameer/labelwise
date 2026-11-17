@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import shutil
 import subprocess
 import time
 from collections import Counter
@@ -50,6 +51,7 @@ def main():
         write_json(out / (label["label_id"].replace(":", "_") + ".json"), result)
         results.append(result)
 
+    shutil.rmtree(out / "evidence", ignore_errors=True)  # drop copies an older run left behind
     for path, entry in sorted(copies.items()):
         write_json(out / path, entry)
 
