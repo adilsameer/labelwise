@@ -1,14 +1,14 @@
 # Hand-check accuracy (20 labels, marks from premarks/ (AI pre-check of the output before fixes, in premarks_base/))
 
-| Part | Measure | Result |
+| Area | Measure | Result |
 |---|---|---|
-| A | Row fields parsed right | 193/280 = 68.9% (missed rows count as wrong: 47) |
-| A | Identified rows with the right id | 80/86 = 93.0% |
-| A | Review rows where review was right | 114/147 = 77.6% |
-| B | Claims precision (reported claims that are right) | 112/114 = 98.2% |
-| B | Claims recall (right claims of all claims on the label) | 112/120 = 93.3% |
-| B | Candidates that are claim-like and not on the list | 39/41 = 95.1% |
-| C | Evidence items right (url, status, summary) | 79/86 = 91.9% |
+| Rows | Row fields parsed right | 193/280 = 68.9% (missed rows count as wrong: 47) |
+| Ids | Identified rows with the right id | 80/86 = 93.0% |
+| Ids | Review rows where review was right | 114/147 = 77.6% |
+| Claims | Claims precision (reported claims that are right) | 112/114 = 98.2% |
+| Claims | Claims recall (right claims of all claims on the label) | 112/120 = 93.3% |
+| Claims | Candidates that are claim-like and not on the list | 39/41 = 95.1% |
+| Evidence | Evidence items right (url, status, summary) | 79/86 = 91.9% |
 
 ## Every item marked wrong
 
